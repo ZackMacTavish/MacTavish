@@ -26,7 +26,7 @@ width: clamp(24px, 2vw, 60px);
 &:hover{
     filter: invert(0.2) sepia(0.5) saturate(11.7) hue-rotate(313.2deg) brightness(1.2);
  
-    cursor: pointer;
+
 }
 
 

@@ -1,14 +1,16 @@
 import React from 'react'
 import styled from 'styled-components';
 import logo from '../../img/Final-M-SinglePiece.svg';
+import {Link, BrowserRouter as Router} from 'react-router-dom';
 
 const Navdiv = styled.div`
 display: flex;
 align-items: center;
-background-color:#89aea9 ;
-
+background-color:rgba(0,0,0,0) ;
+position: fixed;
 width: 100vw;
 height: 8vh;
+z-index: 1000;
 `
 
 const NavLinks = styled.ul`
@@ -32,7 +34,7 @@ color: #a6d1ca;
 
 &:hover{
     filter: invert(0.2) sepia(0.5) saturate(11.7) hue-rotate(313.2deg) brightness(1.2);
-    cursor: pointer;
+    
 }
 
 `
@@ -48,7 +50,7 @@ padding-left: 5vw;
 
 &:hover{
     filter: invert(0.2) sepia(0.5) saturate(11.7) hue-rotate(313.2deg) brightness(1.2);
-    cursor: pointer;
+  
 }
 
 `
@@ -57,10 +59,15 @@ padding-left: 5vw;
 export default function Nav() {
     return (
         <Navdiv>
-
+          
+           <Link style={{cursor:'none'}}to="/"> 
             <Logo src={logo} />
+          </Link> 
+         
             <NavLinks>
+            <Link style={{textDecoration:'none', cursor:'none'}} to="/Art"> 
                 <ListItems>Art</ListItems>
+            </Link>
                 <ListItems>Design</ListItems>
                 <ListItems>About</ListItems>
 

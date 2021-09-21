@@ -5,21 +5,26 @@ import {
   Route,
   Link
 } from "react-router-dom";
-
 import './App.css';
+import Customcursor from "./Components/CustomCursor/customcursor";
 import Nav from "./Components/Nav/Nav";
+
+import Art from "./Pages/Art Landing/Art";
 import LandingPage from "./Pages/Landing Page/LandingPage";
 
 function App() {
   return (
     <div className="App">
-
-      <Nav />
+     
+    
      <Router>
-
+     <Customcursor />
+     <Nav />
     <Switch>
+    
+    <Route path="/Art" component={Art} />
 
-    <Route path="/" component={LandingPage} />
+    <Route exact path="/" component={LandingPage} />
 
     </Switch>
 

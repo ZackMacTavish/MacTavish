@@ -9,7 +9,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 width: 100vw;
-height: 92vh;
+height: 100vh;
 background-color: #89aea9;
 `
 const Landingimport = styled.img`
