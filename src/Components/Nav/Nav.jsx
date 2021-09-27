@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import logo from '../../img/Final-M-SinglePiece.svg';
 import {Link, BrowserRouter as Router} from 'react-router-dom';
 
+
 const Navdiv = styled.div`
 display: flex;
 align-items: center;
@@ -48,9 +49,9 @@ padding-left: 5vw;
   transition: all 2s ease;
 
 
-&:hover{
+&:hover {
     filter: invert(0.2) sepia(0.5) saturate(11.7) hue-rotate(313.2deg) brightness(1.2);
-  
+    
 }
 
 `

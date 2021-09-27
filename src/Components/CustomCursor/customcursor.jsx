@@ -8,15 +8,12 @@ const AppCursorstyles = styled.div`
     width: 30px;
     height: 30px;
     border: none;
-    background-color: #ffffff8f;
+    background-color: #8888888f;
    pointer-events: none;
     overflow: hidden;
     transform: translate3d(0,0,0);
     position: fixed;
-   
-
-`
-
+   `
 
 export const Customcursor = () => {
     const cursorRef = React.useRef(null);
@@ -28,12 +25,11 @@ export const Customcursor = () => {
       React.useEffect(() => {
         document.addEventListener("mousemove", (event) => {
           const { clientX, clientY } = event;
-    const mouseX = clientX - cursorRef.current.clientWidth / 2;
+          const mouseX = clientX - cursorRef.current.clientWidth / 2;
           const mouseY = clientY - cursorRef.current.clientHeight / 2;
           cursorRef.current.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
         });
     }, []);   
-    
     
     return (
        <AppCursorstyles ref={cursorRef}>

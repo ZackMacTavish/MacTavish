@@ -5,4 +5,12 @@ overflow: hidden;
 cursor: none;
 
 }
+
+body {
+    overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
+
+
  

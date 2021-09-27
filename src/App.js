@@ -10,6 +10,7 @@ import Customcursor from "./Components/CustomCursor/customcursor";
 import Nav from "./Components/Nav/Nav";
 
 import Art from "./Pages/Art Landing/Art";
+import Composition from "./Pages/COMPOSITION/Composition";
 import LandingPage from "./Pages/Landing Page/LandingPage";
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
      <Nav />
     <Switch>
     
+    <Route path="/Composition" component={Composition} />
+
     <Route path="/Art" component={Art} />
 
     <Route exact path="/" component={LandingPage} />
