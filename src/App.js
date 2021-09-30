@@ -27,7 +27,7 @@ function App() {
 
     <Route path="/Art" component={Art} />
 
-    <Route exact path="/" component={LandingPage} />
+    <Route exact path="/MacTavish" component={LandingPage} />
 
     </Switch>
 

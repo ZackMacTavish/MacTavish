@@ -26,6 +26,7 @@ import mash4 from '../../img/Mash4.png';
 import mash5 from '../../img/Mash5.png';
 import mattos from '../../img/Mattos.png';
 import og from '../../img/No.3.png';
+import grain from '../../img/Grain.jpg';
 
 const LanderSection = styled.div`
 display: flex;
@@ -397,7 +398,7 @@ the show.
                                     <FullBg src={mattos} />
 
                         {/* 3 Pieces - Passing Grid-template-row props */}
-                     <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+                     <ArtSectionthree Grids='85vh 7vh 85vh 7vh '>
                     <Orbital src={og} />
                             <ArtText> 
 
@@ -408,23 +409,16 @@ the show.
                             </ArtText>
 
 
-                            <GridRowTwo src={mash4} />
+                            <GridRowTwo src={grain} />
                             <ArtTexttwo> 
 
-                            <ArtHeader>Design for COMPOSITION VI</ArtHeader>
-                            <ArtYear>2019</ArtYear>
-                            <ArtDesc>Digital collage (study for a painting).</ArtDesc>
+                            <ArtHeader>GRAIN</ArtHeader>
+                            <ArtYear>2021</ArtYear>
+                            <ArtDesc>Acrylic & spraypaint on yupo paper.</ArtDesc>
 
                             </ArtTexttwo>
 
-                            <GridRowThree src={mash5} />
-                            <ArtTextthree> 
-
-                            <ArtHeader>Design for COMPOSITION VII</ArtHeader>
-                            <ArtYear>2020</ArtYear>
-                            <ArtDesc>Digital collage (study for a painting).</ArtDesc>
-
-                            </ArtTextthree>
+                        
 
                             </ArtSectionthree>
 

@@ -61,7 +61,7 @@ export default function Nav() {
     return (
         <Navdiv>
           
-           <Link style={{cursor:'none'}}to="/"> 
+           <Link style={{cursor:'none'}}to="/MacTavish"> 
             <Logo src={logo} />
           </Link> 
          

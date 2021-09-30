@@ -5,6 +5,7 @@ import instagram from '../../img/instagram.svg';
 import linkedin from '../../img/linkedin.svg';
 import styled from 'styled-components';
 
+
 const Socialbar = styled.div`
 position: absolute;
 bottom: 2vw;
@@ -35,10 +36,23 @@ width: clamp(24px, 2vw, 60px);
 export default function Socials() {
     return (
         <Socialbar>
+            <a href="https://dribbble.com/Zmactavish" target='_blank' >
             <SocialImages src={dribbble} />
+            </a>
+
+            
+            <a href="  https://github.com/ZackMacTavish" target='_blank' >
             <SocialImages src={github} />
+            </a>
+            
+            <a href="https://www.instagram.com/seuzerone/?hl=en" target='_blank' >
             <SocialImages src={instagram} />
+            </a>
+
+           
+            <a href="https://www.linkedin.com/in/zacharymactavish/" target='_blank' >
             <SocialImages src={linkedin} />
+            </a>
 
 
 
