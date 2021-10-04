@@ -135,7 +135,9 @@ I’ve made in the past.
                 
                   <ListStyling>COLLAGE</ListStyling>
                   <ListStyling>PRINTMAKING</ListStyling>
+                  <Link style={{textDecoration: 'none', color:'white'}} to="/Photography">
                   <ListStyling>PHOTO</ListStyling>
+                  </Link>
                   <ListStyling>3D</ListStyling>
 
 

@@ -12,6 +12,7 @@ import Nav from "./Components/Nav/Nav";
 import Art from "./Pages/Art Landing/Art";
 import Composition from "./Pages/COMPOSITION/Composition";
 import LandingPage from "./Pages/Landing Page/LandingPage";
+import Photography from "./Pages/Photography/Photography";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
     <Switch>
     
     <Route path="/Composition" component={Composition} />
+
+    <Route path="/Photography" component={Photography} />
 
     <Route path="/Art" component={Art} />
 

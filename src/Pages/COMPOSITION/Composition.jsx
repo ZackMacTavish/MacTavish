@@ -42,7 +42,7 @@ width: 60vw;
 
 `
 {/* Art resting on row one */}
-const Orbital = styled.img`
+export const Orbital = styled.img`
 grid-row-start: 1;
 grid-column-start: 2;
 justify-self: flex-start;
@@ -79,7 +79,7 @@ line-height: 0.6;
 font-family: 'Space Grotesk', sans-serif;
 `
 {/* Art resting on row two */}
-const GridRowTwo = styled.img`
+export const GridRowTwo = styled.img`
 grid-row-start: 3;
 grid-column-start: 2;
 justify-self: flex-start;
@@ -87,7 +87,7 @@ height: 85vh;
 width: auto;
 `
 {/* Art resting on row three */}
-const GridRowThree = styled.img`
+export const GridRowThree = styled.img`
 grid-row-start: 5;
 grid-column-start: 2;
 justify-self: flex-start;
@@ -95,7 +95,7 @@ height: 85vh;
 width: auto;
 `
 
-const FullBg = styled.img`
+export const FullBg = styled.img`
 width: 100vw;
 height: auto;
 background-size: contain;
@@ -118,31 +118,6 @@ grid-template-rows: ${(props) => props.Grids};
 padding-top: 5vh;
 background-color:${(props) => props.Backgroundcolor};
 `
-{/* Section with two standard pieces column wise */}
-export const ArtSection = styled.div`
-display: grid;
-grid-template-columns:  10vw 40vw 40vw 10vw;
-grid-template-rows: 85vh 7vh 85vh 7vh;
-padding-top: 5vh;
-background-color:${(props) => props.Backgroundcolor};
-`
-{/* Section with two pieces side by side horizontally */}
-export const ArtSectiontwo = styled.div`
-display: grid;
-grid-template-columns:  10vw 40vw 40vw 10vw;
-grid-template-rows: 85vh 10vh 15vh;
-padding-top: 5vh;
-background-color:${(props) => props.Backgroundcolor};
-`
-{/* Section with single piece with text */}
-export const ArtSectionsingle = styled.div`
-display: grid;
-grid-template-columns:  10vw 40vw 40vw 10vw;
-grid-template-rows: 85vh 10vh;
-padding-top: 5vh;
-background-color:${(props) => props.Backgroundcolor};
-`
-
 {/* Text sitting on row one*/}
 export const ArtText = styled.div`
 display: grid;
@@ -225,7 +200,7 @@ the show.
 
                     {/* Orbital + Erasure I */}
 
-                    <ArtSection>
+                    <ArtSectionthree Grids='85vh 7vh 85vh 7vh'>
                     <Orbital src={orbital} />
                             <ArtText> 
 
@@ -245,12 +220,12 @@ the show.
 
                             </ArtTexttwo>
                         
-                    </ArtSection>
+                    </ArtSectionthree>
 
 {/*RENDER 2 FULL SCREEN */}
                     <FullBg src={rendertwo} />
 {/*EPHEMERAL I & II SECTION */}
-                    <ArtSectiontwo>
+                    <ArtSectionthree Grids='85vh 10vh 15vh'>
                     <Orbital src={twin1} />
                     <TwinTwo src={twin2} />
 
@@ -260,10 +235,10 @@ the show.
                         <ArtDesc>Acrylic & spray paint on wood panels.</ArtDesc>
 
                     </TwinsText>
-                    </ArtSectiontwo>
+                    </ArtSectionthree>
 
 {/*STAIRCASES SINGLE SECTION */}
-                    <ArtSectionsingle>
+                    <ArtSectionthree Grids='85vh 10vh'>
                     <Orbital src={staircases} />
                     <ArtText> 
 
@@ -273,10 +248,10 @@ the show.
 
                             </ArtText>
 
-                    </ArtSectionsingle>
+                    </ArtSectionthree>
 
                     {/*EPHEMERAL I & II SECTION */}
-                    <ArtSectiontwo>
+                    <ArtSectionthree Grids='85vh 10vh 15vh'>
                     <Orbital src={heartwhite} />
                     <TwinTwo src={heartblack} />
 
@@ -286,7 +261,7 @@ the show.
                         <ArtDesc>Acrylic on wood panel.</ArtDesc>
 
                     </TwinsText>
-                    </ArtSectiontwo>
+                    </ArtSectionthree>
 
                     {/*BIRDS FULL SCREEN */}
                     <FullBg src={birds} />
