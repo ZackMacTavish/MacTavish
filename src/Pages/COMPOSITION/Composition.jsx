@@ -98,6 +98,7 @@ width: auto;
 export const FullBg = styled.img`
 width: 100vw;
 height: auto;
+margin-top: -1vh;
 background-size: contain;
 `
 

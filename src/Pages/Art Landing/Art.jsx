@@ -138,7 +138,10 @@ I’ve made in the past.
                   <Link style={{textDecoration: 'none', color:'white'}} to="/Photography">
                   <ListStyling>PHOTO</ListStyling>
                   </Link>
-                  <ListStyling>3D</ListStyling>
+
+                  <Link style={{textDecoration: 'none', color:'white'}} to='/3d'>
+                  <ListStyling>3D GRAFFITI</ListStyling>
+                  </Link>
 
 
                   </WorkCategories>

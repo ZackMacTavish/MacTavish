@@ -8,6 +8,7 @@ import {
 import './App.css';
 import Customcursor from "./Components/CustomCursor/customcursor";
 import Nav from "./Components/Nav/Nav";
+import ThreeD from "./Pages/3d/ThreeD";
 
 import Art from "./Pages/Art Landing/Art";
 import Composition from "./Pages/COMPOSITION/Composition";
@@ -27,6 +28,8 @@ function App() {
     <Route path="/Composition" component={Composition} />
 
     <Route path="/Photography" component={Photography} />
+
+    <Route path="/3d" component={ThreeD} />
 
     <Route path="/Art" component={Art} />
 

@@ -28,6 +28,11 @@ import circle3 from '../../img/circle3.jpg';
 import Avalon from '../../img/Avalon.jpg';
 import brooklyndouble from '../../img/brooklyndouble.jpg';
 import nathans from '../../img/Nathans.jpg';
+import polaroid7 from '../../img/polaroid7.jpg';
+import polaroid8 from '../../img/polaroid8.jpg';
+import polaroid9 from '../../img/polaroid9.jpg';
+import greensand from '../../img/greensand.jpg';
+
 
 const ThreeFlex = styled.div`
 display: flex;
@@ -233,6 +238,18 @@ export default function Photography() {
 </ArtTextthree>
 
                 </ArtSectionthree>
+
+                    {/* Section with three circle poloariods */}
+              <ThreeFlex Backgroundcolor='#191919'>
+            <ThreeItem src={polaroid7} />
+            <ThreeItem src={polaroid8} />
+            <ThreeItem src={polaroid9} />
+          
+          
+            </ThreeFlex>
+
+            {/* Section with greensand beach */}
+            <FullBg src={greensand} />
         </div>
     )
 }
