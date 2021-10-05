@@ -143,6 +143,8 @@ I’ve made in the past.
                   <ListStyling>3D GRAFFITI</ListStyling>
                   </Link>
 
+                  <ListStyling>GRAFFITI</ListStyling>
+
 
                   </WorkCategories>
 
