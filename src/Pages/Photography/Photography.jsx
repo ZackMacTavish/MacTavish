@@ -34,7 +34,7 @@ import polaroid9 from '../../img/polaroid9.jpg';
 import greensand from '../../img/greensand.jpg';
 
 
-const ThreeFlex = styled.div`
+export const ThreeFlex = styled.div`
 display: flex;
 padding: 0 15vw;
 margin-top: -1vh;
@@ -44,7 +44,7 @@ justify-content: space-between;
 justify-self: center;
 background-color:${(props) => props.Backgroundcolor};`
 
-const ThreeItem = styled.img`
+export const ThreeItem = styled.img`
 width: 20vw;
 `
 

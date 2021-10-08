@@ -12,6 +12,7 @@ import ThreeD from "./Pages/3d/ThreeD";
 
 import Art from "./Pages/Art Landing/Art";
 import Composition from "./Pages/COMPOSITION/Composition";
+import Graffiti from "./Pages/Graffiti/Graffiti";
 import LandingPage from "./Pages/Landing Page/LandingPage";
 import Photography from "./Pages/Photography/Photography";
 
@@ -28,6 +29,8 @@ function App() {
     <Route path="/Composition" component={Composition} />
 
     <Route path="/Photography" component={Photography} />
+
+    <Route path="/Graffiti" component={Graffiti} />
 
     <Route path="/3d" component={ThreeD} />
 

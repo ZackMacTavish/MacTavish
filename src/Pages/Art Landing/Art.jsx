@@ -143,7 +143,9 @@ I’ve made in the past.
                   <ListStyling>3D GRAFFITI</ListStyling>
                   </Link>
 
+                  <Link to='/Graffiti' style={{textDecoration: 'none', color:'white'}} >
                   <ListStyling>GRAFFITI</ListStyling>
+                  </Link>
 
 
                   </WorkCategories>
