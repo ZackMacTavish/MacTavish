@@ -16,10 +16,17 @@ import crawford from '../../img/Crawford.jpg';
 import paintlouis from '../../img/Paintlouis.jpg';
 import riso from '../../img/riso3.jpg';
 import sushix from '../../img/SushiX.jpg';
+import rogerrabbit from '../../img/rogerrabbit.jpg';
+import summer from '../../img/summer16.jpg';
+import stylesmash from '../../img/Reuzes-stylesmash.jpg';
+import Lines from '../../img/ReuzesLines.jpg';
+import sushixtwo from '../../img/SushiX2.jpg';
+import enova from '../../img/Enova.jpg';
+import eu from '../../img/EU.jpg';
 
 
 const RisoItem = styled.img`
-width: 60vw;
+width: ${(props) => props.Width};
 `
 
 const RisoFlex = styled.div`
@@ -136,7 +143,7 @@ the show.
                 </ArtSectionthree>
 
                 <RisoFlex>
-            <RisoItem img src={riso} />
+            <RisoItem Width='60vw' img src={riso} />
            
             </RisoFlex>
 
@@ -155,7 +162,7 @@ the show.
 </ArtText>
 
 
-<GridRowTwo src={reuzes } />
+<GridRowTwo src={rogerrabbit} />
 <ArtTexttwo> 
 
 <ArtHeader>LOWBROW (Brooklyn, NY)</ArtHeader>
@@ -164,7 +171,7 @@ the show.
 
 </ArtTexttwo>
 
-<GridRowThree src={denver} />
+<GridRowThree src={summer} />
 <ArtTextthree> 
 
 <ArtHeader>RHINO (Denver,CO)</ArtHeader>
@@ -174,6 +181,53 @@ the show.
 </ArtTextthree>
 
                 </ArtSectionthree>
+
+
+                <RisoFlex>
+            <RisoItem  Width='80vw' img src={Lines} />
+           
+            </RisoFlex>
+            <RisoFlex>
+            <RisoItem  Width='80vw' img src={stylesmash} />
+           
+            </RisoFlex>
+
+
+             {/* Section with 3 photos */}
+
+             <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+
+
+<Orbital src={sushixtwo} />
+<ArtText> 
+
+<ArtHeader>Sushi X</ArtHeader>
+<ArtYear>2016</ArtYear>
+<ArtDesc>Spray paint on brick. (Collaboration with 'Leks')</ArtDesc>
+
+</ArtText>
+
+
+<GridRowTwo src={enova} />
+<ArtTexttwo> 
+
+<ArtHeader>ENOVA INTERNATIONAL INC.</ArtHeader>
+<ArtYear>2015</ArtYear>
+<ArtDesc>Spray paint on wood.</ArtDesc>
+
+</ArtTexttwo>
+
+<GridRowThree src={eu} />
+<ArtTextthree> 
+
+<ArtHeader>YARROW'S (Providence, RI)</ArtHeader>
+<ArtYear>2016</ArtYear>
+<ArtDesc>Spray paint on cinderblock.</ArtDesc>
+
+</ArtTextthree>
+
+                </ArtSectionthree>
+
 
         </div>
     )
