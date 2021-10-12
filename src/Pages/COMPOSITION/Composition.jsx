@@ -102,9 +102,9 @@ margin-top: -1vh;
 background-size: contain;
 `
 
-const ParagraphFour = styled.div`
+export const ParagraphFour = styled.div`
 position: absolute;
-right: 3vw;
+right: 2vw;
 font-family: 'Space Grotesk', sans-serif;
 font-weight: 500;
 font-size: 2.7rem;
@@ -189,7 +189,7 @@ export default function Composition() {
 
 
 {/*Art Book + Text */}
-                <NewSection>
+                <NewSection Backgroundheight="85vh">
                     
 <HouseOne src={artbook} />
                     <ParagraphFour>

@@ -3,8 +3,44 @@ import { ThreeFlex, ThreeItem } from '../Photography/Photography'
 import artbash1 from '../../img/Artbashmash.jpg';
 import artbash2 from '../../img/Artbashmash2.jpg';
 import artbash3 from '../../img/Artbashmash3.jpg';
-import { ArtDesc, ArtHeader, ArtSectionthree, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition';
+import { ArtDesc, ArtHeader, ArtSectionthree, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital, ParagraphFour } from '../COMPOSITION/Composition';
 import sense from '../../img/RIPSENSE.jpg';
+import bfa from '../../img/BFA.jpg';
+import reuzes from '../../img/Reuzes.jpg';
+import denver from '../../img/Denver.jpg';
+import { NewSection } from '../Art Landing/Art';
+import Bees from '../../img/Whiteline.jpg';
+import styled from 'styled-components';
+import mucha from '../../img/Mucha.jpg';
+import crawford from '../../img/Crawford.jpg';
+import paintlouis from '../../img/Paintlouis.jpg';
+import riso from '../../img/riso3.jpg';
+import sushix from '../../img/SushiX.jpg';
+
+
+const RisoItem = styled.img`
+width: 60vw;
+`
+
+const RisoFlex = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100vw;
+`
+
+const BeesStyle = styled.img`
+width: 65vw;
+margin-left: -9vw;
+`
+
+const FiftyWidth=styled.div`
+width: 50vw;
+display:flex;
+justify-content: center;
+`
+
 export default function Graffiti() {
     return (
         <div>
@@ -21,31 +57,119 @@ export default function Graffiti() {
               <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
 
 
-<Orbital src={artbash3} />
+<Orbital src={bfa} />
 <ArtText> 
 
-<ArtHeader>1821 (Chicago)</ArtHeader>
-<ArtYear>2021</ArtYear>
-<ArtDesc>Film photograph taken on the Holga 120N.</ArtDesc>
+<ArtHeader>BFA Exhibition (Chicago, IL)</ArtHeader>
+<ArtYear>2016</ArtYear>
+<ArtDesc>Spray paint on brick veneer.</ArtDesc>
 
 </ArtText>
 
 
-<GridRowTwo src={artbash1} />
+<GridRowTwo src={reuzes } />
 <ArtTexttwo> 
 
-<ArtHeader>BROOKLYN BRIDGE</ArtHeader>
-<ArtYear>2021</ArtYear>
-<ArtDesc>Double exposure film photograph.</ArtDesc>
+<ArtHeader>LOWBROW (Brooklyn, NY)</ArtHeader>
+<ArtYear>2020</ArtYear>
+<ArtDesc>Spray paint on cement.</ArtDesc>
 
 </ArtTexttwo>
 
-<GridRowThree src={artbash2} />
+<GridRowThree src={denver} />
 <ArtTextthree> 
 
-<ArtHeader>PARACHUTE (Coney Island)</ArtHeader>
-<ArtYear>2021</ArtYear>
-<ArtDesc>Double exposure film photograph.</ArtDesc>
+<ArtHeader>RHINO (Denver,CO)</ArtHeader>
+<ArtYear>2019</ArtYear>
+<ArtDesc>Spray paint on cinderblock.</ArtDesc>
+
+</ArtTextthree>
+
+                </ArtSectionthree>
+
+                {/*Art Book + Text */}
+                <NewSection Backgroundheight="125vh">
+                    <FiftyWidth>
+<BeesStyle src={Bees} />
+</FiftyWidth>
+                    <ParagraphFour>
+                    Composition was my first solo art exhibition. I released a limited edition of 30 copies of a 46 page art book for 
+the show.
+
+                    </ParagraphFour>
+                    </NewSection>
+
+
+                     {/* Section with 3 photos */}
+
+              <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+
+
+<Orbital src={mucha} />
+<ArtText> 
+
+<ArtHeader>ORANGE LINE (Chicago, IL)</ArtHeader>
+<ArtYear>2016</ArtYear>
+<ArtDesc>Spray paint on cinderblock.</ArtDesc>
+
+</ArtText>
+
+
+<GridRowTwo src={crawford} />
+<ArtTexttwo> 
+
+<ArtHeader>CRAWFORD (Chicago, IL)</ArtHeader>
+<ArtYear>2016</ArtYear>
+<ArtDesc>Spray paint on cement.</ArtDesc>
+
+</ArtTexttwo>
+
+<GridRowThree src={paintlouis} />
+<ArtTextthree> 
+
+<ArtHeader>PAINT LOUIS (St. Louis,MO)</ArtHeader>
+<ArtYear>2016</ArtYear>
+<ArtDesc>Spray paint on cement.</ArtDesc>
+
+</ArtTextthree>
+
+                </ArtSectionthree>
+
+                <RisoFlex>
+            <RisoItem img src={riso} />
+           
+            </RisoFlex>
+
+             {/* Section with 3 photos */}
+
+             <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+
+
+<Orbital src={sushix} />
+<ArtText> 
+
+<ArtHeader>BFA Exhibition (Chicago, IL)</ArtHeader>
+<ArtYear>2016</ArtYear>
+<ArtDesc>Spray paint on brick veneer.</ArtDesc>
+
+</ArtText>
+
+
+<GridRowTwo src={reuzes } />
+<ArtTexttwo> 
+
+<ArtHeader>LOWBROW (Brooklyn, NY)</ArtHeader>
+<ArtYear>2020</ArtYear>
+<ArtDesc>Spray paint on cement.</ArtDesc>
+
+</ArtTexttwo>
+
+<GridRowThree src={denver} />
+<ArtTextthree> 
+
+<ArtHeader>RHINO (Denver,CO)</ArtHeader>
+<ArtYear>2019</ArtYear>
+<ArtDesc>Spray paint on cinderblock.</ArtDesc>
 
 </ArtTextthree>
 

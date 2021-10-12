@@ -27,7 +27,7 @@ font-family: 'Space Grotesk', sans-serif;
 export const NewSection = styled.div`
 display: flex;
 align-items: center;
-height: 85vh;
+height: ${(props) => props.Backgroundheight};
 width: 100vw;
 background-color:${(props) => props.Backgroundcolor};
 `
@@ -100,7 +100,7 @@ class Art extends React.Component {
     <ArtHeader>Storytelling <br />through Art</ArtHeader>
                 <Scene />
     
-                <NewSection Backgroundcolor='#89aea9'>
+                <NewSection Backgroundheight="85vh" Backgroundcolor='#89aea9'>
                   <HouseOne  src={house} />
 
 
@@ -116,7 +116,7 @@ class Art extends React.Component {
                 
                 </NewSection>
 
-                <NewSection Backgroundcolor='#89aea9'>
+                <NewSection Backgroundheight="85vh" Backgroundcolor='#89aea9'>
                   <ParagraphThree>
                   Art gives me
 the freedom to share my 
