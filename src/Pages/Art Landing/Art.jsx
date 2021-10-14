@@ -126,7 +126,9 @@ I’ve made in the past.
                   </ParagraphThree>
 
                   <WorkCategories>
+                  <Link style={{textDecoration: 'none', color:'white'}} to="/Dwelling">
                   <ListStyling>DWELLING</ListStyling>
+                  </Link>
 
                   <Link style={{textDecoration: 'none', color:'white'}} to="/Composition"> 
                   <ListStyling>COMPOSITION</ListStyling>

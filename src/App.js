@@ -12,6 +12,7 @@ import ThreeD from "./Pages/3d/ThreeD";
 
 import Art from "./Pages/Art Landing/Art";
 import Composition from "./Pages/COMPOSITION/Composition";
+import Dwelling from "./Pages/Dwelling/Dwelling";
 import Graffiti from "./Pages/Graffiti/Graffiti";
 import LandingPage from "./Pages/Landing Page/LandingPage";
 import Photography from "./Pages/Photography/Photography";
@@ -27,6 +28,8 @@ function App() {
     <Switch>
     
     <Route path="/Composition" component={Composition} />
+
+    <Route path="/Dwelling" component={Dwelling} />
 
     <Route path="/Photography" component={Photography} />
 

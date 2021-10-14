@@ -25,11 +25,11 @@ import enova from '../../img/Enova.jpg';
 import eu from '../../img/EU.jpg';
 
 
-const RisoItem = styled.img`
+export const RisoItem = styled.img`
 width: ${(props) => props.Width};
 `
 
-const RisoFlex = styled.div`
+export const RisoFlex = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
