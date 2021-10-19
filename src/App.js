@@ -11,6 +11,7 @@ import Nav from "./Components/Nav/Nav";
 import ThreeD from "./Pages/3d/ThreeD";
 
 import Art from "./Pages/Art Landing/Art";
+import Collages from "./Pages/Collages/Collages";
 import Composition from "./Pages/COMPOSITION/Composition";
 import Dwelling from "./Pages/Dwelling/Dwelling";
 import Graffiti from "./Pages/Graffiti/Graffiti";
@@ -32,6 +33,8 @@ function App() {
     <Route path="/Dwelling" component={Dwelling} />
 
     <Route path="/Photography" component={Photography} />
+
+    <Route path="/Collages" component={Collages} />
 
     <Route path="/Graffiti" component={Graffiti} />
 

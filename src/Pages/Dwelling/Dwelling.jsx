@@ -25,7 +25,7 @@ import house7 from '../../img/house7.jpg';
 
 
 
-const TextSection =styled.h1`
+export const TextSection =styled.h1`
 width: 50vw;
 font-family: 'Space Grotesk', sans-serif;
 padding-left: 2vw;
