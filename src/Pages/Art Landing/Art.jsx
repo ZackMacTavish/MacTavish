@@ -139,8 +139,11 @@ I’ve made in the past.
                 <Link style={{textDecoration: 'none', color:'white'}} to="/Collages">
                   <ListStyling>COLLAGE</ListStyling>
                   </Link>
-
+                  
+                  <Link style={{textDecoration: 'none', color:'white'}} to="/Printmaking">
                   <ListStyling>PRINTMAKING</ListStyling>
+                  </Link>
+                  
                   <Link style={{textDecoration: 'none', color:'white'}} to="/Photography">
                   <ListStyling>PHOTO</ListStyling>
                   </Link>
