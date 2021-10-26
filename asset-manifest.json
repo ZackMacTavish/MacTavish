@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MacTavish/static/css/main.5dd36303.chunk.css",
-    "main.js": "/MacTavish/static/js/main.45ac51fa.chunk.js",
-    "main.js.map": "/MacTavish/static/js/main.45ac51fa.chunk.js.map",
+    "main.js": "/MacTavish/static/js/main.1f404710.chunk.js",
+    "main.js.map": "/MacTavish/static/js/main.1f404710.chunk.js.map",
     "runtime-main.js": "/MacTavish/static/js/runtime-main.f6b9e2c9.js",
     "runtime-main.js.map": "/MacTavish/static/js/runtime-main.f6b9e2c9.js.map",
     "static/js/2.3fab35c4.chunk.js": "/MacTavish/static/js/2.3fab35c4.chunk.js",
@@ -61,6 +61,9 @@
     "static/media/Cannon1.2e69974c.jpg": "/MacTavish/static/media/Cannon1.2e69974c.jpg",
     "static/media/Cannon2.d428deaf.jpg": "/MacTavish/static/media/Cannon2.d428deaf.jpg",
     "static/media/Cannon3.a7a12e8c.jpg": "/MacTavish/static/media/Cannon3.a7a12e8c.jpg",
+    "static/media/Collab-framed.37e19f81.jpg": "/MacTavish/static/media/Collab-framed.37e19f81.jpg",
+    "static/media/Collab-framed2.52720d71.jpg": "/MacTavish/static/media/Collab-framed2.52720d71.jpg",
+    "static/media/Collab4.539b535f.jpg": "/MacTavish/static/media/Collab4.539b535f.jpg",
     "static/media/Collage1.2.3bf410b1.jpg": "/MacTavish/static/media/Collage1.2.3bf410b1.jpg",
     "static/media/Collage2.2.b12edf9c.jpg": "/MacTavish/static/media/Collage2.2.b12edf9c.jpg",
     "static/media/Collage3.2b13e89e.jpg": "/MacTavish/static/media/Collage3.2b13e89e.jpg",
@@ -93,9 +96,12 @@
     "static/media/Mattos.b52a51e2.png": "/MacTavish/static/media/Mattos.b52a51e2.png",
     "static/media/Mucha.75a6b70d.jpg": "/MacTavish/static/media/Mucha.75a6b70d.jpg",
     "static/media/Nathans.77fce6c1.jpg": "/MacTavish/static/media/Nathans.77fce6c1.jpg",
+    "static/media/No.2.af06568e.jpg": "/MacTavish/static/media/No.2.af06568e.jpg",
     "static/media/No.3.13699040.png": "/MacTavish/static/media/No.3.13699040.png",
+    "static/media/No4-screen.d0273440.jpg": "/MacTavish/static/media/No4-screen.d0273440.jpg",
     "static/media/No4.1e4a8039.jpg": "/MacTavish/static/media/No4.1e4a8039.jpg",
     "static/media/Olivia.3e12b890.jpg": "/MacTavish/static/media/Olivia.3e12b890.jpg",
+    "static/media/Olivia_3.0db470df.jpg": "/MacTavish/static/media/Olivia_3.0db470df.jpg",
     "static/media/Olympia.11a7e103.jpg": "/MacTavish/static/media/Olympia.11a7e103.jpg",
     "static/media/Orbital.445643aa.jpeg": "/MacTavish/static/media/Orbital.445643aa.jpeg",
     "static/media/Paintlouis.ea0197a9.jpg": "/MacTavish/static/media/Paintlouis.ea0197a9.jpg",
@@ -121,6 +127,7 @@
     "static/media/Twin2.7f17290e.jpeg": "/MacTavish/static/media/Twin2.7f17290e.jpeg",
     "static/media/Whiteline.a8ea82f0.jpg": "/MacTavish/static/media/Whiteline.a8ea82f0.jpg",
     "static/media/Williamsburg.7ad989d4.jpg": "/MacTavish/static/media/Williamsburg.7ad989d4.jpg",
+    "static/media/Woodblockprint.c891d57f.jpg": "/MacTavish/static/media/Woodblockprint.c891d57f.jpg",
     "static/media/albany.eef5ae8f.jpg": "/MacTavish/static/media/albany.eef5ae8f.jpg",
     "static/media/armistice3.37ca8314.jpg": "/MacTavish/static/media/armistice3.37ca8314.jpg",
     "static/media/brooklyndouble.602c224f.jpg": "/MacTavish/static/media/brooklyndouble.602c224f.jpg",
@@ -192,6 +199,6 @@
     "static/js/runtime-main.f6b9e2c9.js",
     "static/js/2.3fab35c4.chunk.js",
     "static/css/main.5dd36303.chunk.css",
-    "static/js/main.45ac51fa.chunk.js"
+    "static/js/main.1f404710.chunk.js"
   ]
 }
