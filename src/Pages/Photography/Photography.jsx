@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useLayoutEffect} from 'react';
 import styled from 'styled-components';
 import polaroid1 from '../../img/polaroid1.jpg';
 import polaroid2 from '../../img/polaroid2.jpg';
@@ -49,6 +49,11 @@ width: 20vw;
 `
 
 export default function Photography() {
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+});
+
     return (
         <div>
 

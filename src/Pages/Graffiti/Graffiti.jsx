@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useLayoutEffect} from 'react'
 import { ThreeFlex, ThreeItem } from '../Photography/Photography'
 import artbash1 from '../../img/Artbashmash.jpg';
 import artbash2 from '../../img/Artbashmash2.jpg';
@@ -49,6 +49,11 @@ justify-content: center;
 `
 
 export default function Graffiti() {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
     return (
         <div>
              <ThreeFlex Backgroundcolor='#191919'>

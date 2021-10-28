@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useLayoutEffect} from 'react'
 import { RisoFlex, RisoItem } from '../Graffiti/Graffiti'
 import housemash from '../../img/House—Mash.jpg';
 import { ArtDesc, ArtHeader, ArtSectionthree, ArtText, ArtTextthree, ArtTexttwo, ArtYear, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition';
@@ -22,6 +22,7 @@ import armistice1 from '../../img/Armistice1.jpg';
 import rosewood from '../../img/rosewood.jpg';
 import taylor from '../../img/taylor.jpg';
 import house7 from '../../img/house7.jpg';
+import housemash2 from '../../img/housemash2.jpg';
 
 
 
@@ -39,6 +40,11 @@ justify-content: space-between;
 
 
 export default function Dwelling() {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
     return (
         <div>
             <RisoFlex >
@@ -46,6 +52,9 @@ export default function Dwelling() {
             <RisoItem Width='60vw' img src={housemash} />
 
             </RisoFlex>
+
+
+      
 
             <RisoFlex style={{backgroundColor:"black"}}>
             <TextSection>Dwelling is a series composed of houses I’ve 
@@ -56,6 +65,8 @@ evoke memories, nostalgia, and past experiences.
 
             </RisoFlex>
 
+       
+
             {/* Section with 3 photos */}
 
             <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
@@ -64,7 +75,7 @@ evoke memories, nostalgia, and past experiences.
 <Orbital src={house1} />
 <ArtText> 
 
-<ArtHeader>BFA Exhibition (Chicago, IL)</ArtHeader>
+<ArtHeader>Dwelling I</ArtHeader>
 <ArtYear>2016</ArtYear>
 <ArtDesc>Spray paint on brick veneer.</ArtDesc>
 
@@ -90,6 +101,13 @@ evoke memories, nostalgia, and past experiences.
 </ArtTextthree>
 
                 </ArtSectionthree>
+
+
+                <RisoFlex >
+
+<RisoItem Width='60vw' img src={housemash2} />
+
+</RisoFlex>
 
                 <RisoFlex style={{backgroundColor:"black", flexDirection:"column", height:"105vh"}} >
 

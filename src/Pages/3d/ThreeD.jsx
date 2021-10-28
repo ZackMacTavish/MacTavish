@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useLayoutEffect} from 'react'
 import { ArtDesc, ArtHeader, ArtSectionthree, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition'
 import fiftytwo from '../../img/52.jpg';
 import fiftysix from '../../img/56.jpg';
@@ -32,6 +32,11 @@ import sixtyfour from '../../img/64.jpg';
 import sixtynine from '../../img/69.jpg';
 
 export default function ThreeD() {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
     return (
         <div>
             <FullBg src={fiftytwo} />

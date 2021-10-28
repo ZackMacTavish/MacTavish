@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useLayoutEffect} from 'react'
 import styled from 'styled-components';
 import fullcover from '../../img/FullCover.png';
 import renderone from '../../img/Render1.png';
@@ -60,7 +60,7 @@ align-self: flex-end;
 `
 
 
-const TwinTwo = styled.img`
+export const TwinTwo = styled.img`
 grid-row-start: 1;
 grid-column-start: 3;
 justify-self: flex-start;
@@ -68,7 +68,7 @@ height: 85vh;
 width: auto;
 `
 
-const TwinsText = styled.div`
+export const TwinsText = styled.div`
 grid-row-start: 2;
 grid-column-start: 2;
 justify-self: flex-start;
@@ -176,6 +176,11 @@ font-size: 1.4rem;
 
 
 export default function Composition() {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
     return (<div>
 
 {/*COMPOSITION NOTEBOOK Part 2 Landing */}

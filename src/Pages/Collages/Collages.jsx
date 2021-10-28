@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useLayoutEffect} from 'react'
 import { RisoFlex, RisoItem } from '../Graffiti/Graffiti'
 import bike from '../../img/Bicycle.png';
 import { TextSection } from '../Dwelling/Dwelling';
@@ -45,6 +45,11 @@ import spread6 from '../../img/spread6.png';
 import { ThreeFlex, ThreeItem } from '../Photography/Photography';
 
 export default function Collages() {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
     return (
         <div>
 
