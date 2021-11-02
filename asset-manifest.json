@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/MacTavish/static/css/main.5dd36303.chunk.css",
-    "main.js": "/MacTavish/static/js/main.f550dd1a.chunk.js",
-    "main.js.map": "/MacTavish/static/js/main.f550dd1a.chunk.js.map",
+    "main.js": "/MacTavish/static/js/main.9c58329a.chunk.js",
+    "main.js.map": "/MacTavish/static/js/main.9c58329a.chunk.js.map",
     "runtime-main.js": "/MacTavish/static/js/runtime-main.f6b9e2c9.js",
     "runtime-main.js.map": "/MacTavish/static/js/runtime-main.f6b9e2c9.js.map",
-    "static/js/2.3fab35c4.chunk.js": "/MacTavish/static/js/2.3fab35c4.chunk.js",
-    "static/js/2.3fab35c4.chunk.js.map": "/MacTavish/static/js/2.3fab35c4.chunk.js.map",
+    "static/js/2.3795505e.chunk.js": "/MacTavish/static/js/2.3795505e.chunk.js",
+    "static/js/2.3795505e.chunk.js.map": "/MacTavish/static/js/2.3795505e.chunk.js.map",
     "static/js/3.e7b1ac75.chunk.js": "/MacTavish/static/js/3.e7b1ac75.chunk.js",
     "static/js/3.e7b1ac75.chunk.js.map": "/MacTavish/static/js/3.e7b1ac75.chunk.js.map",
     "index.html": "/MacTavish/index.html",
     "static/css/main.5dd36303.chunk.css.map": "/MacTavish/static/css/main.5dd36303.chunk.css.map",
-    "static/js/2.3fab35c4.chunk.js.LICENSE.txt": "/MacTavish/static/js/2.3fab35c4.chunk.js.LICENSE.txt",
+    "static/js/2.3795505e.chunk.js.LICENSE.txt": "/MacTavish/static/js/2.3795505e.chunk.js.LICENSE.txt",
     "static/media/1.2.57fc2111.jpg": "/MacTavish/static/media/1.2.57fc2111.jpg",
     "static/media/13.1ad41774.jpg": "/MacTavish/static/media/13.1ad41774.jpg",
     "static/media/17.f2c16ad7.jpg": "/MacTavish/static/media/17.f2c16ad7.jpg",
@@ -76,6 +76,7 @@
     "static/media/Crawford.92b09233.jpg": "/MacTavish/static/media/Crawford.92b09233.jpg",
     "static/media/Dabs—Myla—Remix.4fce7731.jpg": "/MacTavish/static/media/Dabs—Myla—Remix.4fce7731.jpg",
     "static/media/Denver.4aa50011.jpg": "/MacTavish/static/media/Denver.4aa50011.jpg",
+    "static/media/E-nobtm.23a3ea63.jpg": "/MacTavish/static/media/E-nobtm.23a3ea63.jpg",
     "static/media/EP.c1f23dac.jpg": "/MacTavish/static/media/EP.c1f23dac.jpg",
     "static/media/EU.d8348f9a.jpg": "/MacTavish/static/media/EU.d8348f9a.jpg",
     "static/media/EXPLOITATIONSI.4ac1752c.jpg": "/MacTavish/static/media/EXPLOITATIONSI.4ac1752c.jpg",
@@ -103,6 +104,7 @@
     "static/media/Jelly.1f4cf0d6.jpg": "/MacTavish/static/media/Jelly.1f4cf0d6.jpg",
     "static/media/Jelly2.d7483588.jpg": "/MacTavish/static/media/Jelly2.d7483588.jpg",
     "static/media/Kevin.035ae82f.jpg": "/MacTavish/static/media/Kevin.035ae82f.jpg",
+    "static/media/Lighthouse.6257cfec.jpeg": "/MacTavish/static/media/Lighthouse.6257cfec.jpeg",
     "static/media/Mash1.fde8984a.png": "/MacTavish/static/media/Mash1.fde8984a.png",
     "static/media/Mash2.ff8f5477.png": "/MacTavish/static/media/Mash2.ff8f5477.png",
     "static/media/Mash3.a268da5b.png": "/MacTavish/static/media/Mash3.a268da5b.png",
@@ -144,6 +146,7 @@
     "static/media/Whiteline.a8ea82f0.jpg": "/MacTavish/static/media/Whiteline.a8ea82f0.jpg",
     "static/media/Williamsburg.7ad989d4.jpg": "/MacTavish/static/media/Williamsburg.7ad989d4.jpg",
     "static/media/Woodblockprint.c891d57f.jpg": "/MacTavish/static/media/Woodblockprint.c891d57f.jpg",
+    "static/media/Yellow-Z.a3186d76.jpg": "/MacTavish/static/media/Yellow-Z.a3186d76.jpg",
     "static/media/albany.eef5ae8f.jpg": "/MacTavish/static/media/albany.eef5ae8f.jpg",
     "static/media/armistice3.37ca8314.jpg": "/MacTavish/static/media/armistice3.37ca8314.jpg",
     "static/media/brooklyndouble.602c224f.jpg": "/MacTavish/static/media/brooklyndouble.602c224f.jpg",
@@ -206,6 +209,7 @@
     "static/media/rogerrabbit.c094aae6.jpg": "/MacTavish/static/media/rogerrabbit.c094aae6.jpg",
     "static/media/rosewood.867c0c4a.jpg": "/MacTavish/static/media/rosewood.867c0c4a.jpg",
     "static/media/screenprint2.1.82ba3367.jpg": "/MacTavish/static/media/screenprint2.1.82ba3367.jpg",
+    "static/media/splashpanel.faf726a7.jpg": "/MacTavish/static/media/splashpanel.faf726a7.jpg",
     "static/media/spread1.b034a0ae.png": "/MacTavish/static/media/spread1.b034a0ae.png",
     "static/media/spread2.4444a8e5.png": "/MacTavish/static/media/spread2.4444a8e5.png",
     "static/media/spread3.92d87f57.png": "/MacTavish/static/media/spread3.92d87f57.png",
@@ -218,8 +222,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f6b9e2c9.js",
-    "static/js/2.3fab35c4.chunk.js",
+    "static/js/2.3795505e.chunk.js",
     "static/css/main.5dd36303.chunk.css",
-    "static/js/main.f550dd1a.chunk.js"
+    "static/js/main.9c58329a.chunk.js"
   ]
 }
