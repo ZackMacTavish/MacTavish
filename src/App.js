@@ -16,6 +16,7 @@ import Composition from "./Pages/COMPOSITION/Composition";
 import Dwelling from "./Pages/Dwelling/Dwelling";
 import Graffiti from "./Pages/Graffiti/Graffiti";
 import LandingPage from "./Pages/Landing Page/LandingPage";
+import Painting from "./Pages/Painting/Painting";
 import Photography from "./Pages/Photography/Photography";
 import Printmaking from "./Pages/Printmaking/Printmaking";
 
@@ -30,6 +31,8 @@ function App() {
     <Switch>
     
     <Route path="/Composition" component={Composition} />
+
+    <Route path="/Painting" component={Painting} />
 
     <Route path="/Dwelling" component={Dwelling} />
 

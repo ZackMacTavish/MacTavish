@@ -134,7 +134,9 @@ I’ve made in the past.
                   <ListStyling>COMPOSITION</ListStyling>
                   </Link>
 
+                  <Link style={{textDecoration: 'none', color:'white'}} to="/Painting">
                   <ListStyling>PAINTINGS</ListStyling>
+                  </Link>
                   
                 <Link style={{textDecoration: 'none', color:'white'}} to="/Collages">
                   <ListStyling>COLLAGE</ListStyling>
