@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/MacTavish/static/css/main.5dd36303.chunk.css",
-    "main.js": "/MacTavish/static/js/main.9c58329a.chunk.js",
-    "main.js.map": "/MacTavish/static/js/main.9c58329a.chunk.js.map",
+    "main.js": "/MacTavish/static/js/main.e82451f9.chunk.js",
+    "main.js.map": "/MacTavish/static/js/main.e82451f9.chunk.js.map",
     "runtime-main.js": "/MacTavish/static/js/runtime-main.f6b9e2c9.js",
     "runtime-main.js.map": "/MacTavish/static/js/runtime-main.f6b9e2c9.js.map",
-    "static/js/2.3795505e.chunk.js": "/MacTavish/static/js/2.3795505e.chunk.js",
-    "static/js/2.3795505e.chunk.js.map": "/MacTavish/static/js/2.3795505e.chunk.js.map",
+    "static/js/2.0304fe31.chunk.js": "/MacTavish/static/js/2.0304fe31.chunk.js",
+    "static/js/2.0304fe31.chunk.js.map": "/MacTavish/static/js/2.0304fe31.chunk.js.map",
     "static/js/3.e7b1ac75.chunk.js": "/MacTavish/static/js/3.e7b1ac75.chunk.js",
     "static/js/3.e7b1ac75.chunk.js.map": "/MacTavish/static/js/3.e7b1ac75.chunk.js.map",
     "index.html": "/MacTavish/index.html",
     "static/css/main.5dd36303.chunk.css.map": "/MacTavish/static/css/main.5dd36303.chunk.css.map",
-    "static/js/2.3795505e.chunk.js.LICENSE.txt": "/MacTavish/static/js/2.3795505e.chunk.js.LICENSE.txt",
+    "static/js/2.0304fe31.chunk.js.LICENSE.txt": "/MacTavish/static/js/2.0304fe31.chunk.js.LICENSE.txt",
     "static/media/1.2.57fc2111.jpg": "/MacTavish/static/media/1.2.57fc2111.jpg",
     "static/media/13.1ad41774.jpg": "/MacTavish/static/media/13.1ad41774.jpg",
     "static/media/17.f2c16ad7.jpg": "/MacTavish/static/media/17.f2c16ad7.jpg",
@@ -58,6 +58,7 @@
     "static/media/BirdyBrooklyn.a0dacef0.jpg": "/MacTavish/static/media/BirdyBrooklyn.a0dacef0.jpg",
     "static/media/BlueCMYK.ee0cb3b0.jpg": "/MacTavish/static/media/BlueCMYK.ee0cb3b0.jpg",
     "static/media/Boats.241dbf07.jpg": "/MacTavish/static/media/Boats.241dbf07.jpg",
+    "static/media/Books.f609f74d.jpg": "/MacTavish/static/media/Books.f609f74d.jpg",
     "static/media/Brooklyn.7934253e.jpg": "/MacTavish/static/media/Brooklyn.7934253e.jpg",
     "static/media/Brooklyn2.b0da43be.jpg": "/MacTavish/static/media/Brooklyn2.b0da43be.jpg",
     "static/media/Cannon1.2e69974c.jpg": "/MacTavish/static/media/Cannon1.2e69974c.jpg",
@@ -121,6 +122,7 @@
     "static/media/Olivia_3.0db470df.jpg": "/MacTavish/static/media/Olivia_3.0db470df.jpg",
     "static/media/Olympia.11a7e103.jpg": "/MacTavish/static/media/Olympia.11a7e103.jpg",
     "static/media/Orbital.445643aa.jpeg": "/MacTavish/static/media/Orbital.445643aa.jpeg",
+    "static/media/OstrichPlumesPhoto.38395bff.jpg": "/MacTavish/static/media/OstrichPlumesPhoto.38395bff.jpg",
     "static/media/Paintlouis.ea0197a9.jpg": "/MacTavish/static/media/Paintlouis.ea0197a9.jpg",
     "static/media/Pawtucket.c256c644.jpg": "/MacTavish/static/media/Pawtucket.c256c644.jpg",
     "static/media/RIPSENSE.b8772513.jpg": "/MacTavish/static/media/RIPSENSE.b8772513.jpg",
@@ -222,8 +224,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f6b9e2c9.js",
-    "static/js/2.3795505e.chunk.js",
+    "static/js/2.0304fe31.chunk.js",
     "static/css/main.5dd36303.chunk.css",
-    "static/js/main.9c58329a.chunk.js"
+    "static/js/main.e82451f9.chunk.js"
   ]
 }
