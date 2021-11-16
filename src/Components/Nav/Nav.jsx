@@ -69,7 +69,12 @@ export default function Nav() {
             <Link style={{textDecoration:'none', cursor:'none'}} to="/Art"> 
                 <ListItems>Art</ListItems>
             </Link>
+
+            <Link style={{textDecoration:'none', cursor:'none'}} to="/Design"> 
                 <ListItems>Design</ListItems>
+
+                </Link>
+
                 <ListItems>About</ListItems>
 
 

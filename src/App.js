@@ -13,6 +13,7 @@ import ThreeD from "./Pages/3d/ThreeD";
 import Art from "./Pages/Art Landing/Art";
 import Collages from "./Pages/Collages/Collages";
 import Composition from "./Pages/COMPOSITION/Composition";
+import Design from "./Pages/Design Landing/Design";
 import Dwelling from "./Pages/Dwelling/Dwelling";
 import Graffiti from "./Pages/Graffiti/Graffiti";
 import LandingPage from "./Pages/Landing Page/LandingPage";
@@ -47,6 +48,8 @@ function App() {
     <Route path="/3d" component={ThreeD} />
 
     <Route path="/Art" component={Art} />
+
+    <Route path="/Design" component={Design} />
 
     <Route exact path="/MacTavish" component={LandingPage} />
 

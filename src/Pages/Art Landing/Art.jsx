@@ -6,20 +6,21 @@ import Socials from '../../Components/Social Bar/Socials';
 import {Link} from 'react-router-dom';
 
 
-const ArtDiv = styled.div`
+export const ArtDiv = styled.div`
 overflow-y: hidden;
 width: 100vw;
 
 `
 
-const ArtHeader = styled.h1`
+export const ArtHeader = styled.h1`
 display: flex;
-padding-top: 10vw;
+padding-top: 19.5vw;
 z-index: 200;
 position: absolute;
 font-size: 11rem;
 padding-left: 10vw;
 font-weight: 800;
+line-height: 180px;
 color: white;
 font-family: 'Space Grotesk', sans-serif;
 `
@@ -33,7 +34,7 @@ background-color:${(props) => props.Backgroundcolor};
 `
 
 
-const ParagraphTwo = styled.div`
+export const ParagraphTwo = styled.div`
 position: absolute;
 right: 2vw;
 font-family: 'Space Grotesk', sans-serif;
@@ -43,7 +44,7 @@ width: 40vw;
 color: white;
 `
 
-const ParagraphThree = styled.div`
+export const ParagraphThree = styled.div`
 position: absolute;
 left: 3vw;
 font-family: 'Space Grotesk', sans-serif;
@@ -58,7 +59,7 @@ width: 50vw;
 padding-left: 2vw;
 `
 
-const WorkCategories = styled.ul`
+export const WorkCategories = styled.ul`
 color: white;
 position: absolute;
 right: 3vw;
@@ -67,7 +68,7 @@ list-style-type: none;
 text-align: right;
 `
 
-const ListStyling = styled.li`
+export const ListStyling = styled.li`
 align-items: center;
 padding-bottom: 2vh;
 font-weight: 500;
