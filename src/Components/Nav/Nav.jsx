@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import logo from '../../img/Final-M-SinglePiece.svg';
-import {Link, BrowserRouter as Router} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 
 const Navdiv = styled.div`

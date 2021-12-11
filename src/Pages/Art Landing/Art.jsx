@@ -2,7 +2,6 @@ import React from 'react'
 import Scene from '../../Components/Three/three'
 import styled from 'styled-components';
 import house from '../../img/House-Web.png';
-import Socials from '../../Components/Social Bar/Socials';
 import {Link} from 'react-router-dom';
 
 
@@ -91,7 +90,11 @@ font-weight: 500;
 
 
 class Art extends React.Component {
- 
+  
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+  
   render() {
     return (  
       

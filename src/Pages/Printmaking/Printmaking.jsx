@@ -5,8 +5,7 @@ import olivia2 from '../../img/oliviacollab2.jpg';
 import { RisoFlex, RisoItem } from '../Graffiti/Graffiti';
 import { TextSection } from '../Dwelling/Dwelling';
 import screenprint2 from '../../img/Screenprint2.jpg';
-import { ArtDesc, ArtHeader, ArtSectionthree, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital, TwinsText, TwinTwo } from '../COMPOSITION/Composition';
-
+import { ArtDesc, ArtHeader, ArtSectionthree, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital, TwinTwo } from '../COMPOSITION/Composition';
 import screenprinttwo from '../../img/screenprint2.1.jpg';
 import screenprint1 from '../../img/Screenprint1.jpg'
 import oliviacollab1 from '../../img/Collab-framed.jpg';
@@ -35,10 +34,7 @@ import exploitationsxi from '../../img/EXPLOITATIONSXI.jpg';
 import exploitationsv from '../../img/EXPLOITATIONSV.jpg';
 import exploitationsvi from '../../img/EXPLOITATIONSVI.jpg';
 import exploitationsvii from '../../img/EXPLOITATIONSVII.jpg';
-
 import No4 from '../../img/No4-screen.jpg';
-
-
 
 export default function Printmaking() {
 

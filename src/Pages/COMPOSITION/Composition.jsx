@@ -41,7 +41,7 @@ const FullCover = styled.img`
 width: 60vw;
 
 `
-{/* Art resting on row one */}
+/* Art resting on row one */
 export const Orbital = styled.img`
 grid-row-start: 1;
 grid-column-start: 2;
@@ -49,7 +49,7 @@ justify-self: flex-start;
 height: 85vh;
 width: auto;
 `
-{/* Art resting on row one */}
+/* Art resting on row one */
 const Rug = styled.img`
 grid-row-start: 1;
 grid-column-start: 2;
@@ -78,7 +78,7 @@ margin: 0;
 line-height: 0.6;
 font-family: 'Space Grotesk', sans-serif;
 `
-{/* Art resting on row two */}
+/* Art resting on row two */
 export const GridRowTwo = styled.img`
 grid-row-start: 3;
 grid-column-start: 2;
@@ -86,7 +86,7 @@ justify-self: flex-start;
 height: 85vh;
 width: auto;
 `
-{/* Art resting on row three */}
+/* Art resting on row three */
 export const GridRowThree = styled.img`
 grid-row-start: 5;
 grid-column-start: 2;
@@ -111,7 +111,7 @@ font-size: 2.7rem;
 width: 40vw;
 color: #626262;
 `
-{/* Section with three standard pieces column wise */}
+/* Section with three standard pieces column wise */
 export const ArtSectionthree = styled.div`
 display: grid;
 grid-template-columns: 10vw 40vw 40vw 10vw;
@@ -119,7 +119,7 @@ grid-template-rows: ${(props) => props.Grids};
 padding-top: 5vh;
 background-color:${(props) => props.Backgroundcolor};
 `
-{/* Text sitting on row one*/}
+/* Text sitting on row one*/
 export const ArtText = styled.div`
 display: grid;
 grid-column-start: 3;
@@ -132,7 +132,7 @@ line-height: 0;
 color: #626262;
 font-family: 'Space Grotesk', sans-serif;
 `
-{/* Text sitting on row two*/}
+/* Text sitting on row two*/
 export const ArtTexttwo = styled.div`
 display: grid;
 grid-column-start: 3;
@@ -145,7 +145,7 @@ line-height: 0;
 color: #626262;
 font-family: 'Space Grotesk', sans-serif;
 `
-{/* Text sitting on row three*/}
+/* Text sitting on row three*/
 export const ArtTextthree = styled.div`
 display: grid;
 grid-column-start: 3;

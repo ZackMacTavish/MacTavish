@@ -49,7 +49,7 @@ export default function Dwelling() {
         <div>
             <RisoFlex >
 
-            <RisoItem Width='60vw' img src={housemash} />
+            <RisoItem Width='60vw' src={housemash} />
 
             </RisoFlex>
 

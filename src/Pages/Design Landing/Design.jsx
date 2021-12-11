@@ -1,8 +1,5 @@
 import React from 'react'
-import Scene from '../../Components/Three/three'
-import styled from 'styled-components';
 import ostrich from '../../img/Books.jpg';
-import Socials from '../../Components/Social Bar/Socials';
 import ostrichcollage from '../../img/OstrichPlumesPhoto.jpg';
 import {Link} from 'react-router-dom';
 import { ArtDiv, ArtHeader, HouseOne, ListStyling, NewSection, ParagraphThree, ParagraphTwo, WorkCategories } from '../Art Landing/Art';
@@ -12,6 +9,10 @@ import { RisoItem } from '../Graffiti/Graffiti';
 
 
 class Design extends React.Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
  
   render() {
     return (  
@@ -50,7 +51,7 @@ of my favorites.
                   </ParagraphThree>
 
                   <WorkCategories>
-                  <Link style={{textDecoration: 'none', color:'white'}} to="/MacTavish">
+                  <Link style={{textDecoration: 'none', color:'white'}} to="/Giga">
                   <ListStyling>GIGA</ListStyling>
                   </Link>
 
@@ -58,11 +59,11 @@ of my favorites.
                   <ListStyling>VARFAJ</ListStyling>
                   </Link>
 
-                  <Link style={{textDecoration: 'none', color:'white'}} to="/MacTavish">
+                  <Link style={{textDecoration: 'none', color:'white'}} to="/AccessDirect">
                   <ListStyling>ACCESS DIRECT</ListStyling>
                   </Link>
                   
-                <Link style={{textDecoration: 'none', color:'white'}} to="/MacTavish">
+                <Link style={{textDecoration: 'none', color:'white'}} to="/Outsource">
                   <ListStyling>OUTSOURCE</ListStyling>
                   </Link>
                   
