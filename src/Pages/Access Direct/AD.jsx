@@ -31,7 +31,7 @@ export default function AccessDirect() {
            
            <GigaHeader>Access Direct</GigaHeader>
           
-           <GigaWeb href="https://access-direct.net" target="_blank" rel="noreferrer noopener">
+           <GigaWeb RowsSet={5} href="https://access-direct.net" target="_blank" rel="noreferrer noopener">
            <GigaTwo>access-direct.net</GigaTwo>
            </GigaWeb>
             </GigaGridone>

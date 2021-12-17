@@ -55,25 +55,27 @@ of my favorites.
                   <ListStyling>GIGA</ListStyling>
                   </Link>
 
-                  <Link style={{textDecoration: 'none', color:'white'}} to="/MacTavish"> 
-                  <ListStyling>VARFAJ</ListStyling>
-                  </Link>
-
                   <Link style={{textDecoration: 'none', color:'white'}} to="/AccessDirect">
                   <ListStyling>ACCESS DIRECT</ListStyling>
                   </Link>
-                  
-                <Link style={{textDecoration: 'none', color:'white'}} to="/Outsource">
+
+                  <Link style={{textDecoration: 'none', color:'white'}} to="/Outsource">
                   <ListStyling>OUTSOURCE</ListStyling>
                   </Link>
-                  
+
+                  <Link style={{textDecoration: 'none', color:'white'}} to="/GraphicDesign"> 
+                  <ListStyling>GRAPHIC DESIGN</ListStyling>
+                  </Link>
+
                   <Link style={{textDecoration: 'none', color:'white'}} to="/MacTavish">
+                  <ListStyling>UX/UI</ListStyling>
+                  </Link>
+
+                <Link style={{textDecoration: 'none', color:'white'}} to="/MacTavish">
                   <ListStyling>BOOKS</ListStyling>
                   </Link>
                   
-                  <Link style={{textDecoration: 'none', color:'white'}} to="/MacTavish">
-                  <ListStyling>SNIPPETS</ListStyling>
-                  </Link>
+                  
 
 
                   </WorkCategories>

@@ -17,6 +17,7 @@ import Design from "./Pages/Design Landing/Design";
 import Dwelling from "./Pages/Dwelling/Dwelling";
 import Giga from "./Pages/Giga/Giga";
 import Graffiti from "./Pages/Graffiti/Graffiti";
+import GraphicDesign from "./Pages/Graphic Design/Graphicdesign";
 import LandingPage from "./Pages/Landing Page/LandingPage";
 import Outsource from "./Pages/Outsource/Outsource";
 import Painting from "./Pages/Painting/Painting";
@@ -58,6 +59,8 @@ function App() {
     <Route path="/AccessDirect" component={AccessDirect} />
 
     <Route path="/Outsource" component={Outsource} />
+
+    <Route path="/GraphicDesign" component={GraphicDesign} />
 
     <Route exact path="/MacTavish" component={LandingPage} />
 

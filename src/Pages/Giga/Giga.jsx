@@ -124,7 +124,7 @@ export default function Giga() {
            
            <GigaHeader>Giga</GigaHeader>
           
-           <GigaWeb href="https://gigaintelligence.com" target="_blank" rel="noreferrer noopener">
+           <GigaWeb RowsSet={5} href="https://gigaintelligence.com" target="_blank" rel="noreferrer noopener">
            <GigaTwo>gigaintelligence.com</GigaTwo>
            </GigaWeb>
             </GigaGridone>

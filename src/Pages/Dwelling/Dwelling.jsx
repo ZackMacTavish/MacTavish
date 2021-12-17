@@ -130,8 +130,7 @@ evoke memories, nostalgia, and past experiences.
 
             </RisoFlex>
 
-
-             {/* Section with 3 photos */}
+    {/* Section with 3 photos */}
 
              <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
 
