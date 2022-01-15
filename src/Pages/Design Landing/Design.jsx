@@ -67,7 +67,7 @@ of my favorites.
                   <ListStyling>GRAPHIC DESIGN</ListStyling>
                   </Link>
 
-                  <Link style={{textDecoration: 'none', color:'white'}} to="/MacTavish">
+                  <Link style={{textDecoration: 'none', color:'white'}} to="/Ux">
                   <ListStyling>UX/UI</ListStyling>
                   </Link>
 

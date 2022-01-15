@@ -23,6 +23,7 @@ import Outsource from "./Pages/Outsource/Outsource";
 import Painting from "./Pages/Painting/Painting";
 import Photography from "./Pages/Photography/Photography";
 import Printmaking from "./Pages/Printmaking/Printmaking";
+import Ux from "./Pages/UX/UX";
 
 function App() {
   return (
@@ -61,6 +62,8 @@ function App() {
     <Route path="/Outsource" component={Outsource} />
 
     <Route path="/GraphicDesign" component={GraphicDesign} />
+
+    <Route path="/Ux" component={Ux} />
 
     <Route exact path="/MacTavish" component={LandingPage} />
 
