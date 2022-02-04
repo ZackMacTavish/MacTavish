@@ -13,44 +13,64 @@ width: 100vw;
 
 export const ArtHeader = styled.h1`
 display: flex;
-padding-top: 19.5vw;
+bottom: 13vh;
 z-index: 200;
 position: absolute;
-font-size: 11rem;
+font-size: clamp(24px, 12vw, 11rem);
 padding-left: 10vw;
 font-weight: 800;
-line-height: 180px;
+line-height: 18vh;
 color: white;
 font-family: 'Space Grotesk', sans-serif;
+@media (max-width: 1000px) {
+line-height: 15vh;
+;}
+@media (max-width: 800px) {
+line-height: 8vh;
+;}
 `
 
 export const NewSection = styled.div`
 display: flex;
 align-items: center;
+justify-content: space-between;
 height: ${(props) => props.Backgroundheight};
 width: 100vw;
 background-color:${(props) => props.Backgroundcolor};
+@media (max-width: 1000px) {
+flex-direction: column;
+height: auto;
+padding-bottom: 10vh;
+;}
 `
 
 
 export const ParagraphTwo = styled.div`
-position: absolute;
-right: 2vw;
+position: relative;
 font-family: 'Space Grotesk', sans-serif;
 font-weight: 500;
+padding-right: 2vw;
 font-size: 2.7rem;
-width: 40vw;
+width: 35vw;
 color: white;
+@media (max-width: 1000px) {
+width: 80vw;
+padding: 0;
+;}
 `
 
 export const ParagraphThree = styled.div`
-position: absolute;
+position: relative;
 left: 3vw;
 font-family: 'Space Grotesk', sans-serif;
 font-weight: 500;
 font-size: 2.7rem;
 width: 40vw;
 color: white;
+@media (max-width: 1000px) {
+width: 80vw;
+padding-bottom: 10vh;
+;}
 `
 
 export const HouseOne = styled.img`
@@ -60,11 +80,15 @@ padding-left: 2vw;
 
 export const WorkCategories = styled.ul`
 color: white;
-position: absolute;
-right: 3vw;
+position: relative;
+right: -3vw;
 font-size: 3rem;
 list-style-type: none;
 text-align: right;
+@media (max-width: 1000px) {
+width: 80vw;
+font-size: 2.3rem;
+;}
 `
 
 export const ListStyling = styled.li`
@@ -75,7 +99,7 @@ font-weight: 500;
   &:after {
     content:"";
     display: inline-block;
-    width: clamp(20px, 17vw, 500px);
+    width: clamp(30px, 17vw, 500px);
   height: 10px;
   margin-bottom: 5px;
   margin-left: 1vw;

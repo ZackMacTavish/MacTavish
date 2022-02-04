@@ -27,6 +27,10 @@ import eu from '../../img/EU.jpg';
 
 export const RisoItem = styled.img`
 width: ${(props) => props.Width};
+@media (max-width: 1000px) {
+width: 90vw;
+padding-top: 20vh;
+;}
 `
 
 export const RisoFlex = styled.div`
