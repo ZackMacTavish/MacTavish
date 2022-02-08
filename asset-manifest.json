@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MacTavish/static/css/main.5dd36303.chunk.css",
-    "main.js": "/MacTavish/static/js/main.42e94202.chunk.js",
-    "main.js.map": "/MacTavish/static/js/main.42e94202.chunk.js.map",
+    "main.js": "/MacTavish/static/js/main.613cc09b.chunk.js",
+    "main.js.map": "/MacTavish/static/js/main.613cc09b.chunk.js.map",
     "runtime-main.js": "/MacTavish/static/js/runtime-main.f6b9e2c9.js",
     "runtime-main.js.map": "/MacTavish/static/js/runtime-main.f6b9e2c9.js.map",
     "static/js/2.de8a35aa.chunk.js": "/MacTavish/static/js/2.de8a35aa.chunk.js",
@@ -84,6 +84,7 @@
     "static/media/Bicycle.0813598a.png": "/MacTavish/static/media/Bicycle.0813598a.png",
     "static/media/Birds.3795d71d.jpg": "/MacTavish/static/media/Birds.3795d71d.jpg",
     "static/media/BirdyBrooklyn.a0dacef0.jpg": "/MacTavish/static/media/BirdyBrooklyn.a0dacef0.jpg",
+    "static/media/BlackTurtleneck-popart-01.c88833db.jpg": "/MacTavish/static/media/BlackTurtleneck-popart-01.c88833db.jpg",
     "static/media/BlueCMYK.ee0cb3b0.jpg": "/MacTavish/static/media/BlueCMYK.ee0cb3b0.jpg",
     "static/media/Boats.241dbf07.jpg": "/MacTavish/static/media/Boats.241dbf07.jpg",
     "static/media/BookADemo-01.de57940c.jpg": "/MacTavish/static/media/BookADemo-01.de57940c.jpg",
@@ -331,6 +332,6 @@
     "static/js/runtime-main.f6b9e2c9.js",
     "static/js/2.de8a35aa.chunk.js",
     "static/css/main.5dd36303.chunk.css",
-    "static/js/main.42e94202.chunk.js"
+    "static/js/main.613cc09b.chunk.js"
   ]
 }
