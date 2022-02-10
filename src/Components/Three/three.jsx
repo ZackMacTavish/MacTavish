@@ -53,8 +53,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-width: 100vw;
-height: 100vh;
+width: 90w;
+height: 90vh;
 background-color: #89aea9;
 `
 

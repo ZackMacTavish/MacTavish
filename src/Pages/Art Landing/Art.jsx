@@ -3,6 +3,8 @@ import Scene from '../../Components/Three/three'
 import styled from 'styled-components';
 import house from '../../img/House-Web.png';
 import {Link} from 'react-router-dom';
+import { RisoItem } from '../Graffiti/Graffiti';
+import Headerimage from '../../img/BlackTurtleneck-popart-01.jpg';
 
 
 export const ArtDiv = styled.div`
@@ -10,6 +12,8 @@ overflow-y: hidden;
 width: 100vw;
 
 `
+
+/* My first time writing the header paragraph with an absolute position, Trying to replace this across the board with grids*/
 
 export const ArtHeader = styled.h1`
 display: flex;
@@ -30,6 +34,7 @@ line-height: 8vh;
 ;}
 `
 
+/* Writing the first main section in flex, but switching over to grids*/
 export const NewSection = styled.div`
 display: flex;
 align-items: center;
@@ -43,6 +48,44 @@ height: auto;
 padding-bottom: 10vh;
 ;}
 `
+
+/*The grid that should replace the absolute positioning and flexboxes above*/
+export const GridOne = styled.div`
+display: grid;
+overflow-y: hidden;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+background-color:${(props) => props.Backgroundcolor};
+height: 100vh;
+width: 100vw;
+`
+/*The grid header that should replace the absolute positioning header above*/
+export const GridHeader = styled.h1`
+display: grid;
+grid-column-start: 3;
+padding-left: 5vw;
+grid-row-start: 2;
+font-size: clamp(24px, 12vw, 11rem);
+grid-row-end: 4;
+align-self: end;
+line-height: 18vh;
+color: white;
+z-index: 200;
+font-family: 'Space Grotesk', sans-serif;
+@media (max-width: 1000px) {
+line-height: 15vh;
+;}
+@media (max-width: 800px) {
+line-height: 8vh;
+;}
+`
+export const GridImage = styled.div`
+display: grid; 
+grid-column-start:3;
+grid-row-start: 2;
+
+`
+
 
 
 export const ParagraphTwo = styled.div`
@@ -81,13 +124,17 @@ padding-left: 2vw;
 export const WorkCategories = styled.ul`
 color: white;
 position: relative;
-right: -3vw;
 font-size: 3rem;
 list-style-type: none;
 text-align: right;
 @media (max-width: 1000px) {
 width: 80vw;
-font-size: 2.3rem;
+font-size: 2.5rem;
+;}
+
+@media (max-width: 500px) {
+width: 80vw;
+font-size: 1.8rem;
 ;}
 `
 
@@ -95,14 +142,14 @@ export const ListStyling = styled.li`
 align-items: center;
 padding-bottom: 2vh;
 font-weight: 500;
-
+overflow-y: hidden;
   &:after {
     content:"";
     display: inline-block;
-    width: clamp(30px, 17vw, 500px);
+    width: clamp(30px, 17vw, 400px);
   height: 10px;
+ margin-left: 15px;
   margin-bottom: 5px;
-  margin-left: 1vw;
   background: white;
   }
 
@@ -124,10 +171,18 @@ class Art extends React.Component {
       
       <div>
       <ArtDiv>
-
-    <ArtHeader>Storytelling <br />through Art</ArtHeader>
-                <Scene />
+     
+       <GridOne Backgroundcolor='#89aea9'>
+       <GridHeader>Storytelling <br />through Art</GridHeader>
+       <GridImage>
+       {/*<RisoItem Width='50vw' img src={Headerimage} /> */}
+        <Scene />
+       </GridImage>
+       </GridOne>
     
+      
+
+                
                 <NewSection Backgroundheight="85vh" Backgroundcolor='#89aea9'>
                   <HouseOne  src={house} />
 
