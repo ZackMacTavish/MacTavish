@@ -8,6 +8,7 @@ import './App.css';
 import Customcursor from "./Components/CustomCursor/customcursor";
 import Nav from "./Components/Nav/Nav";
 import ThreeD from "./Pages/3d/ThreeD";
+import About from "./Pages/About/About";
 import AccessDirect from "./Pages/Access Direct/AD";
 
 import Art from "./Pages/Art Landing/Art";
@@ -30,47 +31,49 @@ function App() {
     <div className="App">
      
     
-     <Router>
-     <Customcursor />
-     <Nav />
-    <Switch>
-    
-    <Route path="/Composition" component={Composition} />
+      <Router>
+        <Customcursor />
+        <Nav />
+        <Switch>
+        
+          <Route path="/Composition" component={Composition} />
 
-    <Route path="/Painting" component={Painting} />
+          <Route path="/Painting" component={Painting} />
 
-    <Route path="/Dwelling" component={Dwelling} />
+          <Route path="/Dwelling" component={Dwelling} />
 
-    <Route path="/Printmaking" component={Printmaking} />
+          <Route path="/Printmaking" component={Printmaking} />
 
-    <Route path="/Photography" component={Photography} />
+          <Route path="/Photography" component={Photography} />
 
-    <Route path="/Collages" component={Collages} />
+          <Route path="/Collages" component={Collages} />
 
-    <Route path="/Graffiti" component={Graffiti} />
+          <Route path="/Graffiti" component={Graffiti} />
 
-    <Route path="/3d" component={ThreeD} />
+          <Route path="/3d" component={ThreeD} />
 
-    <Route path="/Art" component={Art} />
+          <Route path="/Art" component={Art} />
 
-    <Route path="/Design" component={Design} />
+          <Route path="/Design" component={Design} />
 
-    <Route path="/Giga" component={Giga} />
+          <Route path="/Giga" component={Giga} />
 
-    <Route path="/AccessDirect" component={AccessDirect} />
+          <Route path="/AccessDirect" component={AccessDirect} />
 
-    <Route path="/Outsource" component={Outsource} />
+          <Route path="/Outsource" component={Outsource} />
 
-    <Route path="/GraphicDesign" component={GraphicDesign} />
+          <Route path="/GraphicDesign" component={GraphicDesign} />
 
-    <Route path="/Ux" component={Ux} />
+          <Route path="/Ux" component={Ux} />
 
-    <Route exact path="/MacTavish" component={LandingPage} />
+          <Route path="/About" component={About} />
 
-    </Switch>
+          <Route exact path="/MacTavish" component={LandingPage} />
+
+        </Switch>
 
 
-     </Router>
+      </Router>
 
     </div>
   );

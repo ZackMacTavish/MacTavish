@@ -97,7 +97,6 @@ font-size: 2.7rem;
 width: 35vw;
 color: white;
 @media (max-width: 1000px) {
-width: 80vw;
 padding: 0;
 ;}
 `
