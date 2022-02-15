@@ -4,6 +4,7 @@ import github from '../../img/github.svg';
 import instagram from '../../img/instagram.svg';
 import linkedin from '../../img/linkedin.svg';
 import styled from 'styled-components';
+import medium from '../../img/medium.svg';
 
 
 const Socialbar = styled.div`
@@ -12,6 +13,7 @@ bottom: 2vw;
 display: flex;
 width: 100vw;
 justify-content: center;
+align-items: center;
 
 
 `
@@ -36,14 +38,13 @@ width: clamp(24px, 2vw, 60px);
 export default function Socials() {
     return (
         <Socialbar>
+
+            
+
             <a href="https://dribbble.com/Zmactavish" target='_blank' rel="noreferrer" >
             <SocialImages src={dribbble} />
             </a>
 
-            
-            <a href="  https://github.com/ZackMacTavish" target='_blank' rel="noreferrer" >
-            <SocialImages src={github} />
-            </a>
             
             <a href="https://www.instagram.com/seuzerone/?hl=en" target='_blank' rel="noreferrer" >
             <SocialImages src={instagram} />
@@ -53,6 +54,17 @@ export default function Socials() {
             <a href="https://www.linkedin.com/in/zacharymactavish/" target='_blank' rel="noreferrer" >
             <SocialImages src={linkedin} />
             </a>
+
+            <a href="  https://github.com/ZackMacTavish" target='_blank' rel="noreferrer" >
+            <SocialImages src={github} />
+            </a>
+
+            <a href="https://medium.com/@zmactavish" target='_blank' rel="noreferrer" >
+            <SocialImages src={medium} />
+            </a>  
+
+
+            
 
 
 

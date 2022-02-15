@@ -3,7 +3,14 @@ import { HouseOne, NewSection, ParagraphTwo } from '../Art Landing/Art'
 import me from '../About/Me.jpeg';
 import { GigaGridone, TextLineone, TextSection } from '../Giga/Giga';
 
-export default function About() {
+class About extends React.Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
+    render() {
+    
   return (
     <div> 
         
@@ -27,7 +34,15 @@ export default function About() {
             I have recently won my first design award, and you can find a link to this here: <a style={{textDecoration:'none', color: 'white'}} href="https://www.indigoawards.com/winners/2390"><h6>Indigo Awards.zackmactavish</h6></a></TextSection>
             <TextLineone RowsSet="7" />
             </GigaGridone>
+
+            <GigaGridone style={{backgroundColor:'#89aea9'}} ColumnsSet='4vw 60vw 32vw 4vw' RowsSet=' 1fr 1fr 1fr 1fr 1fr 1fr 1fr '>
+            
+            <TextSection style={{color: 'white', fontSize:'3rem'}}>Here are some of the things I would like to accomplish in 2022. Meet more art & design friends. Collaborate on some great projects. Write a weekly blog post on Medium. Prepare for my second solo art show. I'd like to build out a blog section on my website, and also build a music player section to display my musical collaborations with Alek Vasic.   </TextSection>
+            <TextLineone RowsSet="7" />
+            </GigaGridone>
   
   </div>
   )
-}
+}};
+
+export default About;
