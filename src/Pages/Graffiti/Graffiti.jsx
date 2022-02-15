@@ -109,8 +109,7 @@ export default function Graffiti() {
 <BeesStyle src={Bees} />
 </FiftyWidth>
                     <ParagraphFour>
-                    Composition was my first solo art exhibition. I released a limited edition of 30 copies of a 46 page art book for 
-the show.
+                    This B's illustration was made for a self-published book about the art of graffiti writing.
 
                     </ParagraphFour>
                     </NewSection>

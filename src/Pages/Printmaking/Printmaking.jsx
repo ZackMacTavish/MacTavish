@@ -212,7 +212,7 @@ Zita Smith. <br /> <br />
 
 
 
-            <RisoFlex style={{backgroundColor:"black"}}>
+            <RisoFlex style={{backgroundColor:"black", marginTop:'-1vh'}}>
             <TextSection>Exploitations is a conceptual series that investigates the dynamics of an 
 abusive relationship. <br /> <br />
 

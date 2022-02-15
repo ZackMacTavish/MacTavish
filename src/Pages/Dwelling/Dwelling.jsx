@@ -23,6 +23,7 @@ import rosewood from '../../img/rosewood.jpg';
 import taylor from '../../img/taylor.jpg';
 import house7 from '../../img/house7.jpg';
 import housemash2 from '../../img/housemash2.jpg';
+import housepainting from '../../img/House—Pre-Ipad.jpg';
 
 
 
@@ -72,12 +73,12 @@ evoke memories, nostalgia, and past experiences.
             <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
 
 
-<Orbital src={house1} />
+<Orbital src={housepainting} />
 <ArtText> 
 
-<ArtHeader>Dwelling I</ArtHeader>
-<ArtYear>2016</ArtYear>
-<ArtDesc>Spray paint on brick veneer.</ArtDesc>
+<ArtHeader>Open House</ArtHeader>
+<ArtYear>2021-22</ArtYear>
+<ArtDesc>Acrylic, and embroidery on canvas.</ArtDesc>
 
 </ArtText>
 
@@ -138,9 +139,9 @@ evoke memories, nostalgia, and past experiences.
 <Orbital src={house4} />
 <ArtText> 
 
-<ArtHeader>BFA Exhibition (Chicago, IL)</ArtHeader>
-<ArtYear>2016</ArtYear>
-<ArtDesc>Spray paint on brick veneer.</ArtDesc>
+<ArtHeader>DWELLING MASH III</ArtHeader>
+<ArtYear>2021</ArtYear>
+<ArtDesc>Acrylic, photo, and colored paper on heavy paper.</ArtDesc>
 
 </ArtText>
 
@@ -148,7 +149,7 @@ evoke memories, nostalgia, and past experiences.
 <GridRowTwo src={house5} />
 <ArtTexttwo> 
 
-<ArtHeader>DWELLING MASH I</ArtHeader>
+<ArtHeader>DWELLING MASH IV</ArtHeader>
 <ArtYear>2021</ArtYear>
 <ArtDesc>Acrylic, photo, and colored paper on heavy paper.</ArtDesc>
 
@@ -157,7 +158,7 @@ evoke memories, nostalgia, and past experiences.
 <GridRowThree src={house6} />
 <ArtTextthree> 
 
-<ArtHeader>DWELLING MASH II</ArtHeader>
+<ArtHeader>DWELLING MASH V</ArtHeader>
 <ArtYear>2021</ArtYear>
 <ArtDesc>Acrylic, photo, and colored paper on heavy paper.</ArtDesc>
 
@@ -194,9 +195,9 @@ evoke memories, nostalgia, and past experiences.
 <Orbital src={house3} />
 <ArtText> 
 
-<ArtHeader>BFA Exhibition (Chicago, IL)</ArtHeader>
-<ArtYear>2016</ArtYear>
-<ArtDesc>Spray paint on brick veneer.</ArtDesc>
+<ArtHeader>DWELLING MASH VI</ArtHeader>
+<ArtYear>2021</ArtYear>
+<ArtDesc>Acrylic, photo, and colored paper on heavy paper.</ArtDesc>
 
 </ArtText>
 
@@ -204,7 +205,7 @@ evoke memories, nostalgia, and past experiences.
 <GridRowTwo src={house7} />
 <ArtTexttwo> 
 
-<ArtHeader>DWELLING MASH I</ArtHeader>
+<ArtHeader>DWELLING MASH VII</ArtHeader>
 <ArtYear>2021</ArtYear>
 <ArtDesc>Acrylic, photo, and colored paper on heavy paper.</ArtDesc>
 

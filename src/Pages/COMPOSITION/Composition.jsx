@@ -127,7 +127,7 @@ grid-row-start: 1;
 align-self: flex-end;
 padding: 0;
 margin: 0;
-padding-left: 4.5vw;
+padding-left: 7.5vw;
 line-height: 0;
 color: #626262;
 font-family: 'Space Grotesk', sans-serif;
@@ -140,7 +140,7 @@ grid-row-start: 3;
 align-self: flex-end;
 padding: 0;
 margin: 0;
-padding-left: 4.5vw;
+padding-left: 7.5vw;
 line-height: 0;
 color: #626262;
 font-family: 'Space Grotesk', sans-serif;
@@ -153,7 +153,7 @@ grid-row-start: 5;
 align-self: flex-end;
 padding: 0;
 margin: 0;
-padding-left: 4.5vw;
+padding-left: 7.5vw;
 line-height: 0;
 color: #626262;
 font-family: 'Space Grotesk', sans-serif;
@@ -222,7 +222,7 @@ the show.
 
                             <ArtHeader>ERASURE I</ArtHeader>
                             <ArtYear>2021</ArtYear>
-                            <ArtDesc>Acrylic, spray paint, & spray paint remover on woodpanel.</ArtDesc>
+                            <ArtDesc style={{width: '50vw'}}>Acrylic, spray paint, & spray paint remover on woodpanel.</ArtDesc>
 
                             </ArtTexttwo>
                         

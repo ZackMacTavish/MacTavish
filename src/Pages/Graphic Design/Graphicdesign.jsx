@@ -72,8 +72,7 @@ export default function GraphicDesign() {
                     
                     <HouseOne style={{width: '30vw', paddingLeft: '15vw'}} src={artbook} />
                                         <ParagraphFour>
-                                        Composition was my first solo art exhibition. I released a limited edition of 30 copies of a 46 page art book for 
-                    the show.
+                                        'This is it' was a poster design I made for the 2017 SAIC VCD Design show. The piece explores a quote from the movie 'Style Wars'.
                     
                                         </ParagraphFour>
                                         </NewSection>
