@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MacTavish/static/css/main.5dd36303.chunk.css",
-    "main.js": "/MacTavish/static/js/main.3f9845df.chunk.js",
-    "main.js.map": "/MacTavish/static/js/main.3f9845df.chunk.js.map",
+    "main.js": "/MacTavish/static/js/main.d72239de.chunk.js",
+    "main.js.map": "/MacTavish/static/js/main.d72239de.chunk.js.map",
     "runtime-main.js": "/MacTavish/static/js/runtime-main.f6b9e2c9.js",
     "runtime-main.js.map": "/MacTavish/static/js/runtime-main.f6b9e2c9.js.map",
     "static/js/2.de8a35aa.chunk.js": "/MacTavish/static/js/2.de8a35aa.chunk.js",
@@ -301,6 +301,7 @@
     "static/media/manistee1.dfc938d3.jpg": "/MacTavish/static/media/manistee1.dfc938d3.jpg",
     "static/media/manistee2.5fab3c39.jpg": "/MacTavish/static/media/manistee2.5fab3c39.jpg",
     "static/media/maynard.01847c04.jpg": "/MacTavish/static/media/maynard.01847c04.jpg",
+    "static/media/medium.1618b5b9.svg": "/MacTavish/static/media/medium.1618b5b9.svg",
     "static/media/mobile-phone-1c.935ac2e0.png": "/MacTavish/static/media/mobile-phone-1c.935ac2e0.png",
     "static/media/nyu.a2093446.jpg": "/MacTavish/static/media/nyu.a2093446.jpg",
     "static/media/olivia4.65d0a03f.jpg": "/MacTavish/static/media/olivia4.65d0a03f.jpg",
@@ -334,6 +335,6 @@
     "static/js/runtime-main.f6b9e2c9.js",
     "static/js/2.de8a35aa.chunk.js",
     "static/css/main.5dd36303.chunk.css",
-    "static/js/main.3f9845df.chunk.js"
+    "static/js/main.d72239de.chunk.js"
   ]
 }
