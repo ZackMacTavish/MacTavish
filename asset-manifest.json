@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MacTavish/static/css/main.5dd36303.chunk.css",
-    "main.js": "/MacTavish/static/js/main.613cc09b.chunk.js",
-    "main.js.map": "/MacTavish/static/js/main.613cc09b.chunk.js.map",
+    "main.js": "/MacTavish/static/js/main.42b849ea.chunk.js",
+    "main.js.map": "/MacTavish/static/js/main.42b849ea.chunk.js.map",
     "runtime-main.js": "/MacTavish/static/js/runtime-main.f6b9e2c9.js",
     "runtime-main.js.map": "/MacTavish/static/js/runtime-main.f6b9e2c9.js.map",
     "static/js/2.de8a35aa.chunk.js": "/MacTavish/static/js/2.de8a35aa.chunk.js",
@@ -181,6 +181,7 @@
     "static/media/Mash4.a5427d90.png": "/MacTavish/static/media/Mash4.a5427d90.png",
     "static/media/Mash5.37a6774e.png": "/MacTavish/static/media/Mash5.37a6774e.png",
     "static/media/Mattos.b52a51e2.png": "/MacTavish/static/media/Mattos.b52a51e2.png",
+    "static/media/Me.c83c3eaf.jpeg": "/MacTavish/static/media/Me.c83c3eaf.jpeg",
     "static/media/Messages—1920 x 1400.c51818ec.png": "/MacTavish/static/media/Messages—1920 x 1400.c51818ec.png",
     "static/media/Mockup.3c58a326.jpg": "/MacTavish/static/media/Mockup.3c58a326.jpg",
     "static/media/Mucha.75a6b70d.jpg": "/MacTavish/static/media/Mucha.75a6b70d.jpg",
@@ -332,6 +333,6 @@
     "static/js/runtime-main.f6b9e2c9.js",
     "static/js/2.de8a35aa.chunk.js",
     "static/css/main.5dd36303.chunk.css",
-    "static/js/main.613cc09b.chunk.js"
+    "static/js/main.42b849ea.chunk.js"
   ]
 }
