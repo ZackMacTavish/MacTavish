@@ -3,9 +3,7 @@ import Scene from '../../Components/Three/three'
 import styled from 'styled-components';
 import house from '../../img/House-Web.png';
 import {Link} from 'react-router-dom';
-import { RisoItem } from '../Graffiti/Graffiti';
-import Headerimage from '../../img/BlackTurtleneck-popart-01.jpg';
-
+import imagereplace from '../../img/BlackTurtleneck-popart-01.jpg';
 
 export const ArtDiv = styled.div`
 overflow-y: hidden;
@@ -99,6 +97,12 @@ color: white;
 @media (max-width: 1000px) {
 padding: 0;
 ;}
+
+@media (max-width: 450px) {
+font-size: 1.7rem;
+width: 90vw;
+;}
+
 `
 
 export const ParagraphThree = styled.div`
@@ -118,6 +122,10 @@ padding-bottom: 10vh;
 export const HouseOne = styled.img`
 width: 50vw;
 padding-left: 2vw;
+
+@media (max-width: 450px) { 
+    width: 90vw;
+  }
 `
 
 export const WorkCategories = styled.ul`
@@ -175,7 +183,7 @@ class Art extends React.Component {
        <GridHeader>Storytelling <br />through Art</GridHeader>
        <GridImage>
        {/*<RisoItem Width='50vw' img src={Headerimage} /> */}
-        <Scene />
+        {window.innerWidth > 450 ? <Scene /> : <img style={{width: '90vw'}} alt="A graphic I made in illustrator" src={imagereplace} />}
        </GridImage>
        </GridOne>
     

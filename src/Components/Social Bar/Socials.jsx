@@ -15,11 +15,14 @@ width: 100vw;
 justify-content: center;
 align-items: center;
 
-
+@media (max-width: 450px) { 
+    max-width: 320px;
+    justify-content: space-between;
+  }
 `
 const SocialImages = styled.img`
 padding: 1vw;
-width: clamp(24px, 2vw, 60px);
+width: clamp(44px, 2vw, 70px);
 -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
