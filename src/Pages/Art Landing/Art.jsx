@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Scene from '../../Components/Three/three'
 import styled from 'styled-components';
 import house from '../../img/House-Web.png';
@@ -167,13 +167,25 @@ overflow-y: hidden;
 `;
 
 
-class Art extends React.Component {
+const Art = () =>  {
+
+   /*useState Hook that crates the state, and variable for innerWidth  */
+
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 450);
+
+   /*function that alters the state for innerWidth  */
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > 450);
+  };
+
+  /*useEffect hook that has two functions. One to redirect to the top of the page, and one to check for resizing responsivness  */
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  }, [])
+
   
-  componentDidMount() {
-    window.scrollTo(0, 0)
-  }
-  
-  render() {
     return (  
       
       <div>
@@ -183,7 +195,8 @@ class Art extends React.Component {
        <GridHeader>Storytelling <br />through Art</GridHeader>
        <GridImage>
        {/*<RisoItem Width='50vw' img src={Headerimage} /> */}
-        {window.innerWidth > 450 ? <Scene /> : <img style={{width: '90vw'}} alt="A graphic I made in illustrator" src={imagereplace} />}
+        {/* Ternary operator that checks for isDesktop Hook is larger than 450px to render Scene three.js or a static Img */}
+        {isDesktop ? <Scene /> : <img style={{width: '90vw'}} alt="A graphic I made in illustrator" src={imagereplace} />}
        </GridImage>
        </GridOne>
     
@@ -259,6 +272,6 @@ I’ve made in the past.
                
                 </div>
     )
-}};
+};
 
 export default Art;
