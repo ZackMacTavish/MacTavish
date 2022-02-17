@@ -13,6 +13,10 @@ const AppCursorstyles = styled.div`
     overflow: hidden;
     transform: translate3d(0,0,0);
     position: fixed;
+
+    @media (max-width: 450px){
+      display: none;
+    }
    `
 
 export const Customcursor = () => {
