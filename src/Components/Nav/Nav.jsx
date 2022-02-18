@@ -12,6 +12,10 @@ position: fixed;
 width: 100vw;
 height: 8vh;
 z-index: 1000;
+
+@media (max-width: 450px) {
+  padding-top: 1vh;
+}
 `
 
 const NavLinks = styled.ul`

@@ -2,7 +2,7 @@ import React, {useLayoutEffect} from 'react'
 import { RisoFlex, RisoItem } from '../Graffiti/Graffiti'
 import housemash from '../../img/House—Mash.jpg';
 import { ArtDesc, ArtHeader, ArtSectionthree, ArtText, ArtTextthree, ArtTexttwo, ArtYear, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import house1 from '../../img/house5.jpg';
 import house2 from '../../img/house6.jpg';
 import ep from '../../img/EP.jpg';
@@ -32,6 +32,11 @@ width: 50vw;
 font-family: 'Space Grotesk', sans-serif;
 padding-left: 2vw;
 color: white;
+
+@media (max-width: 450px) {
+ width: 90vw;
+ font-size: 1.5rem;
+}
 `
 
 const PhotoFlexone = styled.div`
@@ -69,6 +74,8 @@ evoke memories, nostalgia, and past experiences.
        
 
             {/* Section with 3 photos */}
+
+            
 
             <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
 

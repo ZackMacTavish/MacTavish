@@ -48,6 +48,12 @@ grid-column-start: 2;
 justify-self: flex-start;
 height: 85vh;
 width: auto;
+
+@media (max-width: 450px){
+    grid-column-start: 1;
+    width: 100vw;
+    height: auto;
+}
 `
 /* Art resting on row one */
 const Rug = styled.img`
@@ -57,6 +63,12 @@ justify-self: flex-start;
 height: auto;
 width: 40vw;
 align-self: flex-end;
+
+@media (max-width: 450px){
+    grid-column-start: 1;
+    width: 100vw;
+    height: auto;
+}
 `
 
 
@@ -85,6 +97,12 @@ grid-column-start: 2;
 justify-self: flex-start;
 height: 85vh;
 width: auto;
+
+@media (max-width: 450px){
+    grid-column-start: 1;
+    width: 100vw;
+    height: auto;
+}
 `
 /* Art resting on row three */
 export const GridRowThree = styled.img`
@@ -93,6 +111,11 @@ grid-column-start: 2;
 justify-self: flex-start;
 height: 85vh;
 width: auto;
+@media (max-width: 450px){
+    grid-column-start: 1;
+    width: 100vw;
+    height: auto;
+}
 `
 
 export const FullBg = styled.img`
@@ -118,6 +141,11 @@ grid-template-columns: 10vw 40vw 40vw 10vw;
 grid-template-rows: ${(props) => props.Grids};
 padding-top: 5vh;
 background-color:${(props) => props.Backgroundcolor};
+
+@media (max-width: 450px){
+    grid-template-columns: 100vw;
+    row-gap: 1.5ch;
+}
 `
 /* Text sitting on row one*/
 export const ArtText = styled.div`
@@ -131,6 +159,15 @@ padding-left: 7.5vw;
 line-height: 0;
 color: #626262;
 font-family: 'Space Grotesk', sans-serif;
+@media(max-width: 450px){
+    grid-column-start: 1;
+    grid-row-start: 2;
+    width: 100vw;
+    grid-row-end: 2;
+    justify-self: flex-end;
+    padding-top: .5vh;
+   
+}
 `
 /* Text sitting on row two*/
 export const ArtTexttwo = styled.div`
@@ -144,6 +181,10 @@ padding-left: 7.5vw;
 line-height: 0;
 color: #626262;
 font-family: 'Space Grotesk', sans-serif;
+
+@media(max-width: 450px){
+    grid-column-start: 1;
+}
 `
 /* Text sitting on row three*/
 export const ArtTextthree = styled.div`
@@ -157,6 +198,10 @@ padding-left: 7.5vw;
 line-height: 0;
 color: #626262;
 font-family: 'Space Grotesk', sans-serif;
+
+@media(max-width: 450px){
+    grid-column-start: 1;
+}
 `
 
 export const ArtHeader = styled.h1`
@@ -172,6 +217,7 @@ font-size: 2rem;
 export const ArtDesc = styled.h2`
 font-weight: 400;
 font-size: 1.4rem;
+line-height: 1;
 `
 
 
