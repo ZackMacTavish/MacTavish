@@ -60,7 +60,7 @@ export default function Collages() {
         </RisoFlex>
 
         <RisoFlex style={{backgroundColor:"black"}}>
-            <TextSection>Collaging is a technique I use to work through compositions, shapes, and colors. 
+            <TextSection Fontsize='3.5rem'>Collaging is a technique I use to work through compositions, shapes, and colors. 
 <br /> <br />Plus, I enjoy making them. <br /> <br />
  </TextSection>
 

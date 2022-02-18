@@ -38,7 +38,7 @@ export default function AccessDirect() {
 
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection>Access Direct is a company focused on  security solutions. My responsibility includes being the UI Designer, and Webmaster for Access Direct. I enjoyed redesigning their website, and building it using React.js.</TextSection>
+            <TextSection Fontsize='3.5rem'>Access Direct is a company focused on  security solutions. My responsibility includes being the UI Designer, and Webmaster for Access Direct. I enjoyed redesigning their website, and building it using React.js.</TextSection>
             <TextLineone RowsSet="7" />
             </GigaGridone>
 
@@ -90,7 +90,7 @@ export default function AccessDirect() {
             
         <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection style={{textAlign:'center'}}>Founder — David Smith <br />
+            <TextSection Fontsize='3.5rem' style={{textAlign:'center'}}>Founder — David Smith <br />
 Lead Designer — Zachary MacTavish <br />
 Website Development — Zachary MacTavish  <br />
 Content Direction — Wendy Majewski, Alek Vasic</TextSection>

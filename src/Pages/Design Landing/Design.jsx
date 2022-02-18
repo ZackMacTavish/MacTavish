@@ -31,7 +31,7 @@ class Design extends React.Component {
                   <HouseOne  src={ostrich} />
 
 
-                  <ParagraphTwo>
+                  <ParagraphTwo Widthsize='35vw'>
                          Bookmaking has been a joy for my design process. Here are 5 small books that I have self-published since 2015. 
 
 

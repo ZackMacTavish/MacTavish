@@ -144,7 +144,7 @@ background-color:${(props) => props.Backgroundcolor};
 
 @media (max-width: 450px){
     grid-template-columns: 100vw;
-    row-gap: 1.5ch;
+    row-gap: 2ch;
 }
 `
 /* Text sitting on row one*/
@@ -162,12 +162,9 @@ font-family: 'Space Grotesk', sans-serif;
 @media(max-width: 450px){
     grid-column-start: 1;
     grid-row-start: 2;
-    width: 100vw;
-    grid-row-end: 2;
-    justify-self: flex-end;
-    padding-top: .5vh;
-   
-}
+    padding-top: .8vh;
+    padding-left: 2vw;
+   }
 `
 /* Text sitting on row two*/
 export const ArtTexttwo = styled.div`
@@ -184,6 +181,9 @@ font-family: 'Space Grotesk', sans-serif;
 
 @media(max-width: 450px){
     grid-column-start: 1;
+    grid-row-start: 4;
+    padding-left: 2vw;
+    padding-top: .8vh;
 }
 `
 /* Text sitting on row three*/
@@ -201,6 +201,9 @@ font-family: 'Space Grotesk', sans-serif;
 
 @media(max-width: 450px){
     grid-column-start: 1;
+    grid-row-start: 6;
+    padding-left: 2vw;
+    padding-top: .8vh;
 }
 `
 

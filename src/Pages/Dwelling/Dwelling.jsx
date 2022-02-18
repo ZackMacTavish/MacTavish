@@ -32,6 +32,7 @@ width: 50vw;
 font-family: 'Space Grotesk', sans-serif;
 padding-left: 2vw;
 color: white;
+font-size: 3rem;
 
 @media (max-width: 450px) {
  width: 90vw;
@@ -74,8 +75,6 @@ evoke memories, nostalgia, and past experiences.
        
 
             {/* Section with 3 photos */}
-
-            
 
             <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
 

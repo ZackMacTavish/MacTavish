@@ -61,7 +61,7 @@ export default function Outsource() {
 
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection>Outsource is a company focused on  expediting. My responsibility included being the Multimedia Designer on a variety of projects. I enjoyed redesigning their website, internal tools, and subsidiaries.</TextSection>
+            <TextSection Fontsize='3.5rem'>Outsource is a company focused on  expediting. My responsibility included being the Multimedia Designer on a variety of projects. I enjoyed redesigning their website, internal tools, and subsidiaries.</TextSection>
             <TextLineone RowsSet="7" />
             </GigaGridone>
 
@@ -103,7 +103,7 @@ export default function Outsource() {
 
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection>Outsource CEU is a subsidiary focused on the education of building code. My responsibility was to create a brand identity from the ground up, and create the UI designs for a potential web application.</TextSection>
+            <TextSection Fontsize='3.5rem'>Outsource CEU is a subsidiary focused on the education of building code. My responsibility was to create a brand identity from the ground up, and create the UI designs for a potential web application.</TextSection>
             <TextLineone RowsSet="7" />
             </GigaGridone>
 
@@ -123,7 +123,7 @@ export default function Outsource() {
 
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection>BuildingOwl is a technology that monitors and resolves critical building issues. My responsibility included expanding on the existing identity, marketing , and focusing on improvements to UX.</TextSection>
+            <TextSection Fontsize='3.5rem'>BuildingOwl is a technology that monitors and resolves critical building issues. My responsibility included expanding on the existing identity, marketing , and focusing on improvements to UX.</TextSection>
             <TextLineone RowsSet="7" />
             </GigaGridone>
 
@@ -160,7 +160,7 @@ export default function Outsource() {
             
         <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection style={{textAlign:'center'}}>Founder — Diego Caballero<br />
+            <TextSection Fontsize='3.5rem' style={{textAlign:'center'}}>Founder — Diego Caballero<br />
 Designers — Zachary MacTavish & Elvis Cruz<br />
 Development — Vinny Nuthakki & Samuel Karkash <br />
 Marketing — Kaela Fanning & Zoe Hutzler</TextSection>

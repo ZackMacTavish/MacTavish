@@ -47,7 +47,7 @@ export default function GraphicDesign() {
 
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection>Stay Golden was a passion project to represent a series of songs created with a friend Alek Vasic. It won a silver & bronze for digital art, and packaging design from Indigo design awards. </TextSection>
+            <TextSection Fontsize='3.5rem'>Stay Golden was a passion project to represent a series of songs created with a friend Alek Vasic. It won a silver & bronze for digital art, and packaging design from Indigo design awards. </TextSection>
             <TextLineone RowsSet="7" />
             </GigaGridone>
 
@@ -59,7 +59,7 @@ export default function GraphicDesign() {
 
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection>Graphic Posters meet at the intersection of my art and design practice. This includes passion projects, and a poster for the 2017 VCD Design show in Chicago, IL.</TextSection>
+            <TextSection Fontsize='3.5rem'>Graphic Posters meet at the intersection of my art and design practice. This includes passion projects, and a poster for the 2017 VCD Design show in Chicago, IL.</TextSection>
             <TextLineone RowsSet="7" />
             </GigaGridone>
 
@@ -80,7 +80,7 @@ export default function GraphicDesign() {
 
                                         <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection>Working alongside the Walmart team at Publicis, we created a variety of designs to present to Marketing. The lines I worked on were the Christmas, Halloween, and Back To School campaigns.</TextSection>
+            <TextSection Fontsize='3.5rem'>Working alongside the Walmart team at Publicis, we created a variety of designs to present to Marketing. The lines I worked on were the Christmas, Halloween, and Back To School campaigns.</TextSection>
             <TextLineone RowsSet="7" />
             </GigaGridone>
 
@@ -110,7 +110,7 @@ export default function GraphicDesign() {
 
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection>Brooklyn Book Festival is a rebranding of a popular festival that occurs in Brooklyn, NY. 
+            <TextSection Fontsize='3.5rem'>Brooklyn Book Festival is a rebranding of a popular festival that occurs in Brooklyn, NY. 
                 I designed totes, bookmarks, brochures, and posters for the event. </TextSection>
             <TextLineone RowsSet="7" />
             </GigaGridone>
@@ -141,7 +141,7 @@ export default function GraphicDesign() {
 
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection>By working on my own version of an Ironlak marketing campaign, it led to me interning for Ironlak shortly after my graduation. 
+            <TextSection Fontsize='3.5rem'>By working on my own version of an Ironlak marketing campaign, it led to me interning for Ironlak shortly after my graduation. 
                 I worked on a variety of advertisements.</TextSection>
             <TextLineone RowsSet="7" />
             </GigaGridone>

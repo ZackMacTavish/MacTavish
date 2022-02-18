@@ -58,7 +58,7 @@ export default function Ux() {
 
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection>Three Pillars is a recruiting agency that was looking for a refresh on their brand identity, and website. 
+            <TextSection Fontsize='3.5rem'>Three Pillars is a recruiting agency that was looking for a refresh on their brand identity, and website. 
                 My responsibility involved working with the Varfaj Partners team to provide them with initial designs for their developer to build</TextSection>
             <TextLineone RowsSet="7" />
             </GigaGridone>
@@ -75,7 +75,7 @@ export default function Ux() {
 
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection style={{textAlign:'center'}}>Founders — Three Pillars Team<br />
+            <TextSection Fontsize='3.5rem' style={{textAlign:'center'}}>Founders — Three Pillars Team<br />
             Designers — Zachary MacTavish & Varfaj Team<br />
 Development — Varfaj Team</TextSection>
             <TextLineone RowsSet="7" />
@@ -87,7 +87,7 @@ Development — Varfaj Team</TextSection>
 
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
                 <TextLineone RowsSet="1" />
-                    <TextSection>Leysi is the ultimate food platform designed for young adults. 
+                    <TextSection Fontsize='3.5rem' >Leysi is the ultimate food platform designed for young adults. 
                         Manage your spending and engage with friends while discovering deals at local vendors in your campus community.
                         My responsibility included creating the brand identity, and the initial app designs.</TextSection>
                 <TextLineone RowsSet="7" />
@@ -119,7 +119,7 @@ Development — Varfaj Team</TextSection>
 
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection style={{textAlign:'center'}}>Founders — Leysi Team<br />
+            <TextSection Fontsize='3.5rem' style={{textAlign:'center'}}>Founders — Leysi Team<br />
             Designers — Zachary MacTavish & Varfaj Team<br />
 Development — Varfaj Team</TextSection>
             <TextLineone RowsSet="7" />
@@ -132,7 +132,7 @@ Development — Varfaj Team</TextSection>
             
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
                 <TextLineone RowsSet="1" />
-                    <TextSection>Piton is a startup focused on athleisure clothing with an accompanying workout app. 
+                    <TextSection Fontsize='3.5rem' >Piton is a startup focused on athleisure clothing with an accompanying workout app. 
 The brand is focused on social change, and environmentalism. 
 The leading innovation of the app is on the bleeding edge of voice enabled AI. </TextSection>
                 <TextLineone RowsSet="7" />
@@ -160,7 +160,7 @@ The leading innovation of the app is on the bleeding edge of voice enabled AI. <
 
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection style={{textAlign:'center'}}>Founders — Jemir Martinez<br />
+            <TextSection Fontsize='3.5rem' style={{textAlign:'center'}}>Founders — Jemir Martinez<br />
             Designers — Zachary MacTavish<br />
 Development — TBD</TextSection>
             <TextLineone RowsSet="7" />

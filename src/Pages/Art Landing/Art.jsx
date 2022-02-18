@@ -92,15 +92,16 @@ font-family: 'Space Grotesk', sans-serif;
 font-weight: 500;
 padding-right: 2vw;
 font-size: 2.7rem;
-width: 35vw;
+width:${(props) => props.Widthsize};
 color: white;
 @media (max-width: 1000px) {
 padding: 0;
 ;}
 
 @media (max-width: 450px) {
-font-size: 1.7rem;
+font-size: 1.5rem;
 width: 90vw;
+padding-top: 2vh;
 ;}
 
 `
@@ -207,7 +208,7 @@ const Art = () =>  {
                   <HouseOne  src={house} />
 
 
-                  <ParagraphTwo>
+                  <ParagraphTwo Widthsize='35vw'>
                           Throughout my life I’ve
                           lived in 24 different houses.
                           My current work focuses on nostalgia, memory, and 

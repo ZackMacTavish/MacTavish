@@ -89,12 +89,19 @@ grid-column-start: 2;
 grid-column-end: 4;
 grid-row-start: 2;
 grid-row-end: 7;
-font-size: 3.7rem;
+font-size: ${(props) => props.Fontsize};
 width: 80vw;
 font-family: 'Space Grotesk', sans-serif;
 justify-self: center;
 align-self: center;
 color: #464646;
+
+@media (max-width: 450px){
+    grid-column-start: 1;
+    font-size: 1.3rem;
+    width: 94vw;
+    padding-left: 4vw;
+}
 `
 
 export const RisoItemtwo = styled.img`
@@ -131,7 +138,7 @@ export default function Giga() {
 
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection>Giga is a digital services platform for bloggers, writers, and creatives. I am the lead designer for Giga, and I enjoy creating new flows, and thinking about how a user navigates the website.</TextSection>
+            <TextSection Fontsize='3.5rem' >Giga is a digital services platform for bloggers, writers, and creatives. I am the lead designer for Giga, and I enjoy creating new flows, and thinking about how a user navigates the website.</TextSection>
             <TextLineone RowsSet="7" />
             </GigaGridone>
 
@@ -183,7 +190,7 @@ export default function Giga() {
             
         <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
-            <TextSection style={{textAlign:'center'}}>Founder — Rich Devlin <br />
+            <TextSection Fontsize='3.5rem' style={{textAlign:'center'}}>Founder — Rich Devlin <br />
 Lead Designer — Zachary MacTavish <br />
 Front-End Development — Xing Yi & Joel Fernando  <br />
 Back-End Development — Rich Devlin</TextSection>
