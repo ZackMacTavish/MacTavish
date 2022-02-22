@@ -43,6 +43,20 @@ font-size: 3rem;
 const PhotoFlexone = styled.div`
 display: flex;
 justify-content: space-between;
+
+@media(max-width: 450px) {
+    flex-direction: column;
+}
+`
+
+const PicturesFlex =styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto;
+width: 100vw;
+background-color: black;
+flex-direction: column;
 `
 
 
@@ -116,7 +130,7 @@ evoke memories, nostalgia, and past experiences.
 
 </RisoFlex>
 
-                <RisoFlex style={{backgroundColor:"black", flexDirection:"column", height:"105vh"}} >
+                <PicturesFlex >
 
                 <PhotoFlexone>
 
@@ -135,7 +149,7 @@ evoke memories, nostalgia, and past experiences.
 
 </PhotoFlexone>
 
-            </RisoFlex>
+            </PicturesFlex>
 
     {/* Section with 3 photos */}
 
@@ -172,7 +186,7 @@ evoke memories, nostalgia, and past experiences.
 
                 </ArtSectionthree>
 
-                <RisoFlex style={{backgroundColor:"black", flexDirection:"column", height:"105vh"}} >
+                <PicturesFlex>
 
 <PhotoFlexone>
 
@@ -191,7 +205,7 @@ evoke memories, nostalgia, and past experiences.
 
 </PhotoFlexone>
 
-</RisoFlex>
+</PicturesFlex>
 
  {/* Section with 3 photos */}
 

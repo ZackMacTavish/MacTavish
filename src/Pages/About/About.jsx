@@ -1,5 +1,5 @@
 import React, { useLayoutEffect } from 'react'
-import { HouseOne, NewSection, ParagraphTwo } from '../Art Landing/Art'
+import { NewSection, ParagraphTwo } from '../Art Landing/Art'
 import me from '../About/Me.jpeg';
 import { TextLineone, TextSection } from '../Giga/Giga';
 import styled from 'styled-components';
