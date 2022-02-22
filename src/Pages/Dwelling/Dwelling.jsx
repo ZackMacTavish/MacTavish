@@ -1,8 +1,8 @@
 import React, {useLayoutEffect} from 'react'
 import { RisoFlex, RisoItem } from '../Graffiti/Graffiti'
 import housemash from '../../img/House—Mash.jpg';
-import { ArtDesc, ArtHeader, ArtSectionthree, ArtText, ArtTextthree, ArtTexttwo, ArtYear, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition';
-import styled, { css } from 'styled-components';
+import { ArtDesc, ArtHeader, ArtSectionthreeog, ArtSectionThreetwo, ArtText, ArtTextthree, ArtTexttwo, ArtYear, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition';
+import styled from 'styled-components';
 import house1 from '../../img/house5.jpg';
 import house2 from '../../img/house6.jpg';
 import ep from '../../img/EP.jpg';
@@ -90,7 +90,7 @@ evoke memories, nostalgia, and past experiences.
 
             {/* Section with 3 photos */}
 
-            <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+            <ArtSectionthreeog>
 
 
 <Orbital src={housepainting} />
@@ -121,7 +121,7 @@ evoke memories, nostalgia, and past experiences.
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
 
                 <RisoFlex >
@@ -153,7 +153,7 @@ evoke memories, nostalgia, and past experiences.
 
     {/* Section with 3 photos */}
 
-             <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+             <ArtSectionthreeog>
 
 
 <Orbital src={house4} />
@@ -184,7 +184,7 @@ evoke memories, nostalgia, and past experiences.
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
                 <PicturesFlex>
 
@@ -209,7 +209,7 @@ evoke memories, nostalgia, and past experiences.
 
  {/* Section with 3 photos */}
 
- <ArtSectionthree Grids='85vh 7vh 85vh 7vh'>
+ <ArtSectionThreetwo>
 
 
 <Orbital src={house3} />
@@ -232,7 +232,7 @@ evoke memories, nostalgia, and past experiences.
 </ArtTexttwo>
 
 
-                </ArtSectionthree>
+                </ArtSectionThreetwo>
 
 
             

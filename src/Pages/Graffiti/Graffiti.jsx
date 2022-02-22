@@ -31,6 +31,11 @@ width: ${(props) => props.Width};
 width: 90vw;
 padding-top: 20vh;
 ;}
+
+@media (max-width: 450px) {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
 `
 
 export const RisoFlex = styled.div`
@@ -39,6 +44,10 @@ justify-content: center;
 align-items: center;
 height: 100vh;
 width: 100vw;
+
+@media(max-width: 450px) {
+    height: auto;
+}
 `
 
 const BeesStyle = styled.img`

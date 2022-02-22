@@ -42,10 +42,18 @@ height: 101vh;
 align-items: center;
 justify-content: space-between;
 justify-self: center;
-background-color:${(props) => props.Backgroundcolor};`
+background-color:${(props) => props.Backgroundcolor};
+
+@media(max-width: 450px) {
+  height: auto;
+}
+`
 
 export const ThreeItem = styled.img`
 width: 20vw;
+@media (max-width: 450px) {
+  width: 80vw;
+}
 `
 
 export default function Photography() {

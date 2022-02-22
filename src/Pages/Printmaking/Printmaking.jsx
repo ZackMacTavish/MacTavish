@@ -5,7 +5,7 @@ import olivia2 from '../../img/oliviacollab2.jpg';
 import { RisoFlex, RisoItem } from '../Graffiti/Graffiti';
 import { TextSection } from '../Dwelling/Dwelling';
 import screenprint2 from '../../img/Screenprint2.jpg';
-import { ArtDesc, ArtHeader, ArtSectionthree, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital, TwinTwo } from '../COMPOSITION/Composition';
+import { ArtDesc, ArtHeader, ArtSectionthree, ArtSectionthreeog, ArtSectionThreetwo, ArtSectiontwins, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital, TwinTwo } from '../COMPOSITION/Composition';
 import screenprinttwo from '../../img/screenprint2.1.jpg';
 import screenprint1 from '../../img/Screenprint1.jpg'
 import oliviacollab1 from '../../img/Collab-framed.jpg';
@@ -35,8 +35,39 @@ import exploitationsv from '../../img/EXPLOITATIONSV.jpg';
 import exploitationsvi from '../../img/EXPLOITATIONSVI.jpg';
 import exploitationsvii from '../../img/EXPLOITATIONSVII.jpg';
 import No4 from '../../img/No4-screen.jpg';
+import styled from 'styled-components';
+
+
+
+export const ThreeFlextwo = styled.div`
+display: flex;
+margin-top: -1vh;
+height: 101vh;
+align-items: center;
+justify-content: center;
+gap: 5vw;
+justify-self: center;
+background-color:${(props) => props.Backgroundcolor};
+
+@media (max-width: 450px) {
+  flex-direction: column;
+margin: 0;
+  padding: 15vw 0;
+  width: auto;
+  height: auto;
+}
+`
+
+export const ThreeItemtwo = styled.img`
+width: ${(props) => props.Width};
+@media (max-width: 450px) {
+  width: 80vw;
+}
+`
 
 export default function Printmaking() {
+
+   
 
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
@@ -46,10 +77,10 @@ export default function Printmaking() {
         <div>
 
         
-            <ThreeFlex style={{justifyContent: 'center'}} Backgroundcolor='#191919'>
-             <ThreeItem style={{paddingRight: '4vw'}} src={olivia4} />
-            <ThreeItem style={{paddingLeft: '4vw'}} src={olivia2} />
-            </ThreeFlex>
+            <ThreeFlextwo Backgroundcolor='#191919'>
+             <ThreeItem  src={olivia4} />
+            <ThreeItem  src={olivia2} />
+            </ThreeFlextwo>
 
 
             <RisoFlex style={{backgroundColor:"black"}}>
@@ -60,7 +91,7 @@ Zita Smith. <br /> <br />
             </RisoFlex>
 
 
-            <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+            <ArtSectionthreeog>
 
 
 <Orbital src={screenprint2} />
@@ -91,13 +122,13 @@ Zita Smith. <br /> <br />
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
 
-            <ThreeFlex style={{justifyContent: 'center'}}>
-             <ThreeItem style={{paddingRight: '5vw', width: '30vw'}} src={oliviacollab1} />
-            <ThreeItem style={{paddingLeft: '5vw', width: '30vw'}} src={oliviacollab2} />
-            </ThreeFlex>
+            <ThreeFlextwo >
+             <ThreeItemtwo Width='30vw' src={oliviacollab1} />
+            <ThreeItemtwo Width='30vw' src={oliviacollab2} />
+            </ThreeFlextwo>
 
 
             <RisoFlex>
@@ -106,7 +137,7 @@ Zita Smith. <br /> <br />
             </RisoFlex>
 
 
-            <ArtSectionthree Grids='85vh 0vh 85vh 14vh 85vh 7vh'>
+            <ArtSectionthreeog>
 
 
 <Orbital src={No4} />
@@ -137,15 +168,15 @@ Zita Smith. <br /> <br />
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
-                <RisoFlex style={{height:'115vh'}}>
+                <RisoFlex>
             <RisoItem  Width='60vw' img src={woodblock1} />
            
             </RisoFlex>
 
             {/*2 Olivia Collabs */}
-            <ArtSectionthree Grids='85vh 10vh 0vh'>
+            <ArtSectiontwins>
                     <Orbital src={oliviacollab6} />
                     <TwinTwo src={oliviacollab5} />
 
@@ -155,20 +186,20 @@ Zita Smith. <br /> <br />
                         <ArtDesc>Acrylic & spray paint on wood panels.</ArtDesc>
 
                    </TwinsText> */}
-                    </ArtSectionthree>
+                    </ArtSectiontwins>
 
                      {/*2 Olivia Collabs */}
-            <ArtSectionthree Grids='85vh 10vh 15vh'>
+            <ArtSectiontwins>
                     <Orbital src={oliviacollab7} />
                     <TwinTwo src={oliviacollab8} />
 
             
-                    </ArtSectionthree>
+                    </ArtSectiontwins>
 
 
 
 
-                    <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+                    <ArtSectionthreeog>
 
 
 <Orbital src={bear} />
@@ -199,7 +230,7 @@ Zita Smith. <br /> <br />
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
                 <ThreeFlex style={{justifyContent: 'center'}} Backgroundcolor='#191919'>
              <ThreeItem style={{paddingRight: '2vw'}} src={bluecmyk} />
@@ -223,7 +254,7 @@ these emotions.
             </RisoFlex>
 
 
-            <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+            <ArtSectionthreeog>
 
 
 <Orbital src={exploitationsix} />
@@ -254,11 +285,11 @@ these emotions.
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
                 <FullBg src={exploitationsxii} />
 
-                <RisoFlex style={{height:'115vh'}}>
+                <RisoFlex>
             <RisoItem  Width='60vw' img src={exploitationsviii} />
            
             </RisoFlex>
@@ -266,7 +297,7 @@ these emotions.
 
 
 
-                <ArtSectionthree Grids='85vh 7vh 85vh 7vh'>
+                <ArtSectionThreetwo>
 
 
 <Orbital src={exploitationsii} />
@@ -289,11 +320,11 @@ these emotions.
 </ArtTexttwo>
 
 
-                </ArtSectionthree>
+                </ArtSectionThreetwo>
 
                 <FullBg src={exploitationsxi} />
 
-                <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+                <ArtSectionthreeog>
 
 
 <Orbital src={exploitationsv} />
@@ -324,14 +355,14 @@ these emotions.
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
-                <RisoFlex style={{height:'110vh'}}>
+                <RisoFlex>
             <RisoItem  Width='60vw' img src={exploitationsvi} />
            
             </RisoFlex>
 
-            <RisoFlex style={{height:'110vh'}}>
+            <RisoFlex>
             <RisoItem  Width='60vw' img src={exploitationsvii} />
            
             </RisoFlex>

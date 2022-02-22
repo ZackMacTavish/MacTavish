@@ -2,7 +2,7 @@ import React, {useLayoutEffect} from 'react'
 import { RisoFlex, RisoItem } from '../Graffiti/Graffiti'
 import bike from '../../img/Bicycle.png';
 import { TextSection } from '../Dwelling/Dwelling';
-import { ArtDesc, ArtHeader, ArtSectionthree, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition';
+import { ArtDesc, ArtHeader, ArtSectionthreeog, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition';
 
 import collage50 from '../../img/collage50.jpg';
 import collage47 from '../../img/collage47.jpg';
@@ -69,7 +69,7 @@ export default function Collages() {
 
             {/* Section with 3 photos */}
 
-            <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+            <ArtSectionthreeog>
 
 
 <Orbital src={collage50} />
@@ -100,14 +100,14 @@ export default function Collages() {
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
                 <FullBg src={boats} />
 
 
                  {/* Section with 3 photos */}
 
-            <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+            <ArtSectionthreeog>
 
 
 <Orbital src={collage1} />
@@ -138,7 +138,7 @@ export default function Collages() {
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
                 <RisoFlex >
 
@@ -155,7 +155,7 @@ export default function Collages() {
 
       {/* Section with 3 photos */}
 
-      <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+      <ArtSectionthreeog>
 
 
 <Orbital src={collage4} />
@@ -186,7 +186,7 @@ export default function Collages() {
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
                 <ThreeFlex Backgroundcolor='#191919'>
              <ThreeItem src={collage41} />
@@ -203,7 +203,7 @@ export default function Collages() {
 
   {/* Section with 3 photos */}
 
-  <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+  <ArtSectionthreeog>
 
 
 <Orbital src={collage44} />
@@ -234,7 +234,7 @@ export default function Collages() {
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
                 <RisoFlex >
 
@@ -245,7 +245,7 @@ export default function Collages() {
 
 {/* Section with 3 photos */}
 
-<ArtSectionthree Grids='85vh 7vh 85vh 0vh 85vh 7vh'>
+<ArtSectionthreeog>
 
 
 <Orbital src={collage40} />
@@ -276,7 +276,7 @@ export default function Collages() {
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
                 <RisoFlex >
 
@@ -287,7 +287,7 @@ export default function Collages() {
 
 {/* Section with 3 photos */}
 
-<ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+<ArtSectionthreeog>
 
 
 <Orbital src={collage34} />
@@ -318,7 +318,7 @@ export default function Collages() {
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
                 <RisoFlex >
 
@@ -328,7 +328,7 @@ export default function Collages() {
 
 {/* Section with 3 photos */}
 
-<ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+<ArtSectionthreeog>
 
 
 <Orbital src={collage28} />
@@ -359,13 +359,13 @@ export default function Collages() {
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
                 <FullBg src={rapture} />
 
                 {/* Section with 3 photos */}
 
-<ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+<ArtSectionthreeog>
 
 
 <Orbital src={collage46} />
@@ -396,7 +396,7 @@ export default function Collages() {
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
 
             

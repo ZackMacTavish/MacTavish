@@ -6,7 +6,7 @@ import cacti1 from '../../img/E-nobtm.jpg';
 import splash from '../../img/splashpanel.jpg';
 import yellowz from '../../img/Yellow-Z.jpg';
 import { TextSection } from '../Dwelling/Dwelling';
-import { ArtDesc, ArtHeader, ArtSectionthree, ArtText, ArtTextthree, ArtTexttwo, ArtYear, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition';
+import { ArtDesc, ArtHeader, ArtSectionthreeog, ArtText, ArtTextthree, ArtTexttwo, ArtYear, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition';
 
 export default function Painting() {
 
@@ -29,7 +29,7 @@ export default function Painting() {
 
         {/* Section with 3 photos */}
 
-        <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+        <ArtSectionthreeog>
 
 
 <Orbital src={cacti1} />
@@ -60,7 +60,7 @@ export default function Painting() {
 
 </ArtTextthree>
 
-</ArtSectionthree>
+</ArtSectionthreeog>
 
 
     </div>
