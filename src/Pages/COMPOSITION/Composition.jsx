@@ -53,6 +53,7 @@ width: auto;
     grid-column-start: 1;
     width: 100vw;
     height: auto;
+    align-self: flex-end;
 }
 `
 /* Art resting on row one */
@@ -78,7 +79,11 @@ grid-column-start: 3;
 justify-self: flex-start;
 height: 85vh;
 width: auto;
-`
+@media(max-width: 450px) {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+ `
 
 export const TwinsText = styled.div`
 grid-row-start: 2;
@@ -89,6 +94,10 @@ padding: 0;
 margin: 0;
 line-height: 0.6;
 font-family: 'Space Grotesk', sans-serif;
+@media (max-width: 450px) {
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
 `
 /* Art resting on row two */
 export const GridRowTwo = styled.img`
@@ -102,6 +111,7 @@ width: auto;
     grid-column-start: 1;
     width: 100vw;
     height: auto;
+    align-self: flex-end;
 }
 `
 /* Art resting on row three */
@@ -123,16 +133,25 @@ width: 100vw;
 height: auto;
 margin-top: -1vh;
 background-size: contain;
+
+@media(max-width: 450px) {
+    padding-top: 3vh;
+}
 `
 
 export const ParagraphFour = styled.div`
-position: absolute;
-right: 2vw;
+position: relative;
+padding-right: 2vw;
 font-family: 'Space Grotesk', sans-serif;
 font-weight: 500;
 font-size: 2.7rem;
 width: 40vw;
 color: #626262;
+@media (max-width: 450px){
+    width: 96vw;
+    font-size: 1.6rem;
+    padding-top: 2vh;
+}
 `
 /* Section with three standard pieces column wise */
 export const ArtSectionthree = styled.div`
@@ -144,12 +163,92 @@ background-color:${(props) => props.Backgroundcolor};
 
 @media (max-width: 450px){
     grid-template-columns: 100vw;
+    height: auto;
+    row-gap: 2ch;
+    padding: 0;
+}
+`
+
+/* Custom Grid for Ephemeral Twins - moving single row to 2 rows of content */
+export const ArtSectiontwins = styled.div`
+display: grid;
+grid-template-columns: 10vw 40vw 40vw 10vw;
+grid-template-rows: auto auto auto;
+padding-top: 5vh;
+padding-bottom: 5vh;
+background-color:${(props) => props.Backgroundcolor};
+
+@media (max-width: 450px){
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto auto auto;
+    height: auto;
+    row-gap: 2ch;
+    padding: 0;
+}
+`
+
+/* Section with three grids - 3 rows of content */
+export const ArtSectionthreeog = styled.div`
+display: grid;
+grid-template-columns: 10vw 40vw 40vw 10vw;
+grid-template-rows: auto auto auto auto auto auto;
+row-gap: 3ch;
+padding-top: 5vh;
+padding-bottom: 5vh;
+background-color:${(props) => props.Backgroundcolor};
+
+@media (max-width: 450px){
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto auto auto auto auto;
+    height: auto;
+    row-gap: 2ch;
+    padding: 0;
+}
+`
+
+/* Section with three grids - 2 rows of content */
+export const ArtSectionThreetwo = styled.div`
+display: grid;
+grid-template-columns: 10vw 40vw 40vw 10vw;
+grid-template-rows: auto auto auto auto;
+row-gap: 3ch;
+padding-top: 5vh;
+padding-bottom: 5vh;
+background-color:${(props) => props.Backgroundcolor};
+
+@media (max-width: 450px){
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto auto auto;
+    height: auto;
     row-gap: 2ch;
 }
 `
+
+/* Section with three grids - 1 rows of content */
+export const ArtSectionThreeone = styled.div`
+display: grid;
+grid-template-columns: 10vw 40vw 40vw 10vw;
+grid-template-rows: auto auto;
+row-gap: 3ch;
+padding-top: 5vh;
+padding-bottom: 5vh;
+background-color:${(props) => props.Backgroundcolor};
+
+@media (max-width: 450px){
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto;
+    height: auto;
+    row-gap: 2ch;
+}
+`
+
+
+
+
 /* Text sitting on row one*/
 export const ArtText = styled.div`
 display: grid;
+grid-template-rows: auto 5vh auto;
 grid-column-start: 3;
 grid-row-start: 1;
 align-self: flex-end;
@@ -162,7 +261,6 @@ font-family: 'Space Grotesk', sans-serif;
 @media(max-width: 450px){
     grid-column-start: 1;
     grid-row-start: 2;
-    padding-top: .8vh;
     padding-left: 2vw;
    }
 `
@@ -210,17 +308,30 @@ font-family: 'Space Grotesk', sans-serif;
 export const ArtHeader = styled.h1`
 font-weight: 700;
 font-size: 2.5rem;
+@media(max-width: 450px) {
+    font-size: 2rem;
+    line-height: 1;
+    height: auto;
+}
 `
 
 export const ArtYear = styled.h3`
 font-weight: 500;
 font-size: 2rem;
+@media(max-width: 450px) {
+    font-size: 1.7rem;
+    height: auto;
+}
 `
 
 export const ArtDesc = styled.h2`
 font-weight: 400;
 font-size: 1.4rem;
 line-height: 1;
+width: auto;
+@media(max-width: 450px) {
+    height: auto;
+}
 `
 
 
@@ -255,7 +366,7 @@ the show.
 
                     {/* Orbital + Erasure I */}
 
-                    <ArtSectionthree Grids='85vh 7vh 85vh 7vh'>
+                    <ArtSectionThreetwo>
                     <Orbital src={orbital} />
                             <ArtText> 
 
@@ -271,16 +382,16 @@ the show.
 
                             <ArtHeader>ERASURE I</ArtHeader>
                             <ArtYear>2021</ArtYear>
-                            <ArtDesc style={{width: '50vw'}}>Acrylic, spray paint, & spray paint remover on woodpanel.</ArtDesc>
+                            <ArtDesc >Acrylic, spray paint, & spray paint remover on woodpanel.</ArtDesc>
 
                             </ArtTexttwo>
                         
-                    </ArtSectionthree>
+                    </ArtSectionThreetwo>
 
 {/*RENDER 2 FULL SCREEN */}
                     <FullBg src={rendertwo} />
 {/*EPHEMERAL I & II SECTION */}
-                    <ArtSectionthree Grids='85vh 10vh 15vh'>
+                    <ArtSectiontwins>
                     <Orbital src={twin1} />
                     <TwinTwo src={twin2} />
 
@@ -290,10 +401,10 @@ the show.
                         <ArtDesc>Acrylic & spray paint on wood panels.</ArtDesc>
 
                     </TwinsText>
-                    </ArtSectionthree>
+                    </ArtSectiontwins>
 
 {/*STAIRCASES SINGLE SECTION */}
-                    <ArtSectionthree Grids='85vh 10vh'>
+                    <ArtSectionThreeone>
                     <Orbital src={staircases} />
                     <ArtText> 
 
@@ -303,10 +414,10 @@ the show.
 
                             </ArtText>
 
-                    </ArtSectionthree>
+                    </ArtSectionThreeone>
 
                     {/*EPHEMERAL I & II SECTION */}
-                    <ArtSectionthree Grids='85vh 10vh 15vh'>
+                    <ArtSectiontwins>
                     <Orbital src={heartwhite} />
                     <TwinTwo src={heartblack} />
 
@@ -316,14 +427,14 @@ the show.
                         <ArtDesc>Acrylic on wood panel.</ArtDesc>
 
                     </TwinsText>
-                    </ArtSectionthree>
+                    </ArtSectiontwins>
 
                     {/*BIRDS FULL SCREEN */}
                     <FullBg src={birds} />
 
 
                     {/* 3 photos - Passing Grid-template-row props */}
-                    <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+                    <ArtSectionthreeog>
                     <Orbital src={coney} />
                             <ArtText> 
 
@@ -352,13 +463,13 @@ the show.
 
                             </ArtTextthree>
 
-                            </ArtSectionthree>
+                            </ArtSectionthreeog>
 
                                {/*Render4 FULL SCREEN */}
                     <FullBg src={render4} />
 
                     {/* 3 Mashes - Passing Grid-template-row props*/}
-                    <ArtSectionthree Grids='60vh 7vh 85vh 7vh 85vh 7vh'>
+                    <ArtSectionthreeog>
                     <Rug src={rug} />
                             <ArtText> 
 
@@ -387,13 +498,13 @@ the show.
 
                             </ArtTextthree> 
 
-                            </ArtSectionthree>
+                            </ArtSectionthreeog>
 
                                 {/*Render5 FULL SCREEN */}
                     <FullBg src={render5} />
 
                      {/* 3 photos - Passing Grid-template-row props */}
-                     <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+                     <ArtSectionthreeog>
                     <Orbital src={mash3} />
                             <ArtText> 
 
@@ -422,13 +533,13 @@ the show.
 
                             </ArtTextthree>
 
-                            </ArtSectionthree>
+                            </ArtSectionthreeog>
 
                                   {/*MATTOS FULL SCREEN */}
                                     <FullBg src={mattos} />
 
                         {/* 3 Pieces - Passing Grid-template-row props */}
-                     <ArtSectionthree Grids='85vh 7vh 85vh 7vh '>
+                     <ArtSectionthreeog>
                     <Orbital src={og} />
                             <ArtText> 
 
@@ -450,7 +561,7 @@ the show.
 
                         
 
-                            </ArtSectionthree>
+                            </ArtSectionthreeog>
 
 
 

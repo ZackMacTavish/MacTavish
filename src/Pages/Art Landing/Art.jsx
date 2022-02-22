@@ -125,7 +125,8 @@ width: 50vw;
 padding-left: 2vw;
 
 @media (max-width: 450px) { 
-    width: 90vw;
+  padding: 0;
+    width: 96vw;
   }
 `
 
