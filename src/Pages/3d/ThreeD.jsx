@@ -1,5 +1,5 @@
 import React, {useLayoutEffect} from 'react'
-import { ArtDesc, ArtHeader, ArtSectionthree, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition'
+import { ArtDesc, ArtHeader, ArtSectionthree, ArtSectionthreeog, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition'
 import fiftytwo from '../../img/52.jpg';
 import fiftysix from '../../img/56.jpg';
 import one from '../../img/1.2.jpg';
@@ -43,7 +43,7 @@ export default function ThreeD() {
             <FullBg src={fiftysix} />
 
 
-            <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+            <ArtSectionthreeog>
             <Orbital src={one} />
 <ArtText> 
 
@@ -71,13 +71,13 @@ export default function ThreeD() {
 <ArtDesc>Render made in Rhino, and Keyshot.</ArtDesc>
 
 </ArtTextthree>
-    </ArtSectionthree>
+    </ArtSectionthreeog>
 
             <FullBg src={twentythree} />
             <FullBg src={fiftythree} />
 
 
-            <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+            <ArtSectionthreeog>
             <Orbital src={seventeen} />
 <ArtText> 
 
@@ -105,13 +105,13 @@ export default function ThreeD() {
 <ArtDesc>Render made in Rhino, and Keyshot.</ArtDesc>
 
 </ArtTextthree>
-    </ArtSectionthree>
+    </ArtSectionthreeog>
 
     <FullBg src={twentyfive} />
             <FullBg src={twentyfour} />
 
 
-            <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+            <ArtSectionthreeog>
             <Orbital src={twentyseven} />
 <ArtText> 
 
@@ -139,12 +139,12 @@ export default function ThreeD() {
 <ArtDesc>Render made in Rhino, and Keyshot.</ArtDesc>
 
 </ArtTextthree>
-    </ArtSectionthree>
+    </ArtSectionthreeog>
 
     <FullBg src={fiftyone} />
     <FullBg src={fortysix} />
 
-    <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+    <ArtSectionthreeog>
             <Orbital src={thirtyone} />
 <ArtText> 
 
@@ -172,12 +172,12 @@ export default function ThreeD() {
 <ArtDesc>Render made in Rhino, and Keyshot.</ArtDesc>
 
 </ArtTextthree>
-    </ArtSectionthree>
+    </ArtSectionthreeog>
 
     <FullBg src={sixtyone} />
     <FullBg src={fiftyfive} />
 
-    <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+    <ArtSectionthreeog>
             <Orbital src={fortytwo} />
 <ArtText> 
 
@@ -205,13 +205,13 @@ export default function ThreeD() {
 <ArtDesc>Render made in Rhino, and Keyshot.</ArtDesc>
 
 </ArtTextthree>
-    </ArtSectionthree>
+    </ArtSectionthreeog>
 
 
     <FullBg src={fortythree} />
     <FullBg src={sixtyeight} />
 
-    <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+    <ArtSectionthreeog>
             <Orbital src={sixtythree} />
 <ArtText> 
 
@@ -239,7 +239,7 @@ export default function ThreeD() {
 <ArtDesc>Render made in Rhino, and Keyshot.</ArtDesc>
 
 </ArtTextthree>
-    </ArtSectionthree>
+    </ArtSectionthreeog>
             
         </div>
     )

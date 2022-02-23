@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import polaroid1 from '../../img/polaroid1.jpg';
 import polaroid2 from '../../img/polaroid2.jpg';
 import polaroid3 from '../../img/polaroid3.jpg';
-import { ArtDesc, ArtHeader, ArtSectionthree, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition';
+import { ArtDesc, ArtHeader, ArtSectionthree, ArtSectionthreeog, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition';
 import Hawaii1 from '../../img/Greenhut.jpg';
 import eighteen from '../../img/1821.jpg';
 import birdy from '../../img/BirdyBrooklyn.jpg';
@@ -32,6 +32,7 @@ import polaroid7 from '../../img/polaroid7.jpg';
 import polaroid8 from '../../img/polaroid8.jpg';
 import polaroid9 from '../../img/polaroid9.jpg';
 import greensand from '../../img/greensand.jpg';
+import { ThreeFlextwo, ThreeItemtwo } from '../Printmaking/Printmaking';
 
 
 export const ThreeFlex = styled.div`
@@ -66,19 +67,19 @@ export default function Photography() {
         <div>
 
             {/* Section with three poloariods */}
-            <ThreeFlex Backgroundcolor='#191919'>
-            <ThreeItem src={polaroid1} />
-            <ThreeItem src={polaroid2} />
-            <ThreeItem src={polaroid3} />
+            <ThreeFlextwo Backgroundcolor='#191919'>
+            <ThreeItemtwo Width='20vw' src={polaroid1} />
+            <ThreeItemtwo Width='20vw'  src={polaroid2} />
+            <ThreeItemtwo Width='20vw' src={polaroid3} />
           
           
-            </ThreeFlex>
+            </ThreeFlextwo>
   {/* Section with green hut */}
             <FullBg src={Hawaii1} />
             
             {/* Section with 3 photos */}
 
-            <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+            <ArtSectionthreeog>
 
 
 <Orbital src={eighteen} />
@@ -109,22 +110,22 @@ export default function Photography() {
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
                   {/* Section with three yellow polaroids */}
 
-                <ThreeFlex Backgroundcolor='#C7B815'>
-                <ThreeItem src={cannon1} />
-             <ThreeItem src={cannon2} />
-             <ThreeItem src={cannon3} />
+                <ThreeFlextwo Backgroundcolor='#C7B815'>
+                <ThreeItemtwo Width='20vw' src={cannon1} />
+             <ThreeItemtwo Width='20vw' src={cannon2} />
+             <ThreeItemtwo Width='20vw' src={cannon3} />
 
 
-                </ThreeFlex>
+                </ThreeFlextwo>
 
 
   {/* Section with 3 photos */}
 
-                <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+                <ArtSectionthreeog>
 
 
 <Orbital src={kevin} />
@@ -155,23 +156,23 @@ export default function Photography() {
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
                   {/* Section with green hut */}
             <FullBg src={hawaiianchurch} />
             
                  {/* Section with three poloariods */}
-                 <ThreeFlex Backgroundcolor='#191919'>
-            <ThreeItem src={aquarium} />
-            <ThreeItem src={jelly1} />
-            <ThreeItem src={jelly2} />
+                 <ThreeFlextwo Backgroundcolor='#191919'>
+            <ThreeItemtwo Width='20vw' src={aquarium} />
+            <ThreeItemtwo Width='20vw' src={jelly1} />
+            <ThreeItemtwo Width='20vw' src={jelly2} />
           
           
-            </ThreeFlex>
+            </ThreeFlextwo>
 
              {/* Section with 3 photos */}
 
-             <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+             <ArtSectionthreeog>
 
 
 <Orbital src={goog} />
@@ -202,24 +203,24 @@ export default function Photography() {
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
                      {/* Section with splash */}
             <FullBg src={splash} />
 
               {/* Section with three circle poloariods */}
-              <ThreeFlex Backgroundcolor='#191919'>
-            <ThreeItem src={circle1} />
-            <ThreeItem src={circle2} />
-            <ThreeItem src={circle3} />
+              <ThreeFlextwo Backgroundcolor='#191919'>
+            <ThreeItemtwo Width='20vw' src={circle1} />
+            <ThreeItemtwo Width='20vw' src={circle2} />
+            <ThreeItemtwo Width='20vw' src={circle3} />
           
           
-            </ThreeFlex>
+            </ThreeFlextwo>
 
 
              {/* Section with 3 photos */}
 
-             <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+             <ArtSectionthreeog>
 
 
 <Orbital src={Avalon} />
@@ -250,16 +251,16 @@ export default function Photography() {
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
                     {/* Section with three circle poloariods */}
-              <ThreeFlex Backgroundcolor='#191919'>
-            <ThreeItem src={polaroid7} />
-            <ThreeItem src={polaroid8} />
-            <ThreeItem src={polaroid9} />
+              <ThreeFlextwo Backgroundcolor='#191919'>
+            <ThreeItemtwo Width='20vw' src={polaroid7} />
+            <ThreeItemtwo Width='20vw' src={polaroid8} />
+            <ThreeItemtwo Width='20vw' src={polaroid9} />
           
           
-            </ThreeFlex>
+            </ThreeFlextwo>
 
             {/* Section with greensand beach */}
             <FullBg src={greensand} />

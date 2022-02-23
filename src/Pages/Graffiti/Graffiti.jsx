@@ -3,7 +3,7 @@ import { ThreeFlex, ThreeItem } from '../Photography/Photography'
 import artbash1 from '../../img/Artbashmash.jpg';
 import artbash2 from '../../img/Artbashmash2.jpg';
 import artbash3 from '../../img/Artbashmash3.jpg';
-import { ArtDesc, ArtHeader, ArtSectionthree, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital, ParagraphFour } from '../COMPOSITION/Composition';
+import { ArtDesc, ArtHeader, ArtSectionthree, ArtSectionthreeog, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital, ParagraphFour } from '../COMPOSITION/Composition';
 import sense from '../../img/RIPSENSE.jpg';
 import bfa from '../../img/BFA.jpg';
 import reuzes from '../../img/Reuzes.jpg';
@@ -23,6 +23,7 @@ import Lines from '../../img/ReuzesLines.jpg';
 import sushixtwo from '../../img/SushiX2.jpg';
 import enova from '../../img/Enova.jpg';
 import eu from '../../img/EU.jpg';
+import { ThreeFlextwo, ThreeItemtwo } from '../Printmaking/Printmaking';
 
 
 export const RisoItem = styled.img`
@@ -69,17 +70,17 @@ export default function Graffiti() {
 
     return (
         <div>
-             <ThreeFlex Backgroundcolor='#191919'>
-             <ThreeItem src={artbash1} />
-            <ThreeItem src={artbash2} />
-            <ThreeItem src={artbash3} />
-            </ThreeFlex>
+             <ThreeFlextwo Backgroundcolor='#191919'>
+             <ThreeItemtwo Width='20vw' src={artbash1} />
+            <ThreeItemtwo Width='20vw' src={artbash2} />
+            <ThreeItemtwo Width='20vw' src={artbash3} />
+            </ThreeFlextwo>
 
             <FullBg src={sense} />
 
               {/* Section with 3 photos */}
 
-              <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+              <ArtSectionthreeog>
 
 
 <Orbital src={bfa} />
@@ -110,7 +111,7 @@ export default function Graffiti() {
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
                 {/*Art Book + Text */}
                 <NewSection Backgroundheight="125vh">
@@ -126,7 +127,7 @@ export default function Graffiti() {
 
                      {/* Section with 3 photos */}
 
-              <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+              <ArtSectionthreeog>
 
 
 <Orbital src={mucha} />
@@ -157,7 +158,7 @@ export default function Graffiti() {
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
                 <RisoFlex>
             <RisoItem Width='60vw' img src={riso} />
@@ -166,7 +167,7 @@ export default function Graffiti() {
 
              {/* Section with 3 photos */}
 
-             <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+             <ArtSectionthreeog>
 
 
 <Orbital src={sushix} />
@@ -197,7 +198,7 @@ export default function Graffiti() {
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
 
                 <RisoFlex>
@@ -212,7 +213,7 @@ export default function Graffiti() {
 
              {/* Section with 3 photos */}
 
-             <ArtSectionthree Grids='85vh 7vh 85vh 7vh 85vh 7vh'>
+             <ArtSectionthreeog>
 
 
 <Orbital src={sushixtwo} />
@@ -243,7 +244,7 @@ export default function Graffiti() {
 
 </ArtTextthree>
 
-                </ArtSectionthree>
+                </ArtSectionthreeog>
 
 
         </div>
