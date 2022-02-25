@@ -1,5 +1,5 @@
 import React, {useLayoutEffect} from 'react'
-import { ArtDesc, ArtHeader, ArtSectionthree, ArtSectionthreeog, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition'
+import { ArtDesc, ArtHeader, ArtSectionthreeog, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition'
 import fiftytwo from '../../img/52.jpg';
 import fiftysix from '../../img/56.jpg';
 import one from '../../img/1.2.jpg';

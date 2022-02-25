@@ -5,6 +5,7 @@ import house from '../../img/House-Web.png';
 import {Link} from 'react-router-dom';
 import imagereplace from '../../img/BlackTurtleneck-popart-01.jpg';
 
+
 export const ArtDiv = styled.div`
 overflow-y: hidden;
 width: 100vw;
@@ -47,7 +48,25 @@ padding-bottom: 10vh;
 ;}
 `
 
-/*The grid that should replace the absolute positioning and flexboxes above*/
+
+/* Writing the first main section in flex, but switching over to grids, with Theme Provider built in for dark-light modes*/
+export const NewSectionTheme = styled.div`
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: ${(props) => props.Backgroundheight};
+width: 100vw;
+background-color: ${(props) => props.theme.backgroundColor};
+@media (max-width: 1000px) {
+flex-direction: column;
+height: auto;
+padding-bottom: 10vh;
+;}
+`
+
+
+
+/*The grid that should replace the absolute positioning and flexboxes above, This Grid has flexibile color changes*/
 export const GridOne = styled.div`
 display: grid;
 overflow-y: hidden;
@@ -57,6 +76,18 @@ background-color:${(props) => props.Backgroundcolor};
 height: 100vh;
 width: 100vw;
 `
+
+/*The grid that should replace the absolute positioning and flexboxes above, This Grid has light/dark themes built in*/
+export const GridThemes = styled.div`
+display: grid;
+overflow-y: hidden;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+background-color: ${(props) => props.theme.backgroundColor};
+height: 100vh;
+width: 100vw;
+`
+
 /*The grid header that should replace the absolute positioning header above*/
 export const GridHeader = styled.h1`
 display: grid;
@@ -193,19 +224,19 @@ const Art = () =>  {
       <div>
       <ArtDiv>
      
-       <GridOne Backgroundcolor='#89aea9'>
+       <GridThemes>
        <GridHeader>Storytelling <br />through Art</GridHeader>
        <GridImage>
        {/*<RisoItem Width='50vw' img src={Headerimage} /> */}
         {/* Ternary operator that checks for isDesktop Hook is larger than 450px to render Scene three.js or a static Img */}
         {isDesktop ? <Scene /> : <img style={{width: '90vw'}} alt="A graphic I made in illustrator" src={imagereplace} />}
        </GridImage>
-       </GridOne>
+       </GridThemes>
     
       
 
                 
-                <NewSection Backgroundheight="85vh" Backgroundcolor='#89aea9'>
+                <NewSectionTheme Backgroundheight="85vh" >
                   <HouseOne  src={house} />
 
 
@@ -219,9 +250,9 @@ const Art = () =>  {
                   </ParagraphTwo>
     
                 
-                </NewSection>
+                </NewSectionTheme>
 
-                <NewSection Backgroundheight="85vh" Backgroundcolor='#89aea9'>
+                <NewSectionTheme Backgroundheight="85vh">
                   <ParagraphThree>
                   Art gives me
 the freedom to share my 
@@ -266,7 +297,7 @@ I’ve made in the past.
 
                   </WorkCategories>
 
-                </NewSection>
+                </NewSectionTheme>
 
                 
     

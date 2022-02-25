@@ -1,9 +1,8 @@
 import React, {useLayoutEffect} from 'react'
-import { ThreeFlex, ThreeItem } from '../Photography/Photography'
 import artbash1 from '../../img/Artbashmash.jpg';
 import artbash2 from '../../img/Artbashmash2.jpg';
 import artbash3 from '../../img/Artbashmash3.jpg';
-import { ArtDesc, ArtHeader, ArtSectionthree, ArtSectionthreeog, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital, ParagraphFour } from '../COMPOSITION/Composition';
+import { ArtDesc, ArtHeader, ArtSectionthreeog, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital, ParagraphFour } from '../COMPOSITION/Composition';
 import sense from '../../img/RIPSENSE.jpg';
 import bfa from '../../img/BFA.jpg';
 import reuzes from '../../img/Reuzes.jpg';
@@ -42,6 +41,7 @@ padding-top: 20vh;
 export const RisoFlex = styled.div`
 display: flex;
 justify-content: center;
+background-color: ${props => props.theme.backgroundTwo};
 align-items: center;
 height: 100vh;
 width: 100vw;
@@ -114,7 +114,7 @@ export default function Graffiti() {
                 </ArtSectionthreeog>
 
                 {/*Art Book + Text */}
-                <NewSection Backgroundheight="125vh">
+                <NewSection Backgroundcolor="white" Backgroundheight="125vh">
                     <FiftyWidth>
 <BeesStyle src={Bees} />
 </FiftyWidth>

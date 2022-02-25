@@ -1,10 +1,10 @@
 import React, {useLayoutEffect} from 'react'
 import styled from 'styled-components';
-import fullcover from '../../img/FullCover.png';
+import fullcover from '../../img/Composition-BackCover-Pt.2-01.jpg';
 import renderone from '../../img/Render1.png';
 import { HouseOne, NewSection } from '../Art Landing/Art';
 import artbook from '../../img/Artbook.png';
-import orbital from '../../img/Orbital.jpeg';
+import orbital from '../../img/Orbital.jpg';
 import spraywash from '../../img/Spraypaintwash.png';
 import rendertwo from '../../img/Render2.png';
 import twin1 from '../../img/Twin1.jpeg';
@@ -32,12 +32,14 @@ const LanderSection = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
+background-color: ${props => props.theme.backgroundTwo};
 width: 100vw;
 height: 100vh;
 overflow: hidden;
 `
 
 const FullCover = styled.img`
+background-color: ${props => props.theme.backgroundTwo};
 width: 60vw;
 
 `
@@ -89,7 +91,7 @@ export const TwinsText = styled.div`
 grid-row-start: 2;
 grid-column-start: 2;
 justify-self: flex-start;
-color: #626262;
+color: ${(props) => props.theme.fontColor};
 padding: 0;
 margin: 0;
 line-height: 0.6;
@@ -133,6 +135,7 @@ width: 100vw;
 height: auto;
 margin-top: -1vh;
 background-size: contain;
+background-color: ${props => props.theme.backgroundTwo};
 
 @media(max-width: 450px) {
     padding-top: 3vh;
@@ -159,7 +162,7 @@ display: grid;
 grid-template-columns: 10vw 40vw 40vw 10vw;
 grid-template-rows: ${(props) => props.Grids};
 padding-top: 5vh;
-background-color:${(props) => props.Backgroundcolor};
+background-color:${props => props.theme.backgroundTwo};
 
 @media (max-width: 450px){
     grid-template-columns: 100vw;
@@ -176,7 +179,7 @@ grid-template-columns: 10vw 40vw 40vw 10vw;
 grid-template-rows: auto auto auto;
 padding-top: 5vh;
 padding-bottom: 5vh;
-background-color:${(props) => props.Backgroundcolor};
+background-color: ${props => props.theme.backgroundTwo};
 
 @media (max-width: 450px){
     grid-template-columns: 100vw;
@@ -195,7 +198,7 @@ grid-template-rows: auto auto auto auto auto auto;
 row-gap: 3ch;
 padding-top: 5vh;
 padding-bottom: 5vh;
-background-color:${(props) => props.Backgroundcolor};
+background-color: ${props => props.theme.backgroundTwo};
 
 @media (max-width: 450px){
     grid-template-columns: 100vw;
@@ -214,7 +217,7 @@ grid-template-rows: auto auto auto auto;
 row-gap: 3ch;
 padding-top: 5vh;
 padding-bottom: 5vh;
-background-color:${(props) => props.Backgroundcolor};
+background-color: ${props => props.theme.backgroundTwo};
 
 @media (max-width: 450px){
     grid-template-columns: 100vw;
@@ -232,7 +235,7 @@ grid-template-rows: auto auto;
 row-gap: 3ch;
 padding-top: 5vh;
 padding-bottom: 5vh;
-background-color:${(props) => props.Backgroundcolor};
+background-color:${props => props.theme.backgroundTwo};
 
 @media (max-width: 450px){
     grid-template-columns: 100vw;
@@ -256,7 +259,7 @@ padding: 0;
 margin: 0;
 padding-left: 7.5vw;
 line-height: 0;
-color: #626262;
+color: ${(props) => props.theme.fontColor};
 font-family: 'Space Grotesk', sans-serif;
 @media(max-width: 450px){
     grid-column-start: 1;
@@ -274,7 +277,7 @@ padding: 0;
 margin: 0;
 padding-left: 7.5vw;
 line-height: 0;
-color: #626262;
+color: ${(props) => props.theme.fontColor};
 font-family: 'Space Grotesk', sans-serif;
 
 @media(max-width: 450px){
@@ -294,7 +297,7 @@ padding: 0;
 margin: 0;
 padding-left: 7.5vw;
 line-height: 0;
-color: #626262;
+color: ${(props) => props.theme.fontColor};
 font-family: 'Space Grotesk', sans-serif;
 
 @media(max-width: 450px){
@@ -354,7 +357,7 @@ export default function Composition() {
 
 
 {/*Art Book + Text */}
-                <NewSection Backgroundheight="85vh">
+                <NewSection Backgroundcolor='white' Backgroundheight="85vh">
                     
 <HouseOne src={artbook} />
                     <ParagraphFour>

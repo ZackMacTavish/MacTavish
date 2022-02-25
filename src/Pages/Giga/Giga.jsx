@@ -1,6 +1,6 @@
 import React, {useLayoutEffect} from 'react'
 import styled from 'styled-components';
-import gigarocket from '../../img/Giga—Macbook—Rocket.jpg';
+import gigarocket from '../../img/Giga—Macbookv2.png';
 import iphones from '../../img/iphones—Mockup.png';
 import mocks from '../../img/Giga—mockup.jpg';
 import { FullBg } from '../COMPOSITION/Composition';
@@ -23,6 +23,7 @@ export const GigaGridone = styled.div`
 display: grid;
 grid-template-columns: ${(props) => props.ColumnsSet};
 grid-template-rows: ${(props) => props.RowsSet};
+background-color: ${props => props.theme.backgroundTwo};
 height: 100vh;
 width: 100vw;
 ` 
@@ -43,7 +44,7 @@ grid-column-start: 3;
 align-self: flex-end;
 font-size: 4.5rem;
 font-family: 'Space Grotesk', sans-serif;
-color: #5D5D5D;
+color: ${(props) => props.theme.fontColor};
 
 &:after {
     content:"";
@@ -51,7 +52,7 @@ color: #5D5D5D;
     width: clamp(20px, 17vw, 500px);
   height: 10px;
   margin-top: 10px;
-  background: #5D5D5D;
+  background: ${(props) => props.theme.fontColor};
   }
 `
 
@@ -60,7 +61,7 @@ grid-row-start: ${(props) => props.RowsSet};
 grid-column-start: 3;
 align-self: flex-start;
 font-family: 'Space Grotesk', sans-serif;
-color: #5D5D5D;
+color: ${(props) => props.theme.fontColor};
 text-decoration: none;
 
 &:hover{
@@ -94,7 +95,7 @@ width: 80vw;
 font-family: 'Space Grotesk', sans-serif;
 justify-self: center;
 align-self: center;
-color: #464646;
+color: ${(props) => props.theme.fontColor};
 
 @media (max-width: 450px){
     grid-column-start: 1;
@@ -117,6 +118,10 @@ grid-row-end: 9;
 z-index: -5;
 `
 
+export const StyledDiv = styled.div`
+background-color: ${props => props.theme.backgroundTwo};
+`
+
 
 export default function Giga() {
 
@@ -125,7 +130,7 @@ export default function Giga() {
     });
 
     return (
-        <div>
+        <StyledDiv>
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
            <GigaRocket ColumnStart="2" RowStart="2" src={gigarocket} />
            
@@ -196,7 +201,7 @@ Front-End Development — Xing Yi & Joel Fernando  <br />
 Back-End Development — Rich Devlin</TextSection>
             <TextLineone RowsSet="7" />
             </GigaGridone>
-        </div>
+        </StyledDiv>
 
 
 

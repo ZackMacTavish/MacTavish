@@ -2,9 +2,9 @@ import React, {useLayoutEffect} from 'react'
 import { RisoFlex, RisoItem } from '../Graffiti/Graffiti';
 
 import lighthouse from '../../img/Lighthouse.jpeg';
-import cacti1 from '../../img/E-nobtm.jpg';
-import splash from '../../img/splashpanel.jpg';
-import yellowz from '../../img/Yellow-Z.jpg';
+import cacti1 from '../../img/E-png.png';
+import splash from '../../img/splashpanel.png';
+import yellowz from '../../img/Yellow-Z.png';
 import { TextSection } from '../Dwelling/Dwelling';
 import { ArtDesc, ArtHeader, ArtSectionthreeog, ArtText, ArtTextthree, ArtTexttwo, ArtYear, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition';
 

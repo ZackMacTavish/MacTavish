@@ -90,7 +90,7 @@ evoke memories, nostalgia, and past experiences.
 
             {/* Section with 3 photos */}
 
-            <ArtSectionthreeog>
+            <ArtSectionthreeog Backgroundcolor='white'>
 
 
 <Orbital src={housepainting} />
@@ -153,7 +153,7 @@ evoke memories, nostalgia, and past experiences.
 
     {/* Section with 3 photos */}
 
-             <ArtSectionthreeog>
+             <ArtSectionthreeog Backgroundcolor='white'>
 
 
 <Orbital src={house4} />
@@ -209,7 +209,7 @@ evoke memories, nostalgia, and past experiences.
 
  {/* Section with 3 photos */}
 
- <ArtSectionThreetwo>
+ <ArtSectionThreetwo Backgroundcolor='white'>
 
 
 <Orbital src={house3} />

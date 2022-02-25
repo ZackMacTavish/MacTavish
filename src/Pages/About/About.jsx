@@ -1,5 +1,5 @@
 import React, { useLayoutEffect } from 'react'
-import { NewSection, ParagraphTwo } from '../Art Landing/Art'
+import { NewSectionTheme, ParagraphTwo } from '../Art Landing/Art'
 import me from '../About/Me.jpeg';
 import { TextLineone, TextSection } from '../Giga/Giga';
 import styled from 'styled-components';
@@ -16,13 +16,12 @@ grid-template-columns: 4vw 60vw 32vw 4vw;
 grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 height: 100vh;
 width: 100vw;
-background-color: #89aea9;
+background-color: ${(props) => props.theme.backgroundColor};
 
 @media (max-width: 450px) {
   height: 75vh;
 }
 `
-
 const AboutPicture = styled.img`
 width: 40vw;
 padding-left: 2vw;
@@ -36,7 +35,7 @@ padding-left: 2vw;
   return (
     <div> 
         
-        <NewSection Backgroundheight="100vh" Backgroundcolor='#89aea9'>
+        <NewSectionTheme Backgroundheight="100vh">
     <AboutPicture src={me} />
 
 
@@ -48,7 +47,7 @@ padding-left: 2vw;
     </ParagraphTwo>
 
   
-  </NewSection>
+  </NewSectionTheme>
   
  <AboutGrid>
             <TextLineone RowsSet="1" />

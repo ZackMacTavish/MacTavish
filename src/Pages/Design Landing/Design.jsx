@@ -1,8 +1,8 @@
 import React from 'react'
-import ostrich from '../../img/Books.jpg';
-import ostrichcollage from '../../img/OstrichPlumesPhoto.jpg';
+import ostrich from '../../img/Books.png';
+import ostrichcollage from '../../img/OstrichPlumes—Collage.png';
 import {Link} from 'react-router-dom';
-import { ArtDiv, ArtHeader, HouseOne, ListStyling, NewSection, ParagraphThree, ParagraphTwo, WorkCategories } from '../Art Landing/Art';
+import { ArtDiv, ArtHeader, HouseOne, ListStyling, NewSectionTheme, ParagraphThree, ParagraphTwo, WorkCategories } from '../Art Landing/Art';
 import { RisoItem } from '../Graffiti/Graffiti';
 
 
@@ -20,14 +20,14 @@ class Design extends React.Component {
       <div>
       <ArtDiv>
 
-<NewSection Backgroundheight="100vh" Backgroundcolor='#89aea9'>
+<NewSectionTheme Backgroundheight="100vh">
     <ArtHeader>Graphic Design,  <br />UI, Front-End.</ArtHeader>
     <RisoItem Width='50vw' img src={ostrichcollage} style={{paddingLeft:'10vw'}}/>
-    </NewSection>
+    </NewSectionTheme>
 
                 
     
-                <NewSection Backgroundheight="85vh" Backgroundcolor='#89aea9'>
+                <NewSectionTheme Backgroundheight="85vh">
                   <HouseOne  src={ostrich} />
 
 
@@ -38,9 +38,9 @@ class Design extends React.Component {
                   </ParagraphTwo>
     
                 
-                </NewSection>
+                </NewSectionTheme>
 
-                <NewSection Backgroundheight="85vh" Backgroundcolor='#89aea9'>
+                <NewSectionTheme Backgroundheight="85vh">
                   <ParagraphThree>
                   Working in Design for 
 over 6 years has led me
@@ -83,7 +83,7 @@ of my favorites.
 
                   </WorkCategories>
 
-                </NewSection>
+                </NewSectionTheme>
 
                 
     

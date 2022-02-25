@@ -28,7 +28,7 @@ import oliviafloral from '../../img/OliviaFloralMockup.jpg';
 import goodbyehello from '../../img/GP2.jpg';
 import artbook from '../../img/ThisIsIt.jpg';
 
-import {GigaGridone, GigaRocket, GigaHeader, TextLineone, TextSection, RisoItemtwo, BackgroundColor} from '../Giga/Giga';
+import {GigaGridone, GigaRocket, GigaHeader, TextLineone, TextSection, RisoItemtwo, StyledDiv} from '../Giga/Giga';
 import { HouseOne, NewSection } from '../Art Landing/Art';
 
 export default function GraphicDesign() {
@@ -38,7 +38,7 @@ export default function GraphicDesign() {
     });
 
     return (
-        <div>
+        <StyledDiv>
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
            <GigaRocket style={{width: '40vw'}} ColumnStart="2" RowStart="2" src={gigarocket} />
            
@@ -163,15 +163,7 @@ export default function GraphicDesign() {
             </RisoFlex>
 
 
-
-
-
-
-
-
-            
-
-        </div>
+        </StyledDiv>
 
 
 

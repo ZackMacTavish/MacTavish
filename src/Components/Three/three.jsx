@@ -55,7 +55,7 @@ justify-content: center;
 align-items: center;
 width: 90w;
 height: 90vh;
-background-color: #89aea9;
+background-color: ${(props) => props.theme.backgroundColor};
 `
 
 const ThreeStyles = styled.div`

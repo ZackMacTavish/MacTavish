@@ -1,7 +1,7 @@
 import React, { useLayoutEffect } from 'react'
-import { BackgroundColor, GigaGridone, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, TextLineone, TextSection } from '../Giga/Giga';
+import { BackgroundColor, GigaGridone, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, StyledDiv, TextLineone, TextSection } from '../Giga/Giga';
 
-import ThreePillarsMac from '../../img/ThreePillars—Macbook.jpg';
+import ThreePillarsMac from '../../img/ThreePillars—Macbook.png';
 import ThreePillarsIphone from '../../img/ThreePillars—iphones.jpg';
 import ThreePillarsPages from '../../img/ThreePillars—pages.jpg';
 import recruitingpage from '../../img/Artboard – 11@2x.png';
@@ -34,7 +34,7 @@ export default function Ux() {
 
 
     return (
-        <div>
+        <StyledDiv>
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 3vh 3vh 3vh 1fr 1fr'>
            <GigaRocket ColumnStart="2" RowStart="2" src={ThreePillarsMac} />
            
@@ -167,6 +167,6 @@ Development — TBD</TextSection>
             </GigaGridone>
 
 
-        </div>
+        </StyledDiv>
     )
 }

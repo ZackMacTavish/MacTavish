@@ -5,7 +5,7 @@ import mocks from '../../img/Outsource—pages.jpg';
 import { FullBg } from '../COMPOSITION/Composition';
 import { RisoFlex, RisoItem } from '../Graffiti/Graffiti';
 import admac from '../../img/Outsource_Imac_2.jpg';
-import imac from '../../img/Outsource—Macbook.jpg';
+import imac from '../../img/Outsource—Macbook.png';
 import ipadtwo from '../../img/Outsource-ipad.jpg';
 import dark from '../../img/Outsource—iPhone_2—Darksq.jpg';
 import light from '../../img/OutsourceLightPhone2.jpg';
@@ -28,7 +28,7 @@ import flowmap from '../../img/BOFlowMap—Long-01-01.jpg';
 import guidelines from '../../img/BrandGuidelines—Mockup.jpg';
 import twentyfive from '../../img/Outsource25-07.png';
 import branding from '../../img/Branding_LogoPatterns-01.png';
-import { BackgroundColor, GigaGridone, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, TextLineone, TextSection } from '../Giga/Giga';
+import { BackgroundColor, GigaGridone, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, StyledDiv, TextLineone, TextSection } from '../Giga/Giga';
 
  
 
@@ -39,7 +39,7 @@ export default function Outsource() {
     });
 
     return (
-        <div>
+        <StyledDiv>
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 3vh 3vh 3vh 1fr 1fr'>
            <GigaRocket ColumnStart="2" RowStart="2" src={imac} />
            
@@ -166,7 +166,7 @@ Development — Vinny Nuthakki & Samuel Karkash <br />
 Marketing — Kaela Fanning & Zoe Hutzler</TextSection>
             <TextLineone RowsSet="7" />
             </GigaGridone>
-        </div>
+        </StyledDiv>
 
 
 

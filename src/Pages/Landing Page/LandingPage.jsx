@@ -10,7 +10,7 @@ justify-content: center;
 align-items: center;
 width: 100vw;
 height: 100vh;
-background-color: #89aea9;
+background-color: ${(props) => props.theme.backgroundColor};
 `
 const Landingimport = styled.img`
 width: clamp(500px, 75vw, 2100px);

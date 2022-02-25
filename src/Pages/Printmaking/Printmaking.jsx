@@ -5,7 +5,7 @@ import olivia2 from '../../img/oliviacollab2.jpg';
 import { RisoFlex, RisoItem } from '../Graffiti/Graffiti';
 import { TextSection } from '../Dwelling/Dwelling';
 import screenprint2 from '../../img/Screenprint2.jpg';
-import { ArtDesc, ArtHeader, ArtSectionthree, ArtSectionthreeog, ArtSectionThreetwo, ArtSectiontwins, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital, TwinTwo } from '../COMPOSITION/Composition';
+import { ArtDesc, ArtHeader, ArtSectionthreeog, ArtSectionThreetwo, ArtSectiontwins, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital, TwinTwo } from '../COMPOSITION/Composition';
 import screenprinttwo from '../../img/screenprint2.1.jpg';
 import screenprint1 from '../../img/Screenprint1.jpg'
 import oliviacollab1 from '../../img/Collab-framed.jpg';
@@ -45,7 +45,7 @@ margin-top: -1vh;
 height: 101vh;
 align-items: center;
 justify-content: center;
-gap: 5vw;
+gap: 20px;
 justify-self: center;
 background-color:${(props) => props.Backgroundcolor};
 
@@ -61,6 +61,7 @@ margin: 0;
 export const ThreeItemtwo = styled.img`
 width: ${(props) => props.Width};
 @media (max-width: 450px) {
+    padding-top: 2vh;
   width: 80vw;
 }
 `
@@ -125,7 +126,7 @@ Zita Smith. <br /> <br />
                 </ArtSectionthreeog>
 
 
-            <ThreeFlextwo >
+            <ThreeFlextwo Backgroundcolor='white' >
              <ThreeItemtwo Width='30vw' src={oliviacollab1} />
             <ThreeItemtwo Width='30vw' src={oliviacollab2} />
             </ThreeFlextwo>
@@ -170,8 +171,8 @@ Zita Smith. <br /> <br />
 
                 </ArtSectionthreeog>
 
-                <RisoFlex>
-            <RisoItem  Width='60vw' img src={woodblock1} />
+                <RisoFlex style={{paddingBottom: '2vw'}}>
+            <RisoItem   Width='60vw' img src={woodblock1} />
            
             </RisoFlex>
 

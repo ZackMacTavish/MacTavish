@@ -16,7 +16,7 @@ import photostwo from '../../img/ADphotos2.jpg';
 import photosthree from '../../img/ADphotos3.jpg';
 import guides from '../../img/Guides2.jpg';
 import create from '../../img/Group 274.jpg';
-import { BackgroundColor, GigaGridone, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, TextLineone, TextSection } from '../Giga/Giga';
+import { BackgroundColor, GigaGridone, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, StyledDiv, TextLineone, TextSection } from '../Giga/Giga';
 
 export default function AccessDirect() {
 
@@ -25,7 +25,7 @@ export default function AccessDirect() {
     });
 
     return (
-        <div>
+        <StyledDiv>
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
            <GigaRocket ColumnStart="2" RowStart="2" src={imac} />
            
@@ -84,7 +84,7 @@ export default function AccessDirect() {
         <FullBg src={photos} />
        
 
-        <FullBg src={guides} />
+        <FullBg BackgroundColor='white' src={guides} />
 
 
             
@@ -96,7 +96,7 @@ Website Development — Zachary MacTavish  <br />
 Content Direction — Wendy Majewski, Alek Vasic</TextSection>
             <TextLineone RowsSet="7" />
             </GigaGridone>
-        </div>
+        </StyledDiv>
 
 
 

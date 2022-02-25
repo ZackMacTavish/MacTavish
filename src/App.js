@@ -1,4 +1,6 @@
-import React from "react";
+import React, {useState} from "react";
+import { ThemeProvider } from "styled-components";
+import {lightTheme, darkTheme, GlobalStyles} from './Components/Themes/Themes';
 import {
   BrowserRouter as Router,
   Switch,
@@ -25,13 +27,28 @@ import Painting from "./Pages/Painting/Painting";
 import Photography from "./Pages/Photography/Photography";
 import Printmaking from "./Pages/Printmaking/Printmaking";
 import Ux from "./Pages/UX/UX";
+import sun from './img/Sun-DRKGREEN-01.svg';
 
 function App() {
+
+  const [theme, setTheme] = useState("dark");
+ 
+  const themeToggler = () => {
+    theme === 'light' ? setTheme('dark') : setTheme("light");
+  }
+
   return (
+
+    <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+      <GlobalStyles />
     <div className="App">
      
     
       <Router>
+      <img src={sun} onClick={() => themeToggler()}  style={{zIndex: '100',width: '2.5vw', position:'fixed', right:'2vw', bottom: '2vw' }} /> 
+     
+     
+      
         <Customcursor />
         <Nav />
         <Switch>
@@ -76,6 +93,7 @@ function App() {
       </Router>
 
     </div>
+    </ThemeProvider>
   );
 }
 

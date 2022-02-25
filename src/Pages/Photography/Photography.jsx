@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import polaroid1 from '../../img/polaroid1.jpg';
 import polaroid2 from '../../img/polaroid2.jpg';
 import polaroid3 from '../../img/polaroid3.jpg';
-import { ArtDesc, ArtHeader, ArtSectionthree, ArtSectionthreeog, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition';
+import { ArtDesc, ArtHeader, ArtSectionthreeog, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition';
 import Hawaii1 from '../../img/Greenhut.jpg';
 import eighteen from '../../img/1821.jpg';
 import birdy from '../../img/BirdyBrooklyn.jpg';
