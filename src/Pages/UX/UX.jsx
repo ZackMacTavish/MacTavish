@@ -1,5 +1,5 @@
 import React, { useLayoutEffect } from 'react'
-import { BackgroundColor, GigaGridone, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, StyledDiv, TextLineone, TextSection } from '../Giga/Giga';
+import { BackgroundColor, Cellphones, GigaGridone, GigaGridtext, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, StyledDiv, TextLineone, TextLinetwo, TextSection } from '../Giga/Giga';
 
 import ThreePillarsMac from '../../img/ThreePillars—Macbook.png';
 import ThreePillarsIphone from '../../img/ThreePillars—iphones.jpg';
@@ -24,6 +24,7 @@ import dark from '../../img/iPhone_2—Dark.png';
 import pitonlogos from '../../img/Group 55620@2x.png';
 import { FullBg } from '../COMPOSITION/Composition';
 import { RisoFlex, RisoItem } from '../Graffiti/Graffiti';
+import { OutsourceGridone } from '../Outsource/Outsource';
 
 export default function Ux() {
 
@@ -35,7 +36,7 @@ export default function Ux() {
 
     return (
         <StyledDiv>
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 3vh 3vh 3vh 1fr 1fr'>
+            <OutsourceGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 3vh 3vh 3vh 1fr 1fr'>
            <GigaRocket ColumnStart="2" RowStart="2" src={ThreePillarsMac} />
            
            <GigaHeader>UX/UI</GigaHeader>
@@ -52,16 +53,16 @@ export default function Ux() {
                     <GigaWeb RowsSet={7}href="https://carcorporationofamerica.com/" target="_blank" rel="noreferrer noopener">
                     <GigaTwo>carcorporationofamerica.com</GigaTwo>
                  </GigaWeb>
-            </GigaGridone>
+            </OutsourceGridone>
 
 
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem'>Three Pillars is a recruiting agency that was looking for a refresh on their brand identity, and website. 
                 My responsibility involved working with the Varfaj Partners team to provide them with initial designs for their developer to build</TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            <TextLinetwo />
+            </GigaGridtext>
 
             <FullBg src={ThreePillarsIphone} />
             <FullBg src={ThreePillarsPages} />
@@ -73,25 +74,25 @@ export default function Ux() {
             <FullBg src={ThreePillarsImac} />
             <FullBg src={ThreePillarsMockup} />
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem' style={{textAlign:'center'}}>Founders — Three Pillars Team<br />
             Designers — Zachary MacTavish & Varfaj Team<br />
-Development — Varfaj Team</TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            Development — Varfaj Team</TextSection>
+            <TextLinetwo/>
+            </GigaGridtext>
 
             <FullBg src={leysiphones} />
 
 
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
                 <TextLineone RowsSet="1" />
                     <TextSection Fontsize='3.5rem' >Leysi is the ultimate food platform designed for young adults. 
                         Manage your spending and engage with friends while discovering deals at local vendors in your campus community.
                         My responsibility included creating the brand identity, and the initial app designs.</TextSection>
-                <TextLineone RowsSet="7" />
-            </GigaGridone>
+                <TextLinetwo />
+            </GigaGridtext>
 
            
             <RisoFlex style={{height: '80vh'}}>
@@ -117,26 +118,26 @@ Development — Varfaj Team</TextSection>
             </RisoFlex>
 
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem' style={{textAlign:'center'}}>Founders — Leysi Team<br />
             Designers — Zachary MacTavish & Varfaj Team<br />
 Development — Varfaj Team</TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            <TextLinetwo />
+            </GigaGridtext>
 
             <RisoFlex style={{height: '100vh'}}>
                 <RisoItem src={pitonlogo} Width='50vw'  />
             </RisoFlex>
 
             
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
                 <TextLineone RowsSet="1" />
                     <TextSection Fontsize='3.5rem' >Piton is a startup focused on athleisure clothing with an accompanying workout app. 
 The brand is focused on social change, and environmentalism. 
 The leading innovation of the app is on the bleeding edge of voice enabled AI. </TextSection>
-                <TextLineone RowsSet="7" />
-            </GigaGridone>
+                <TextLinetwo />
+            </GigaGridtext>
 
             <FullBg src={pitoniphones} />
 
@@ -151,20 +152,20 @@ The leading innovation of the app is on the bleeding edge of voice enabled AI. <
 
             <FullBg src={allpiton} />
 
-            <div style={{display: 'flex', height: '100vh', width: '100vw', marginTop: '-2vh'}}>
+            <Cellphones>
                 <RisoItem src={dark} />
                 <RisoItem src={light} />
-            </div>
+                </Cellphones>
 
             <FullBg src={pitonlogos} />
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem' style={{textAlign:'center'}}>Founders — Jemir Martinez<br />
             Designers — Zachary MacTavish<br />
 Development — TBD</TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            <TextLinetwo />
+            </GigaGridtext>
 
 
         </StyledDiv>

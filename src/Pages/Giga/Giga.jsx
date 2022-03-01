@@ -129,8 +129,8 @@ export const TextLineone = styled.div`
 export const TextLinetwo = styled.div`
  width: clamp(250px, 80vw, 2300px);
  grid-row-start: ${(props) => props.RowsSet};
- grid-column-start: 6;
- grid-column-end: 7;
+ grid-column-start: 2;
+ grid-column-end: 4;
  align-self: center;
  justify-self: center;
   height: 10px;
