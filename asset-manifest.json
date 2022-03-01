@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MacTavish/static/css/main.a37db671.chunk.css",
+    "main.css": "/MacTavish/static/css/main.404e5b49.chunk.css",
     "main.js": "/MacTavish/static/js/main.f84e4425.chunk.js",
     "main.js.map": "/MacTavish/static/js/main.f84e4425.chunk.js.map",
     "runtime-main.js": "/MacTavish/static/js/runtime-main.f6b9e2c9.js",
@@ -10,7 +10,7 @@
     "static/js/3.e7b1ac75.chunk.js": "/MacTavish/static/js/3.e7b1ac75.chunk.js",
     "static/js/3.e7b1ac75.chunk.js.map": "/MacTavish/static/js/3.e7b1ac75.chunk.js.map",
     "index.html": "/MacTavish/index.html",
-    "static/css/main.a37db671.chunk.css.map": "/MacTavish/static/css/main.a37db671.chunk.css.map",
+    "static/css/main.404e5b49.chunk.css.map": "/MacTavish/static/css/main.404e5b49.chunk.css.map",
     "static/js/2.32fa30e7.chunk.js.LICENSE.txt": "/MacTavish/static/js/2.32fa30e7.chunk.js.LICENSE.txt",
     "static/media/1.2.57fc2111.jpg": "/MacTavish/static/media/1.2.57fc2111.jpg",
     "static/media/1.3ce24807.png": "/MacTavish/static/media/1.3ce24807.png",
@@ -335,7 +335,7 @@
   "entrypoints": [
     "static/js/runtime-main.f6b9e2c9.js",
     "static/js/2.32fa30e7.chunk.js",
-    "static/css/main.a37db671.chunk.css",
+    "static/css/main.404e5b49.chunk.css",
     "static/js/main.f84e4425.chunk.js"
   ]
 }
