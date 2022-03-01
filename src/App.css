@@ -1,3 +1,5 @@
+
+
 .App {
 padding: 0;
 margin: 0;
@@ -14,4 +16,29 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
 
 
- 
+
+::-webkit-scrollbar {
+      background: black;
+      width: auto;
+    }
+    
+    ::-webkit-scrollbar-track {
+      border-radius: 100vw;
+      margin-top: .2em;
+      margin-bottom: .2em;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(68, 68, 68) 100%);
+      border: .1em solid rgba(68, 68, 68, 0.322);
+    border-radius: 100vw;
+    }
+    
+    @supports (scrollbar-color: red blue){
+    * {
+      scrollbar-color: 	hsl(241, 100%, 36%) white;
+      scrollbar-width: thin;
+    }
+    
+    }
+    
