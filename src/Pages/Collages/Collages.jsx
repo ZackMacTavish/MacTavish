@@ -5,14 +5,14 @@ import { TextSection } from '../Dwelling/Dwelling';
 import { ArtDesc, ArtHeader, ArtSectionthreeog, ArtText, ArtTextthree, ArtTexttwo, ArtYear, FullBg, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition';
 
 import collage50 from '../../img/collage50.jpg';
-import collage47 from '../../img/collage47.jpg';
+import collage47 from '../../img/collage47.png';
 import collage32 from '../../img/collage32.jpg';
 import collage1 from '../../img/Collage1.2.jpg';
-import collage2 from '../../img/Collage2.2.jpg';
-import collage3 from '../../img/Collage3.jpg';
-import collage4 from '../../img/Collage4.jpg';
-import collagefour from '../../img/No4.jpg';
-import collage45 from '../../img/collage45.jpg';
+import collage2 from '../../img/Collage2.2.png';
+import collage3 from '../../img/Collage3.png';
+import collage4 from '../../img/Collage4.png';
+import collagefour from '../../img/No4.png';
+import collage45 from '../../img/collage45.png';
 import collage41 from '../../img/collage41.jpg';
 import collage42 from '../../img/collage42.jpg';
 import collage43 from '../../img/collage43.jpg';
@@ -125,7 +125,7 @@ export default function Collages() {
 
 <ArtHeader>No. 2</ArtHeader>
 <ArtYear>2021</ArtYear>
-<ArtDesc>Vintage comic book clippings pasted on paper.</ArtDesc>
+<ArtDesc>Vintage newspaper arranged and pasted on paper.</ArtDesc>
 
 </ArtTexttwo>
 
@@ -134,7 +134,7 @@ export default function Collages() {
 
 <ArtHeader>No. 3</ArtHeader>
 <ArtYear>2021</ArtYear>
-<ArtDesc>Vintage magazine clippings pasted on paper.</ArtDesc>
+<ArtDesc>Acrylic, and marker on paper.</ArtDesc>
 
 </ArtTextthree>
 
@@ -173,7 +173,7 @@ export default function Collages() {
 
 <ArtHeader>No. 4.2</ArtHeader>
 <ArtYear>2021</ArtYear>
-<ArtDesc>Vintage comic book clippings pasted on paper.</ArtDesc>
+<ArtDesc>Vintage paper, acrylic, and marker on paper.</ArtDesc>
 
 </ArtTexttwo>
 

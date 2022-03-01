@@ -29,6 +29,7 @@ import Printmaking from "./Pages/Printmaking/Printmaking";
 import Ux from "./Pages/UX/UX";
 import sun from './img/Sun-DRKGREEN-01.svg';
 
+
 function App() {
 
   const [theme, setTheme] = useState("dark");
@@ -45,7 +46,7 @@ function App() {
      
     
       <Router>
-      <img src={sun} onClick={() => themeToggler()}  style={{zIndex: '100',width: '2.5vw', position:'fixed', right:'2vw', bottom: '2vw' }} /> 
+      <img type='image' src={sun} onClick={() => themeToggler()}  style={{zIndex: '100',width: 'clamp(45px, 2.5vw, 100px)', position:'fixed', right:'2vw', bottom: '2vw' }} /> 
      
      
       
