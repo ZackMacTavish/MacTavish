@@ -173,8 +173,8 @@ font-size: 2.5rem;
 ;}
 
 @media (max-width: 500px) {
-width: 80vw;
-font-size: 1.8rem;
+width: 90vw;
+font-size: 1.6rem;
 ;}
 `
 

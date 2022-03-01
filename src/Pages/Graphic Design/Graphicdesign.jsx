@@ -28,7 +28,7 @@ import oliviafloral from '../../img/OliviaFloralMockup.jpg';
 import goodbyehello from '../../img/GP2.jpg';
 import artbook from '../../img/ThisIsIt.jpg';
 
-import {GigaGridone, GigaRocket, GigaHeader, TextLineone, TextSection, RisoItemtwo, StyledDiv} from '../Giga/Giga';
+import {GigaGridone, GigaRocket, GigaHeader, TextLineone, TextSection, RisoItemtwo, StyledDiv, GigaGridtext, TextLinetwo} from '../Giga/Giga';
 import { HouseOne, NewSection } from '../Art Landing/Art';
 
 export default function GraphicDesign() {
@@ -45,11 +45,11 @@ export default function GraphicDesign() {
            <GigaHeader>Graphic Design</GigaHeader>
             </GigaGridone>
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem'>Stay Golden was a passion project to represent a series of songs created with a friend Alek Vasic. It won a silver & bronze for digital art, and packaging design from Indigo design awards. </TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            <TextLinetwo />
+            </GigaGridtext>
 
             <FullBg src={iphones} />
             <FullBg src={mocks} />
@@ -57,11 +57,11 @@ export default function GraphicDesign() {
             <FullBg src={backcovertwo} />
             <FullBg src={backcoverthree} />
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem'>Graphic Posters meet at the intersection of my art and design practice. This includes passion projects, and a poster for the 2017 VCD Design show in Chicago, IL.</TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            <TextLinetwo />
+            </GigaGridtext>
 
             <FullBg src={graphicposters} />
             <FullBg src={oliviafloral} />
@@ -78,11 +78,11 @@ export default function GraphicDesign() {
                                         </NewSection>
 
 
-                                        <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+                                        <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem'>Working alongside the Walmart team at Publicis, we created a variety of designs to present to Marketing. The lines I worked on were the Christmas, Halloween, and Back To School campaigns.</TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            <TextLinetwo />
+            </GigaGridtext>
 
 
             <RisoFlex>
@@ -108,12 +108,12 @@ export default function GraphicDesign() {
 
             <FullBg src={btc} />
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem'>Brooklyn Book Festival is a rebranding of a popular festival that occurs in Brooklyn, NY. 
                 I designed totes, bookmarks, brochures, and posters for the event. </TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            <TextLinetwo />
+            </GigaGridtext>
 
 
             <RisoFlex>

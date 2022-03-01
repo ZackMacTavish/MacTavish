@@ -36,7 +36,7 @@ body {
     
     @supports (scrollbar-color: red blue){
     * {
-      scrollbar-color: 	hsl(241, 100%, 36%) white;
+      scrollbar-color: 	hsl(0, 0%, 0%) rgb(68,68,68);
       scrollbar-width: thin;
     }
     

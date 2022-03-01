@@ -26,6 +26,24 @@ grid-template-rows: ${(props) => props.RowsSet};
 background-color: ${props => props.theme.backgroundTwo};
 height: 100vh;
 width: 100vw;
+
+@media (max-width: 500px) {
+    grid-template-columns: 100vw;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+` 
+export const GigaGridtext = styled.div`
+display: grid;
+grid-template-columns: ${(props) => props.ColumnsSet};
+grid-template-rows: ${(props) => props.RowsSet};
+background-color: ${props => props.theme.backgroundTwo};
+height: 100vh;
+width: 100vw;
+
+@media (max-width: 500px) {
+    grid-template-columns: 100vw;
+    grid-template-rows: 5vw 1fr 5vw;
+}
 ` 
 export const GigaRocket = styled.img`
 width: 60vw;
@@ -36,6 +54,13 @@ align-self: center;
 justify-self: center;
 grid-column-start: ${(props) => props.ColumnStart};
 grid-column-end: ${(props) => props.ColumnEnd};
+@media (max-width: 450px) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+      grid-column-start: 1;
+      width: 95vw;
+
+  }
 `
 
 export const GigaHeader = styled.h2`
@@ -54,7 +79,14 @@ color: ${(props) => props.theme.fontColor};
   margin-top: 10px;
   background: ${(props) => props.theme.fontColor};
   }
+  @media (max-width: 450px) {
+      grid-column-start: 1;
+      padding-left: 2vw;
+      grid-row-start: 3;
+      font-size: 3rem;
+  }
 `
+
 
 export const GigaWeb = styled.a`
 grid-row-start: ${(props) => props.RowsSet};
@@ -67,6 +99,10 @@ text-decoration: none;
 &:hover{
     opacity: 75%;
 }
+@media (max-width: 450px) {
+      grid-column-start: 1;
+      padding-left: 2vw;
+  }
 `
 
 export const GigaTwo =styled.h2`
@@ -83,6 +119,28 @@ export const TextLineone = styled.div`
  justify-self: center;
   height: 10px;
   background: #5D5D5D;
+  @media (max-width: 450px) {
+      grid-column-start: 1;
+     grid-column-end: 2;
+  }
+  
+`
+
+export const TextLinetwo = styled.div`
+ width: clamp(250px, 80vw, 2300px);
+ grid-row-start: ${(props) => props.RowsSet};
+ grid-column-start: 6;
+ grid-column-end: 7;
+ align-self: center;
+ justify-self: center;
+  height: 10px;
+  background: #5D5D5D;
+  @media (max-width: 450px) {
+      grid-column-start: 1;
+      grid-row-start: 3;
+     grid-row-end: 4;
+  }
+  
 `
 
 export const TextSection = styled.h3`
@@ -99,15 +157,21 @@ color: ${(props) => props.theme.fontColor};
 
 @media (max-width: 450px){
     grid-column-start: 1;
-    font-size: 1.3rem;
+    grid-row-end: 3;
+    font-size: 1.2rem;
     width: 94vw;
     padding-left: 4vw;
+    padding-right: 4vw;
+    height: auto;
 }
 `
 
 export const RisoItemtwo = styled.img`
 width: ${(props) => props.Width};
 box-shadow: 5px 10px 24px rgba(0, 0, 0, 0.3);
+@media(max-width: 450px) {
+    width: 96vw;
+}
 `
 
 export const BackgroundColor = styled.div`
@@ -120,6 +184,18 @@ z-index: -5;
 
 export const StyledDiv = styled.div`
 background-color: ${props => props.theme.backgroundTwo};
+`
+
+export const Cellphones = styled.div`
+display: flex;
+width: 100vw;
+height: 100vh;
+
+@media (max-width: 450px) {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
 `
 
 
@@ -141,11 +217,11 @@ export default function Giga() {
            </GigaWeb>
             </GigaGridone>
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem' >Giga is a digital services platform for bloggers, writers, and creatives. I am the lead designer for Giga, and I enjoy creating new flows, and thinking about how a user navigates the website.</TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            <TextLinetwo />
+            </GigaGridtext>
 
             <FullBg src={iphones} />
             <FullBg src={mocks} />
@@ -166,10 +242,10 @@ export default function Giga() {
                 <RisoItem src={ipadtwo} Width='65vw' />
             </RisoFlex>
 
-            <div style={{display: 'flex', height: '100vh', width: '100vw'}}>
+           <Cellphones>
                 <RisoItem src={dark} />
                 <RisoItem src={light} />
-            </div>
+            </Cellphones>
 
             <RisoFlex>
                 <RisoItem src={imactwo} Width='65vw' />
@@ -193,14 +269,14 @@ export default function Giga() {
 
 
             
-        <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+        <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem' style={{textAlign:'center'}}>Founder — Rich Devlin <br />
 Lead Designer — Zachary MacTavish <br />
 Front-End Development — Xing Yi & Joel Fernando  <br />
 Back-End Development — Rich Devlin</TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            <TextLinetwo />
+            </GigaGridtext>
         </StyledDiv>
 
 

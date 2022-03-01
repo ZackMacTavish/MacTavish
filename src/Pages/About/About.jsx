@@ -59,7 +59,7 @@ padding-left: 2vw;
             <AboutGrid>
             <TextLineone RowsSet="1" />
             
-            <TextSection Fontsize='3.5rem' style={{color: 'white'}}>Here are some of the things I would like to accomplish in 2022. Meet more art & design friends. Collaborate on some great projects. Write a weekly blog post on Medium. Prepare for my second solo art show. I'd like to build out a blog section on my website, and also build a music player section to display my musical collaborations with Alek Vasic.   </TextSection>
+            <TextSection Fontsize='3.5rem' style={{color: 'white'}}>Here are some of the things I would like to accomplish in 2022: <br/> Meet more art & design friends. Collaborate on some great projects. Write a weekly blog post on Medium. Prepare for my second solo art show. Build out a blog section on my website, and also build a music player section to display my musical collaborations with Alek Vasic.   </TextSection>
           
             </AboutGrid>
   

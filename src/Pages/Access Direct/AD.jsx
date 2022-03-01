@@ -16,7 +16,7 @@ import photostwo from '../../img/ADphotos2.jpg';
 import photosthree from '../../img/ADphotos3.jpg';
 import guides from '../../img/Guides2.jpg';
 import create from '../../img/Group 274.jpg';
-import { BackgroundColor, GigaGridone, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, StyledDiv, TextLineone, TextSection } from '../Giga/Giga';
+import { BackgroundColor, GigaGridone, GigaGridtext, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, StyledDiv, TextLineone, TextLinetwo, TextSection } from '../Giga/Giga';
 
 export default function AccessDirect() {
 
@@ -36,11 +36,11 @@ export default function AccessDirect() {
            </GigaWeb>
             </GigaGridone>
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem'>Access Direct is a company focused on  security solutions. My responsibility includes being the UI Designer, and Webmaster for Access Direct. I enjoyed redesigning their website, and building it using React.js.</TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            <TextLinetwo />
+            </GigaGridtext>
 
             <FullBg src={iphones} />
             <FullBg src={mocks} />
@@ -88,14 +88,14 @@ export default function AccessDirect() {
 
 
             
-        <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+        <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem' style={{textAlign:'center'}}>Founder — David Smith <br />
 Lead Designer — Zachary MacTavish <br />
 Website Development — Zachary MacTavish  <br />
 Content Direction — Wendy Majewski, Alek Vasic</TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            <TextLinetwo />
+            </GigaGridtext>
         </StyledDiv>
 
 

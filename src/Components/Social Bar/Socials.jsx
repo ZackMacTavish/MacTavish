@@ -18,6 +18,7 @@ align-items: center;
 @media (max-width: 450px) { 
     max-width: 320px;
     justify-content: space-between;
+    bottom: 10vh;
   }
 `
 const SocialImages = styled.img`

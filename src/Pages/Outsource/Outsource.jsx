@@ -28,10 +28,23 @@ import flowmap from '../../img/BOFlowMap—Long-01-01.jpg';
 import guidelines from '../../img/BrandGuidelines—Mockup.jpg';
 import twentyfive from '../../img/Outsource25-07.png';
 import branding from '../../img/Branding_LogoPatterns-01.png';
-import { BackgroundColor, GigaGridone, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, StyledDiv, TextLineone, TextSection } from '../Giga/Giga';
-
+import { BackgroundColor, GigaGridone, GigaGridtext, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, StyledDiv, TextLineone, TextLinetwo, TextSection } from '../Giga/Giga';
+import styled from 'styled-components';
  
 
+export const OutsourceGridone = styled.div`
+display: grid;
+grid-template-columns: ${(props) => props.ColumnsSet};
+grid-template-rows: ${(props) => props.RowsSet};
+background-color: ${props => props.theme.backgroundTwo};
+height: 100vh;
+width: 100vw;
+
+@media (max-width: 500px) {
+    grid-template-columns: 100vw;
+    grid-template-rows: 1fr 1fr 1fr 5vh 5vh 5vh 5vh 1fr;
+}
+`
 export default function Outsource() {
 
     useLayoutEffect(() => {
@@ -40,30 +53,30 @@ export default function Outsource() {
 
     return (
         <StyledDiv>
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 3vh 3vh 3vh 1fr 1fr'>
+            <OutsourceGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 3vh 3vh 3vh 1fr'>
            <GigaRocket ColumnStart="2" RowStart="2" src={imac} />
            
            <GigaHeader>Outsource</GigaHeader>
           
-           <GigaWeb RowsSet={4} href="https://www.outsourceconsultants.com/home" target="_blank" rel="noreferrer noopener">
+           <GigaWeb RowsSet={5} href="https://www.outsourceconsultants.com/home" target="_blank" rel="noreferrer noopener">
            <GigaTwo>outsourceconsultants.com</GigaTwo>
            </GigaWeb>
-           <GigaWeb RowsSet={5}href="https://www.decoderny.com/" target="_blank" rel="noreferrer noopener">
+           <GigaWeb RowsSet={6}href="https://www.decoderny.com/" target="_blank" rel="noreferrer noopener">
            <GigaTwo>decoderny.com</GigaTwo>
            </GigaWeb>
-           <GigaWeb RowsSet={6}href="https://www.buildingowl.com/" target="_blank" rel="noreferrer noopener">
+           <GigaWeb RowsSet={7}href="https://www.buildingowl.com/" target="_blank" rel="noreferrer noopener">
            <GigaTwo>buildingowl.com</GigaTwo>
            </GigaWeb>
-           <GigaWeb RowsSet={7}href="https://www.osinyc.com/" target="_blank" rel="noreferrer noopener">
+           <GigaWeb RowsSet={8}href="https://www.osinyc.com/" target="_blank" rel="noreferrer noopener">
            <GigaTwo>osinyc.com</GigaTwo>
            </GigaWeb>
-            </GigaGridone>
+            </OutsourceGridone>
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem'>Outsource is a company focused on  expediting. My responsibility included being the Multimedia Designer on a variety of projects. I enjoyed redesigning their website, internal tools, and subsidiaries.</TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            <TextLinetwo />
+            </GigaGridtext>
 
             <FullBg src={iphones} />
             <FullBg src={mocks} />
