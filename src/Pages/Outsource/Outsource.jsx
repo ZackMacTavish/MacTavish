@@ -28,8 +28,9 @@ import flowmap from '../../img/BOFlowMap—Long-01-01.jpg';
 import guidelines from '../../img/BrandGuidelines—Mockup.jpg';
 import twentyfive from '../../img/Outsource25-07.png';
 import branding from '../../img/Branding_LogoPatterns-01.png';
-import { BackgroundColor, GigaGridone, GigaGridtext, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, StyledDiv, TextLineone, TextLinetwo, TextSection } from '../Giga/Giga';
+import { BackgroundColor, Cellphones, GigaGridone, GigaGridtext, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, StyledDiv, TextLineone, TextLinetwo, TextSection } from '../Giga/Giga';
 import styled from 'styled-components';
+import { SingleGrid } from '../Access Direct/AD';
  
 
 export const OutsourceGridone = styled.div`
@@ -85,11 +86,11 @@ export default function Outsource() {
                 <RisoItemtwo src={highpower} Width='60vw' />
             </RisoFlex>
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <SingleGrid ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
 
             <GigaRocket style={{boxShadow: '5px 10px 24px rgba(0, 0, 0, 0.3'}} RowStart='2' ColumnStart="2" ColumnEnd="4" src={create} />
             <BackgroundColor style={{backgroundColor:'#26356C'}} />
-            </GigaGridone>
+            </SingleGrid>
 
             <FullBg src={admac} />
 
@@ -97,10 +98,10 @@ export default function Outsource() {
                 <RisoItem src={ipadtwo} Width='65vw' />
             </RisoFlex>
 
-            <div style={{display: 'flex', height: '100vh', width: '100vw'}}>
+                 <Cellphones>
                 <RisoItem src={dark} />
                 <RisoItem src={light} />
-            </div>
+                </Cellphones>
 
             <RisoFlex>
                 <RisoItem src={imactwo} Width='65vw' />
@@ -114,31 +115,31 @@ export default function Outsource() {
                 <RisoItem src={ceumacbook} Width='65vw'  />
             </RisoFlex>
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem'>Outsource CEU is a subsidiary focused on the education of building code. My responsibility was to create a brand identity from the ground up, and create the UI designs for a potential web application.</TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            <TextLinetwo />
+            </GigaGridtext>
 
             <FullBg src={ceuiphones} />
             <FullBg src={ceumocks} />
             
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <SingleGrid ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
 
             <GigaRocket style={{boxShadow: '5px 10px 24px rgba(0, 0, 0, 0.3'}} RowStart='2' ColumnStart="2" ColumnEnd="4" src={aia} />
             <BackgroundColor style={{backgroundColor:'#F6BF6D'}} />
-            </GigaGridone>
+            </SingleGrid>
 
             <FullBg src={ceuimac} />
 
             <FullBg src={bointro} />
 
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem'>BuildingOwl is a technology that monitors and resolves critical building issues. My responsibility included expanding on the existing identity, marketing , and focusing on improvements to UX.</TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            <TextLinetwo />
+            </GigaGridtext>
 
             <FullBg style={{paddingTop:'2vh'}}src={bozoom} />
 
@@ -171,14 +172,14 @@ export default function Outsource() {
 
 
             
-        <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+        <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem' style={{textAlign:'center'}}>Founder — Diego Caballero<br />
 Designers — Zachary MacTavish & Elvis Cruz<br />
 Development — Vinny Nuthakki & Samuel Karkash <br />
 Marketing — Kaela Fanning & Zoe Hutzler</TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            <TextLinetwo />
+            </GigaGridtext>
         </StyledDiv>
 
 

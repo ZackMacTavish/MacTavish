@@ -16,7 +16,25 @@ import photostwo from '../../img/ADphotos2.jpg';
 import photosthree from '../../img/ADphotos3.jpg';
 import guides from '../../img/Guides2.jpg';
 import create from '../../img/Group 274.jpg';
-import { BackgroundColor, GigaGridone, GigaGridtext, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, StyledDiv, TextLineone, TextLinetwo, TextSection } from '../Giga/Giga';
+import { BackgroundColor, Cellphones, GigaGridone, GigaGridtext, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, StyledDiv, TextLineone, TextLinetwo, TextSection } from '../Giga/Giga';
+import styled from 'styled-components';
+
+export const SingleGrid = styled.div`
+display: grid;
+grid-template-columns: ${(props) => props.ColumnsSet};
+grid-template-rows: ${(props) => props.RowsSet};
+background-color: ${props => props.theme.backgroundTwo};
+height: 100vh;
+width: 100vw;
+
+@media (max-width: 500px) {
+    grid-template-columns: 100vw;
+    height: auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    grid-template-rows: auto 1fr auto ;
+}
+` 
 
 export default function AccessDirect() {
 
@@ -49,11 +67,11 @@ export default function AccessDirect() {
                 <RisoItemtwo src={highpower} Width='60vw' />
             </RisoFlex>
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <SingleGrid ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
 
             <GigaRocket style={{boxShadow: '5px 10px 24px rgba(0, 0, 0, 0.3'}} RowStart='2' ColumnStart="2" ColumnEnd="4" src={create} />
             <BackgroundColor style={{backgroundColor:'#1F55B9'}} />
-            </GigaGridone>
+            </SingleGrid>
 
             <FullBg src={admac} />
 
@@ -61,10 +79,10 @@ export default function AccessDirect() {
                 <RisoItem src={ipadtwo} Width='65vw' />
             </RisoFlex>
 
-            <div style={{display: 'flex', height: '100vh', width: '100vw'}}>
+            <Cellphones>
                 <RisoItem src={dark} />
                 <RisoItem src={light} />
-            </div>
+                </Cellphones>
 
             <RisoFlex>
                 <RisoItem src={imactwo} Width='65vw' />

@@ -27,9 +27,37 @@ import graphicposters from '../../img/GP1.jpg';
 import oliviafloral from '../../img/OliviaFloralMockup.jpg';
 import goodbyehello from '../../img/GP2.jpg';
 import artbook from '../../img/ThisIsIt.jpg';
-
-import {GigaGridone, GigaRocket, GigaHeader, TextLineone, TextSection, RisoItemtwo, StyledDiv, GigaGridtext, TextLinetwo} from '../Giga/Giga';
+import styled from 'styled-components';
+import {GigaGridone, GigaHeader, TextLineone, TextSection, RisoItemtwo, StyledDiv, GigaGridtext, TextLinetwo} from '../Giga/Giga';
 import { HouseOne, NewSection } from '../Art Landing/Art';
+
+export const Pineapple = styled.img`
+width: 40vw;
+height: auto;
+grid-row-start: ${(props) => props.RowStart};
+grid-row-end: 8;
+align-self: center;
+justify-self: center;
+grid-column-start: ${(props) => props.ColumnStart};
+grid-column-end: ${(props) => props.ColumnEnd};
+@media (max-width: 450px) {
+    grid-row-start: 2;
+    padding-top: 4vh;
+    grid-row-end: 3;
+      grid-column-start: 1;
+      width: 95vw;
+
+  }
+`
+export const ThisisIt = styled.img`
+width: 30vw;
+padding-left: 15vw;
+
+@media (max-width: 450px) { 
+  padding: 0;
+    width: 96vw;
+  }
+`
 
 export default function GraphicDesign() {
 
@@ -40,7 +68,7 @@ export default function GraphicDesign() {
     return (
         <StyledDiv>
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
-           <GigaRocket style={{width: '40vw'}} ColumnStart="2" RowStart="2" src={gigarocket} />
+           <Pineapple ColumnStart="2" RowStart="2" src={gigarocket} />
            
            <GigaHeader>Graphic Design</GigaHeader>
             </GigaGridone>
@@ -68,9 +96,9 @@ export default function GraphicDesign() {
             <FullBg src={goodbyehello} />
 
             {/*Art Book + Text */}
-            <NewSection Backgroundheight="85vh">
+            <NewSection Backgroundheight="95vh">
                     
-                    <HouseOne style={{width: '30vw', paddingLeft: '15vw'}} src={artbook} />
+                    <ThisisIt src={artbook} />
                                         <ParagraphFour>
                                         'This is it' was a poster design I made for the 2017 SAIC VCD Design show. The piece explores a quote from the movie 'Style Wars'.
                     
@@ -100,7 +128,7 @@ export default function GraphicDesign() {
 
             <FullBg style={{paddingTop: '10vh'}} src={messagesfour} />
 
-            <RisoFlex style={{height:'50vh'}}>
+            <RisoFlex >
                 <RisoItem  src={threestack} Width='65vw' />
             </RisoFlex>
 
@@ -139,12 +167,12 @@ export default function GraphicDesign() {
                 <RisoItem  style={{paddingTop:'5vh'}} src={bbffive} Width='65vw' />
             </RisoFlex>
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem'>By working on my own version of an Ironlak marketing campaign, it led to me interning for Ironlak shortly after my graduation. 
                 I worked on a variety of advertisements.</TextSection>
-            <TextLineone RowsSet="7" />
-            </GigaGridone>
+            <TextLinetwo />
+            </GigaGridtext>
 
             <RisoFlex style={{height:'auto'}}>
                 <RisoItem  style={{paddingTop:'5vh'}} src={ironlakadvert} Width='65vw' />

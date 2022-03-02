@@ -25,6 +25,35 @@ import pitonlogos from '../../img/Group 55620@2x.png';
 import { FullBg } from '../COMPOSITION/Composition';
 import { RisoFlex, RisoItem } from '../Graffiti/Graffiti';
 import { OutsourceGridone } from '../Outsource/Outsource';
+import styled from 'styled-components';
+
+export const FlexLeysi = styled.div`
+display: flex;
+justify-content: center;
+background-color: ${props => props.theme.backgroundTwo};
+align-items: center;
+height: 100vh;
+width: 100vw;
+
+@media(max-width: 450px) {
+    height: 40vh;
+}
+`
+
+export const PitonScreens = styled.div`
+display: grid;
+grid-template-columns: ${(props) => props.ColumnsSet};
+grid-template-rows: ${(props) => props.RowsSet};
+background-color: ${props => props.theme.backgroundTwo};
+height: 60vh;
+width: 100vw;
+
+@media (max-width: 500px) {
+    grid-template-columns: 100vw;
+    grid-template-rows: 5vw auto 5vw;
+    height: auto;
+}
+` 
 
 export default function Ux() {
 
@@ -95,11 +124,11 @@ export default function Ux() {
             </GigaGridtext>
 
            
-            <RisoFlex style={{height: '80vh'}}>
+            <FlexLeysi>
                 <RisoItemtwo style={{borderRadius: '10px'}} src={LeysiLogo} Width='60vw' />
-            </RisoFlex>
+            </FlexLeysi>
 
-            <RisoFlex style={{height: '85vh',backgroundColor:'#0A84E3', marginTop:'-2vh'}}>
+            <RisoFlex style={{height: '85vh',backgroundColor:'#0A84E3'}}>
                 <RisoItem src={LeysiBlue} Width='50vw'  />
             </RisoFlex>
 
@@ -109,11 +138,11 @@ export default function Ux() {
 
             <FullBg src={leysiscreens} />
 
-            <RisoFlex style={{height: '100vh'}}>
+            <RisoFlex>
                 <RisoItem src={leysimockup2} Width='50vw'  />
             </RisoFlex>
 
-            <RisoFlex style={{height: '100vh'}}>
+            <RisoFlex>
                 <RisoItem src={leysiphones2} Width='50vw'  />
             </RisoFlex>
 
@@ -141,14 +170,15 @@ The leading innovation of the app is on the bleeding edge of voice enabled AI. <
 
             <FullBg src={pitoniphones} />
 
-            <RisoFlex style={{height: '45vh',marginTop: '20vh'}}>
-                <RisoItem src={pitonscreens} Width='60vw'  />
-            </RisoFlex>
+            <PitonScreens ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='2vh 15vh 2vh'>
+            <GigaRocket  RowStart='2' ColumnStart="2" ColumnEnd="4" src={pitonscreens} />
+            <BackgroundColor style={{backgroundColor:'#1794BA'}} />
+            </PitonScreens>
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1vh 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <PitonScreens style={{paddingBottom: '2vh'}} ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='2vh 15vh 2vh'>
             <GigaRocket  RowStart='2' ColumnStart="2" ColumnEnd="4" src={pitonscreens2} />
             <BackgroundColor style={{backgroundColor:'#1794BA'}} />
-            </GigaGridone>
+            </PitonScreens>
 
             <FullBg src={allpiton} />
 
@@ -163,7 +193,7 @@ The leading innovation of the app is on the bleeding edge of voice enabled AI. <
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem' style={{textAlign:'center'}}>Founders — Jemir Martinez<br />
             Designers — Zachary MacTavish<br />
-Development — TBD</TextSection>
+            Development — TBD</TextSection>
             <TextLinetwo />
             </GigaGridtext>
 

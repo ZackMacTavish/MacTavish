@@ -18,6 +18,7 @@ import photosthree from '../../img/Photos3.jpg';
 import photosfour from '../../img/Photos4.jpg';
 import guides from '../../img/Guides.jpg';
 import create from '../../img/CreateNewPost.png';
+import { SingleGrid } from '../Access Direct/AD';
 
 export const GigaGridone = styled.div`
 display: grid;
@@ -171,6 +172,7 @@ width: ${(props) => props.Width};
 box-shadow: 5px 10px 24px rgba(0, 0, 0, 0.3);
 @media(max-width: 450px) {
     width: 96vw;
+    height: auto;
 }
 `
 
@@ -230,11 +232,11 @@ export default function Giga() {
                 <RisoItemtwo src={messages} Width='60vw' />
             </RisoFlex>
 
-            <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <SingleGrid ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
 
             <GigaRocket style={{boxShadow: '5px 10px 24px rgba(0, 0, 0, 0.3'}} RowStart='2' ColumnStart="2" ColumnEnd="4" src={create} />
             <BackgroundColor />
-            </GigaGridone>
+            </SingleGrid>
 
             <FullBg src={imac} />
 
