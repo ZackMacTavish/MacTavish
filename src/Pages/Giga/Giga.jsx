@@ -156,6 +156,10 @@ justify-self: center;
 align-self: center;
 color: ${(props) => props.theme.fontColor};
 
+@media (max-width: 1400px) {  
+font-size: 2rem;
+;}
+
 @media (max-width: 450px){
     grid-column-start: 1;
     grid-row-end: 3;

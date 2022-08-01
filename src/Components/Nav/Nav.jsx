@@ -45,7 +45,8 @@ color: #a6d1ca;
 `
 
 const Logo =styled.img`
-width: clamp(50px, 2.6vw, 90px);
+width: clamp(46px, 2.6vw, 90px);
+padding-top: 1vw;
 padding-left: 5vw;
 -webkit-transition: all 2s ease;
   -moz-transition: all 2s ease;
@@ -57,6 +58,8 @@ padding-left: 5vw;
     filter: invert(0.2) sepia(0.5) saturate(11.7) hue-rotate(313.2deg) brightness(1.2);
     
 }
+
+
 
 `
 

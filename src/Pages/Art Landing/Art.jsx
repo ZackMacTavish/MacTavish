@@ -125,7 +125,14 @@ padding-right: 2vw;
 font-size: 2.7rem;
 width:${(props) => props.Widthsize};
 color: white;
-@media (max-width: 1000px) {
+
+@media (max-width: 1400px) {  
+font-size: 2rem;
+;}
+
+
+
+@media (max-width: 1000px) {  
 padding: 0;
 ;}
 
@@ -145,6 +152,11 @@ font-weight: 500;
 font-size: 2.7rem;
 width: 40vw;
 color: white;
+
+@media (max-width: 1400px) {  
+font-size: 2rem;
+;}
+
 @media (max-width: 1000px) {
 width: 80vw;
 padding-bottom: 10vh;
