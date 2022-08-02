@@ -19,7 +19,7 @@ display: flex;
 bottom: 13vh;
 z-index: 200;
 position: absolute;
-font-size: clamp(24px, 12vw, 11rem);
+font-size: clamp(24px, 12vw, 9.5rem);
 padding-left: 10vw;
 font-weight: 800;
 line-height: 18vh;
