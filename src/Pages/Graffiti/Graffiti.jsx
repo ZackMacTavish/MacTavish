@@ -27,6 +27,8 @@ import { ThreeFlextwo, ThreeItemtwo } from '../Printmaking/Printmaking';
 
 export const RisoItem = styled.img`
 width: ${(props) => props.Width};
+max-width: 1000px;
+height: auto;
 @media (max-width: 1000px) {
 width: 90vw;
 padding-top: 20vh;
@@ -52,6 +54,8 @@ width: 100vw;
 `
 
 const BeesStyle = styled.img`
+max-width: 900px;
+height: auto;
 width: 65vw;
 margin-left: -9vw;
 `
@@ -205,10 +209,7 @@ export default function Graffiti() {
             <RisoItem  Width='80vw' img src={Lines} />
            
             </RisoFlex>
-            <RisoFlex>
-            <RisoItem  Width='80vw' img src={stylesmash} />
-           
-            </RisoFlex>
+            
 
 
              {/* Section with 3 photos */}
@@ -244,7 +245,13 @@ export default function Graffiti() {
 
 </ArtTextthree>
 
+
+
                 </ArtSectionthreeog>
+                <RisoFlex>
+            <RisoItem  Width='80vw' img src={stylesmash} />
+           
+            </RisoFlex>
 
 
         </div>

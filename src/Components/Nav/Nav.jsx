@@ -164,7 +164,7 @@ export default function Nav() {
 </ListItems>
 </Link>
 
-                <Link to="/About" style={{textDecoration:'none', cursor:'none'}}>
+                <Link to="/About" style={{textDecoration:'none'}}>
                 <ListItems>About</ListItems>
                 </Link>
 

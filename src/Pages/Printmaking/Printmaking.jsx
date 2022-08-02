@@ -36,6 +36,8 @@ import exploitationsvi from '../../img/EXPLOITATIONSVI.jpg';
 import exploitationsvii from '../../img/EXPLOITATIONSVII.jpg';
 import No4 from '../../img/No4-screen.jpg';
 import styled from 'styled-components';
+import Cape from '../../img/CapeHouse.jpg';
+import Capetwo from '../../img/CapeHouseLg.jpg';
 
 
 
@@ -76,6 +78,9 @@ export default function Printmaking() {
 
     return (
         <div>
+
+<FullBg src={Cape} />
+<FullBg src={Capetwo} />
 
         
             <ThreeFlextwo Backgroundcolor='#191919'>
