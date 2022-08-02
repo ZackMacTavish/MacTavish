@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MacTavish/static/css/main.404e5b49.chunk.css",
-    "main.js": "/MacTavish/static/js/main.8ef6c758.chunk.js",
-    "main.js.map": "/MacTavish/static/js/main.8ef6c758.chunk.js.map",
+    "main.js": "/MacTavish/static/js/main.9da27ef3.chunk.js",
+    "main.js.map": "/MacTavish/static/js/main.9da27ef3.chunk.js.map",
     "runtime-main.js": "/MacTavish/static/js/runtime-main.f6b9e2c9.js",
     "runtime-main.js.map": "/MacTavish/static/js/runtime-main.f6b9e2c9.js.map",
     "static/js/2.5e7c4317.chunk.js": "/MacTavish/static/js/2.5e7c4317.chunk.js",
@@ -178,6 +178,7 @@
     "static/media/LightPhone2.7bb0b1da.jpg": "/MacTavish/static/media/LightPhone2.7bb0b1da.jpg",
     "static/media/LightPhone2—Sq.3032dc0b.jpg": "/MacTavish/static/media/LightPhone2—Sq.3032dc0b.jpg",
     "static/media/Lighthouse.6257cfec.jpeg": "/MacTavish/static/media/Lighthouse.6257cfec.jpeg",
+    "static/media/Manisteeblock.5ceee112.jpg": "/MacTavish/static/media/Manisteeblock.5ceee112.jpg",
     "static/media/Mash1.fde8984a.png": "/MacTavish/static/media/Mash1.fde8984a.png",
     "static/media/Mash2.ff8f5477.png": "/MacTavish/static/media/Mash2.ff8f5477.png",
     "static/media/Mash3.a268da5b.png": "/MacTavish/static/media/Mash3.a268da5b.png",
@@ -251,6 +252,8 @@
     "static/media/Williamsburg.7ad989d4.jpg": "/MacTavish/static/media/Williamsburg.7ad989d4.jpg",
     "static/media/Woodblockprint.c891d57f.jpg": "/MacTavish/static/media/Woodblockprint.c891d57f.jpg",
     "static/media/Yellow-Z.ddbfcf0e.png": "/MacTavish/static/media/Yellow-Z.ddbfcf0e.png",
+    "static/media/YellowLily.f501c085.jpg": "/MacTavish/static/media/YellowLily.f501c085.jpg",
+    "static/media/airbrush.b77c8509.jpg": "/MacTavish/static/media/airbrush.b77c8509.jpg",
     "static/media/albany.eef5ae8f.jpg": "/MacTavish/static/media/albany.eef5ae8f.jpg",
     "static/media/armistice3.fe5dd10a.jpg": "/MacTavish/static/media/armistice3.fe5dd10a.jpg",
     "static/media/brooklyndouble.602c224f.jpg": "/MacTavish/static/media/brooklyndouble.602c224f.jpg",
@@ -338,6 +341,6 @@
     "static/js/runtime-main.f6b9e2c9.js",
     "static/js/2.5e7c4317.chunk.js",
     "static/css/main.404e5b49.chunk.css",
-    "static/js/main.8ef6c758.chunk.js"
+    "static/js/main.9da27ef3.chunk.js"
   ]
 }
