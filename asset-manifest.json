@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MacTavish/static/css/main.404e5b49.chunk.css",
-    "main.js": "/MacTavish/static/js/main.8ff298d5.chunk.js",
-    "main.js.map": "/MacTavish/static/js/main.8ff298d5.chunk.js.map",
+    "main.js": "/MacTavish/static/js/main.7601b378.chunk.js",
+    "main.js.map": "/MacTavish/static/js/main.7601b378.chunk.js.map",
     "runtime-main.js": "/MacTavish/static/js/runtime-main.f6b9e2c9.js",
     "runtime-main.js.map": "/MacTavish/static/js/runtime-main.f6b9e2c9.js.map",
     "static/js/2.5e7c4317.chunk.js": "/MacTavish/static/js/2.5e7c4317.chunk.js",
@@ -100,6 +100,8 @@
     "static/media/Cannon1.2e69974c.jpg": "/MacTavish/static/media/Cannon1.2e69974c.jpg",
     "static/media/Cannon2.d428deaf.jpg": "/MacTavish/static/media/Cannon2.d428deaf.jpg",
     "static/media/Cannon3.a7a12e8c.jpg": "/MacTavish/static/media/Cannon3.a7a12e8c.jpg",
+    "static/media/CapeHouse.63e3aa1b.jpg": "/MacTavish/static/media/CapeHouse.63e3aa1b.jpg",
+    "static/media/CapeHouseLg.d3380117.jpg": "/MacTavish/static/media/CapeHouseLg.d3380117.jpg",
     "static/media/Collab-framed.37e19f81.jpg": "/MacTavish/static/media/Collab-framed.37e19f81.jpg",
     "static/media/Collab-framed2.52720d71.jpg": "/MacTavish/static/media/Collab-framed2.52720d71.jpg",
     "static/media/Collab4.539b535f.jpg": "/MacTavish/static/media/Collab4.539b535f.jpg",
@@ -336,6 +338,6 @@
     "static/js/runtime-main.f6b9e2c9.js",
     "static/js/2.5e7c4317.chunk.js",
     "static/css/main.404e5b49.chunk.css",
-    "static/js/main.8ff298d5.chunk.js"
+    "static/js/main.7601b378.chunk.js"
   ]
 }
