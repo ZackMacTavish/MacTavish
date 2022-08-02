@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/MacTavish/static/css/main.404e5b49.chunk.css",
-    "main.js": "/MacTavish/static/js/main.a8b93a86.chunk.js",
-    "main.js.map": "/MacTavish/static/js/main.a8b93a86.chunk.js.map",
+    "main.js": "/MacTavish/static/js/main.8ff298d5.chunk.js",
+    "main.js.map": "/MacTavish/static/js/main.8ff298d5.chunk.js.map",
     "runtime-main.js": "/MacTavish/static/js/runtime-main.f6b9e2c9.js",
     "runtime-main.js.map": "/MacTavish/static/js/runtime-main.f6b9e2c9.js.map",
-    "static/js/2.32fa30e7.chunk.js": "/MacTavish/static/js/2.32fa30e7.chunk.js",
-    "static/js/2.32fa30e7.chunk.js.map": "/MacTavish/static/js/2.32fa30e7.chunk.js.map",
+    "static/js/2.5e7c4317.chunk.js": "/MacTavish/static/js/2.5e7c4317.chunk.js",
+    "static/js/2.5e7c4317.chunk.js.map": "/MacTavish/static/js/2.5e7c4317.chunk.js.map",
     "static/js/3.e7b1ac75.chunk.js": "/MacTavish/static/js/3.e7b1ac75.chunk.js",
     "static/js/3.e7b1ac75.chunk.js.map": "/MacTavish/static/js/3.e7b1ac75.chunk.js.map",
     "index.html": "/MacTavish/index.html",
     "static/css/main.404e5b49.chunk.css.map": "/MacTavish/static/css/main.404e5b49.chunk.css.map",
-    "static/js/2.32fa30e7.chunk.js.LICENSE.txt": "/MacTavish/static/js/2.32fa30e7.chunk.js.LICENSE.txt",
+    "static/js/2.5e7c4317.chunk.js.LICENSE.txt": "/MacTavish/static/js/2.5e7c4317.chunk.js.LICENSE.txt",
     "static/media/1.2.57fc2111.jpg": "/MacTavish/static/media/1.2.57fc2111.jpg",
     "static/media/1.3ce24807.png": "/MacTavish/static/media/1.3ce24807.png",
     "static/media/13.1ad41774.jpg": "/MacTavish/static/media/13.1ad41774.jpg",
@@ -198,7 +198,7 @@
     "static/media/OneSock-01.8fcd3e86.png": "/MacTavish/static/media/OneSock-01.8fcd3e86.png",
     "static/media/Onthemenu.671d3860.jpg": "/MacTavish/static/media/Onthemenu.671d3860.jpg",
     "static/media/Orbital.654ddd80.jpg": "/MacTavish/static/media/Orbital.654ddd80.jpg",
-    "static/media/OstrichPlumes—Collage.bdb6c335.png": "/MacTavish/static/media/OstrichPlumes—Collage.bdb6c335.png",
+    "static/media/OstrichPlumes—Collage.3c63fd1d.png": "/MacTavish/static/media/OstrichPlumes—Collage.3c63fd1d.png",
     "static/media/Outsource-ipad.d13da366.jpg": "/MacTavish/static/media/Outsource-ipad.d13da366.jpg",
     "static/media/Outsource25-07.917d145e.png": "/MacTavish/static/media/Outsource25-07.917d145e.png",
     "static/media/OutsourceLightPhone2.1eef90c8.jpg": "/MacTavish/static/media/OutsourceLightPhone2.1eef90c8.jpg",
@@ -334,8 +334,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f6b9e2c9.js",
-    "static/js/2.32fa30e7.chunk.js",
+    "static/js/2.5e7c4317.chunk.js",
     "static/css/main.404e5b49.chunk.css",
-    "static/js/main.a8b93a86.chunk.js"
+    "static/js/main.8ff298d5.chunk.js"
   ]
 }
