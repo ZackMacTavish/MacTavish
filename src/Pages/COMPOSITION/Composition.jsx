@@ -27,6 +27,8 @@ import mash5 from '../../img/Mash5.png';
 import mattos from '../../img/Mattos.png';
 import og from '../../img/No.3.png';
 import grain from '../../img/Grain.jpg';
+import { RisoFlex } from '../Graffiti/Graffiti';
+import { TextSection } from '../Dwelling/Dwelling';
 
 const LanderSection = styled.div`
 display: flex;
@@ -352,6 +354,13 @@ export default function Composition() {
         </LanderSection>
 
 {/*RENDER 1 FULL SCREEN */}
+<RisoFlex style={{backgroundColor:"black"}}>
+            <TextSection>Composition is a series composed of pieces inspired by the traditional marbling techniques from Turkey. The work chronicles my journey  and experiences of living in NYC, and moving to Portland, Oregon.
+                Utilizing a theme of composition notebooks serves as a journal for reflecting on different environments over the span of 3 years. Each individual piece evokes a feeling through
+                the use of color, and shapes.
+ </TextSection>
+
+            </RisoFlex>
         
                 <FullBg src={renderone} />
 

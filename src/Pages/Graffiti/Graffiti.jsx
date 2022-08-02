@@ -177,9 +177,9 @@ export default function Graffiti() {
 <Orbital src={sushix} />
 <ArtText> 
 
-<ArtHeader>BFA Exhibition (Chicago, IL)</ArtHeader>
+<ArtHeader>Sushi X</ArtHeader>
 <ArtYear>2016</ArtYear>
-<ArtDesc>Spray paint on brick veneer.</ArtDesc>
+<ArtDesc>Spray paint on brick.</ArtDesc>
 
 </ArtText>
 
@@ -187,7 +187,7 @@ export default function Graffiti() {
 <GridRowTwo src={rogerrabbit} />
 <ArtTexttwo> 
 
-<ArtHeader>LOWBROW (Brooklyn, NY)</ArtHeader>
+<ArtHeader>Crawford</ArtHeader>
 <ArtYear>2020</ArtYear>
 <ArtDesc>Spray paint on cement.</ArtDesc>
 
@@ -196,9 +196,9 @@ export default function Graffiti() {
 <GridRowThree src={summer} />
 <ArtTextthree> 
 
-<ArtHeader>RHINO (Denver,CO)</ArtHeader>
+<ArtHeader>Crawford</ArtHeader>
 <ArtYear>2019</ArtYear>
-<ArtDesc>Spray paint on cinderblock.</ArtDesc>
+<ArtDesc>Spray paint on cement.</ArtDesc>
 
 </ArtTextthree>
 

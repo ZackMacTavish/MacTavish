@@ -24,15 +24,16 @@ import taylor from '../../img/taylor.jpg';
 import house7 from '../../img/house7.jpg';
 import housemash2 from '../../img/housemash2.jpg';
 import housepainting from '../../img/House—Pre-Ipad.jpg';
+import manisteeblock from '../../img/Manisteeblock.jpg';
 
 
 
 export const TextSection =styled.h1`
-width: 50vw;
+width: 55vw;
 font-family: 'Space Grotesk', sans-serif;
 padding-left: 2vw;
 color: white;
-font-size: 3rem;
+font-size: 2.8rem;
 @media (max-width: 1400px) {
     width: 60vw;
 font-size: 2rem;
@@ -100,7 +101,7 @@ evoke memories, nostalgia, and past experiences.
 <Orbital src={housepainting} />
 <ArtText> 
 
-<ArtHeader>Open House</ArtHeader>
+<ArtHeader>Open House (WIP)</ArtHeader>
 <ArtYear>2021-22</ArtYear>
 <ArtDesc>Acrylic, and embroidery on canvas.</ArtDesc>
 
@@ -160,12 +161,12 @@ evoke memories, nostalgia, and past experiences.
              <ArtSectionthreeog Backgroundcolor='white'>
 
 
-<Orbital src={house4} />
+<Orbital src={manisteeblock} />
 <ArtText> 
 
-<ArtHeader>DWELLING MASH III</ArtHeader>
-<ArtYear>2021</ArtYear>
-<ArtDesc>Acrylic, photo, and colored paper on heavy paper.</ArtDesc>
+<ArtHeader>Manistee Street</ArtHeader>
+<ArtYear>2022</ArtYear>
+<ArtDesc>Reduction relief woodblock.</ArtDesc>
 
 </ArtText>
 
@@ -213,7 +214,7 @@ evoke memories, nostalgia, and past experiences.
 
  {/* Section with 3 photos */}
 
- <ArtSectionThreetwo Backgroundcolor='white'>
+ <ArtSectionthreeog Backgroundcolor='white'>
 
 
 <Orbital src={house3} />
@@ -235,8 +236,17 @@ evoke memories, nostalgia, and past experiences.
 
 </ArtTexttwo>
 
+<GridRowThree src={house4} />
+<ArtTextthree> 
 
-                </ArtSectionThreetwo>
+<ArtHeader>DWELLING MASH III</ArtHeader>
+<ArtYear>2021</ArtYear>
+<ArtDesc>Acrylic, photo, and colored paper on heavy paper.</ArtDesc>
+
+</ArtTextthree>
+
+
+                </ArtSectionthreeog>
 
 
             

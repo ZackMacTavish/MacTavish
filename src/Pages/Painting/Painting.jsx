@@ -1,6 +1,8 @@
 import React, {useLayoutEffect} from 'react'
 import { RisoFlex, RisoItem } from '../Graffiti/Graffiti';
 
+import airbrush from '../../img/airbrush.jpg';
+import yellowlily from '../../img/YellowLily.jpg';
 import lighthouse from '../../img/Lighthouse.jpeg';
 import cacti1 from '../../img/E-png.png';
 import splash from '../../img/splashpanel.png';
@@ -61,6 +63,32 @@ export default function Painting() {
 </ArtTextthree>
 
 </ArtSectionthreeog>
+
+    {/* 3 Pieces - Passing Grid-template-row props */}
+    <ArtSectionthreeog>
+                    <Orbital src={yellowlily} />
+                            <ArtText> 
+
+                            <ArtHeader>Yellow Lily</ArtHeader>
+                            <ArtYear>2020</ArtYear>
+                            <ArtDesc>Airbrush & acrylic on yupo paper.</ArtDesc>
+
+                            </ArtText>
+
+
+                            <GridRowTwo src={airbrush} />
+                            <ArtTexttwo> 
+
+                            <ArtHeader>SHAPES</ArtHeader>
+                            <ArtYear>2020</ArtYear>
+                            <ArtDesc>Acrylic & spraypaint on yupo paper.</ArtDesc>
+
+                            </ArtTexttwo>
+
+                        
+
+                            </ArtSectionthreeog>
+
 
 
     </div>
