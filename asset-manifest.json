@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MacTavish/static/css/main.404e5b49.chunk.css",
-    "main.js": "/MacTavish/static/js/main.9da27ef3.chunk.js",
-    "main.js.map": "/MacTavish/static/js/main.9da27ef3.chunk.js.map",
+    "main.js": "/MacTavish/static/js/main.ce15bcc5.chunk.js",
+    "main.js.map": "/MacTavish/static/js/main.ce15bcc5.chunk.js.map",
     "runtime-main.js": "/MacTavish/static/js/runtime-main.f6b9e2c9.js",
     "runtime-main.js.map": "/MacTavish/static/js/runtime-main.f6b9e2c9.js.map",
     "static/js/2.5e7c4317.chunk.js": "/MacTavish/static/js/2.5e7c4317.chunk.js",
@@ -327,8 +327,8 @@
     "static/media/rosewood.32c24bdb.jpg": "/MacTavish/static/media/rosewood.32c24bdb.jpg",
     "static/media/screenprint2.1.82ba3367.jpg": "/MacTavish/static/media/screenprint2.1.82ba3367.jpg",
     "static/media/splashpanel.3a6a0ff9.png": "/MacTavish/static/media/splashpanel.3a6a0ff9.png",
-    "static/media/spread1.b034a0ae.png": "/MacTavish/static/media/spread1.b034a0ae.png",
-    "static/media/spread2.4444a8e5.png": "/MacTavish/static/media/spread2.4444a8e5.png",
+    "static/media/spread1.f369a22d.png": "/MacTavish/static/media/spread1.f369a22d.png",
+    "static/media/spread2.78764992.png": "/MacTavish/static/media/spread2.78764992.png",
     "static/media/spread3.92d87f57.png": "/MacTavish/static/media/spread3.92d87f57.png",
     "static/media/spread4.19a9fc67.png": "/MacTavish/static/media/spread4.19a9fc67.png",
     "static/media/spread5.21bcc965.png": "/MacTavish/static/media/spread5.21bcc965.png",
@@ -341,6 +341,6 @@
     "static/js/runtime-main.f6b9e2c9.js",
     "static/js/2.5e7c4317.chunk.js",
     "static/css/main.404e5b49.chunk.css",
-    "static/js/main.9da27ef3.chunk.js"
+    "static/js/main.ce15bcc5.chunk.js"
   ]
 }
