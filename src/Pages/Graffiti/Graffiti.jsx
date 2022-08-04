@@ -23,6 +23,7 @@ import sushixtwo from '../../img/SushiX2.jpg';
 import enova from '../../img/Enova.jpg';
 import eu from '../../img/EU.jpg';
 import { ThreeFlextwo, ThreeItemtwo } from '../Printmaking/Printmaking';
+import { TextSection } from '../Dwelling/Dwelling';
 
 
 export const RisoItem = styled.img`
@@ -81,6 +82,17 @@ export default function Graffiti() {
             </ThreeFlextwo>
 
             <FullBg src={sense} />
+
+            <RisoFlex style={{backgroundColor:"black"}}>
+            <TextSection>My roots as an artist started in graffiti. I enjoy sketching letters. 
+                Bending, and distorting them in different ways. 
+                This eventually led to me trying out different mediums, like a paintbrush, 
+                and carried over to my love for typography as well. 
+                I love seeing the rich, and saturated colors often used in spray paint. 
+ </TextSection>
+
+            </RisoFlex>
+
 
               {/* Section with 3 photos */}
 

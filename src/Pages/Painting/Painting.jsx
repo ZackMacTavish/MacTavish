@@ -9,7 +9,7 @@ import splash from '../../img/splashpanel.png';
 import yellowz from '../../img/Yellow-Z.png';
 import { TextSection } from '../Dwelling/Dwelling';
 import { ArtDesc, ArtHeader, ArtSectionthreeog, ArtText, ArtTextthree, ArtTexttwo, ArtYear, GridRowThree, GridRowTwo, Orbital } from '../COMPOSITION/Composition';
-
+import selfie from '../../img/SelfPortrait.jpg';
 export default function Painting() {
 
     useLayoutEffect(() => {
@@ -20,12 +20,15 @@ export default function Painting() {
         <RisoFlex >
             <RisoItem Width='55vw' img src={lighthouse} />
         </RisoFlex>
+        <RisoFlex >
+            <RisoItem Width='55vw' img src={selfie} />
+        </RisoFlex>
 
 
         <RisoFlex style={{backgroundColor:"black"}}>
             <TextSection>I often look to capture moments throughout my life. Painting allows me to express myself through shapes, and color.
  
-            <br /> <br /> Sometimes with literal representation.
+            <br /> <br />I have the understanding of how to paint realism, but I enjoy painting abstract more.
             </TextSection>
         </RisoFlex>
 
