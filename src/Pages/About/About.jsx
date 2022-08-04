@@ -40,7 +40,7 @@ padding-left: 2vw;
 
 
     <ParagraphTwo Widthsize='50vw' >
-    My name is Zack MacTavish and I've been a designer since 2015. I am constantly taking on new projects for startups, and fortune 500 companies. 
+    My name is Zack MacTavish and I've been a designer since 2015. I recently just finished a contract position with Microsoft. I am constantly taking on new projects for startups, and fortune 500 companies. 
     I am skilled in illustration, branding, packaging, print, digital, UX/UI, and front-end development (I hand coded this site).
 
 

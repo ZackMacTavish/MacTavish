@@ -195,14 +195,14 @@ export default function Collages() {
             <ThreeItem src={collage43} />
             </ThreeFlex>
 
-            {/* 
+            
 
             <RisoFlex >
 
 <RisoItem Width='60vw' img src={spread3} />
 
 </RisoFlex>
-*/}
+
 
 
   {/* Section with 3 photos */}
@@ -240,14 +240,14 @@ export default function Collages() {
 
                 </ArtSectionthreeog>
 
-                 {/* 
+               
 
                 <RisoFlex >
 
 <RisoItem Width='60vw' img src={spread4} />
 
 </RisoFlex>
-*/}
+
 
 
 {/* Section with 3 photos */}
@@ -284,13 +284,13 @@ export default function Collages() {
 </ArtTextthree>
 
                 </ArtSectionthreeog>
-{/*
+
                 <RisoFlex >
 
 <RisoItem Width='60vw' img src={spread5} />
 
 </RisoFlex>
-*/}
+
 
 
 {/* Section with 3 photos */}
@@ -327,13 +327,11 @@ export default function Collages() {
 </ArtTextthree>
 
                 </ArtSectionthreeog>
-{/*
                 <RisoFlex >
 
 <RisoItem Width='60vw' img src={spread6} />
 
 </RisoFlex>
-*/}
 {/* Section with 3 photos */}
 
 <ArtSectionthreeog>
