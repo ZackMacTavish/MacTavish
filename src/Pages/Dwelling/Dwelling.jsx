@@ -166,7 +166,7 @@ evoke memories, nostalgia, and past experiences.
 
 <ArtHeader>Manistee Street</ArtHeader>
 <ArtYear>2022</ArtYear>
-<ArtDesc>Reduction relief woodblock.</ArtDesc>
+<ArtDesc>Reduction relief woodblock print.</ArtDesc>
 
 </ArtText>
 
@@ -176,7 +176,7 @@ evoke memories, nostalgia, and past experiences.
 
 <ArtHeader>DWELLING MASH IV</ArtHeader>
 <ArtYear>2021</ArtYear>
-<ArtDesc>Acrylic, photo, and colored paper on heavy paper.</ArtDesc>
+<ArtDesc>Photo, and colored paper on heavy paper.</ArtDesc>
 
 </ArtTexttwo>
 
@@ -185,7 +185,7 @@ evoke memories, nostalgia, and past experiences.
 
 <ArtHeader>DWELLING MASH V</ArtHeader>
 <ArtYear>2021</ArtYear>
-<ArtDesc>Acrylic, photo, and colored paper on heavy paper.</ArtDesc>
+<ArtDesc>Photo, and colored paper on heavy paper.</ArtDesc>
 
 </ArtTextthree>
 
@@ -222,7 +222,7 @@ evoke memories, nostalgia, and past experiences.
 
 <ArtHeader>DWELLING MASH VI</ArtHeader>
 <ArtYear>2021</ArtYear>
-<ArtDesc>Acrylic, photo, and colored paper on heavy paper.</ArtDesc>
+<ArtDesc>Photo, and colored paper on heavy paper.</ArtDesc>
 
 </ArtText>
 
@@ -232,7 +232,7 @@ evoke memories, nostalgia, and past experiences.
 
 <ArtHeader>DWELLING MASH VII</ArtHeader>
 <ArtYear>2021</ArtYear>
-<ArtDesc>Acrylic, photo, and colored paper on heavy paper.</ArtDesc>
+<ArtDesc>Photo, and colored paper on heavy paper.</ArtDesc>
 
 </ArtTexttwo>
 
@@ -241,7 +241,7 @@ evoke memories, nostalgia, and past experiences.
 
 <ArtHeader>DWELLING MASH III</ArtHeader>
 <ArtYear>2021</ArtYear>
-<ArtDesc>Acrylic, photo, and colored paper on heavy paper.</ArtDesc>
+<ArtDesc>Photo, and colored paper on heavy paper.</ArtDesc>
 
 </ArtTextthree>
 

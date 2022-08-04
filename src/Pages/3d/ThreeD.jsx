@@ -30,6 +30,8 @@ import sixtyeight from '../../img/68.jpg';
 import sixtythree from '../../img/63.jpg';
 import sixtyfour from '../../img/64.jpg';
 import sixtynine from '../../img/69.jpg';
+import { RisoFlex } from '../Graffiti/Graffiti';
+import { TextSection } from '../Dwelling/Dwelling';
 
 export default function ThreeD() {
 
@@ -41,6 +43,16 @@ export default function ThreeD() {
         <div>
             <FullBg src={fiftytwo} />
             <FullBg src={fiftysix} />
+
+            <RisoFlex style={{backgroundColor:"black"}}>
+            <TextSection>During my time in college, I took a course studying Rhino 3d. During that time I made a series of
+                photographs based on architectural graffiti lettering. 
+                The letters took on an abstract life of their own. I was tasked to 3d print the structure for the course final. 
+                A future version of myself would love to create new visuals in 3d. 
+ </TextSection>
+
+            </RisoFlex>
+
 
 
             <ArtSectionthreeog>

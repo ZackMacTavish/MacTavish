@@ -183,7 +183,7 @@ export default function Collages() {
 
 <ArtHeader>No. 45</ArtHeader>
 <ArtYear>2021</ArtYear>
-<ArtDesc>Vintage magazine clippings pasted on paper.</ArtDesc>
+<ArtDesc>Stumptown coffee bag cut, and pasted on paper.</ArtDesc>
 
 </ArtTextthree>
 
@@ -215,7 +215,7 @@ export default function Collages() {
 
 <ArtHeader>No. 44</ArtHeader>
 <ArtYear>2021</ArtYear>
-<ArtDesc>Vintage magazine clippings pasted on paper.</ArtDesc>
+<ArtDesc>Vintage comic clippings pasted on paper.</ArtDesc>
 
 </ArtText>
 
@@ -225,7 +225,7 @@ export default function Collages() {
 
 <ArtHeader>No. 37</ArtHeader>
 <ArtYear>2021</ArtYear>
-<ArtDesc>Vintage comic book clippings pasted on paper.</ArtDesc>
+<ArtDesc>Vintage magazine clippings pasted on paper.</ArtDesc>
 
 </ArtTexttwo>
 
@@ -303,7 +303,7 @@ export default function Collages() {
 
 <ArtHeader>No. 34</ArtHeader>
 <ArtYear>2021</ArtYear>
-<ArtDesc>Vintage paper, and colored pencil on paper.</ArtDesc>
+<ArtDesc>Vintage paper, and color aid on paper.</ArtDesc>
 
 </ArtText>
 
@@ -342,7 +342,7 @@ export default function Collages() {
 
 <ArtHeader>No. 28</ArtHeader>
 <ArtYear>2021</ArtYear>
-<ArtDesc>Vintage paper, and colored pencil on paper.</ArtDesc>
+<ArtDesc>Vintage magazine clippings pasted on paper.</ArtDesc>
 
 </ArtText>
 
@@ -361,7 +361,7 @@ export default function Collages() {
 
 <ArtHeader>No. 30</ArtHeader>
 <ArtYear>2021</ArtYear>
-<ArtDesc>Vintage magazine clippings pasted on paper.</ArtDesc>
+<ArtDesc>Vintage magazine clippings, and acrylic on paper.</ArtDesc>
 
 </ArtTextthree>
 

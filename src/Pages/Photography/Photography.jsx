@@ -106,7 +106,7 @@ export default function Photography() {
 
 <ArtHeader>PARACHUTE (Coney Island)</ArtHeader>
 <ArtYear>2021</ArtYear>
-<ArtDesc>Double exposure film photograph.</ArtDesc>
+<ArtDesc>Film photograph taken on the Holga 120N.</ArtDesc>
 
 </ArtTextthree>
 
