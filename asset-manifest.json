@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MacTavish/static/css/main.404e5b49.chunk.css",
-    "main.js": "/MacTavish/static/js/main.b872eda1.chunk.js",
-    "main.js.map": "/MacTavish/static/js/main.b872eda1.chunk.js.map",
+    "main.js": "/MacTavish/static/js/main.b650f038.chunk.js",
+    "main.js.map": "/MacTavish/static/js/main.b650f038.chunk.js.map",
     "runtime-main.js": "/MacTavish/static/js/runtime-main.f6b9e2c9.js",
     "runtime-main.js.map": "/MacTavish/static/js/runtime-main.f6b9e2c9.js.map",
     "static/js/2.5e7c4317.chunk.js": "/MacTavish/static/js/2.5e7c4317.chunk.js",
@@ -232,6 +232,7 @@
     "static/media/Rug.e3d8fa06.jpg": "/MacTavish/static/media/Rug.e3d8fa06.jpg",
     "static/media/Screenprint1.dc4f4301.jpg": "/MacTavish/static/media/Screenprint1.dc4f4301.jpg",
     "static/media/Screenprint2.a78d436c.jpg": "/MacTavish/static/media/Screenprint2.a78d436c.jpg",
+    "static/media/SelfPortrait.20b874dd.jpg": "/MacTavish/static/media/SelfPortrait.20b874dd.jpg",
     "static/media/Skull.800f913d.jpg": "/MacTavish/static/media/Skull.800f913d.jpg",
     "static/media/Splash.46e2d9ba.jpg": "/MacTavish/static/media/Splash.46e2d9ba.jpg",
     "static/media/Spraypaintwash.575f7283.png": "/MacTavish/static/media/Spraypaintwash.575f7283.png",
@@ -341,6 +342,6 @@
     "static/js/runtime-main.f6b9e2c9.js",
     "static/js/2.5e7c4317.chunk.js",
     "static/css/main.404e5b49.chunk.css",
-    "static/js/main.b872eda1.chunk.js"
+    "static/js/main.b650f038.chunk.js"
   ]
 }
