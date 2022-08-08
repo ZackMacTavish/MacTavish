@@ -53,6 +53,20 @@ justify-self: flex-start;
 height: 85vh;
 width: auto;
 
+@media (max-width: 1770px){
+   max-width: 600px;
+   height: auto;
+}
+
+@media (max-width: 1290px){
+   max-width: 500px;
+   height: auto;
+}
+@media (max-width: 1115px){
+   max-width: 400px;
+   height: auto;
+}
+
 @media (max-width: 450px){
     grid-column-start: 1;
     width: 100vw;
@@ -83,6 +97,19 @@ grid-column-start: 3;
 justify-self: flex-start;
 height: 85vh;
 width: auto;
+
+@media (max-width: 1770px){
+   max-width: 600px;
+   height: auto;
+}
+@media (max-width: 1290px){
+   max-width: 500px;
+   height: auto;
+}
+@media (max-width: 1115px){
+   max-width: 400px;
+   height: auto;
+}
 @media(max-width: 450px) {
     grid-column-start: 1;
     grid-row-start: 3;
@@ -111,6 +138,19 @@ justify-self: flex-start;
 height: 85vh;
 width: auto;
 
+@media (max-width: 1770px){
+   max-width: 600px;
+   height: auto;
+}
+@media (max-width: 1290px){
+   max-width: 500px;
+   height: auto;
+}
+@media (max-width: 1115px){
+   max-width: 400px;
+   height: auto;
+}
+
 @media (max-width: 450px){
     grid-column-start: 1;
     width: 100vw;
@@ -125,6 +165,21 @@ grid-column-start: 2;
 justify-self: flex-start;
 height: 85vh;
 width: auto;
+
+@media (max-width: 1770px){
+   max-width: 600px;
+   height: auto;
+}
+@media (max-width: 1290px){
+   max-width: 500px;
+   height: auto;
+}
+
+@media (max-width: 1115px){
+   max-width: 400px;
+   height: auto;
+}
+
 @media (max-width: 450px){
     grid-column-start: 1;
     width: 100vw;
@@ -149,9 +204,14 @@ position: relative;
 padding-right: 2vw;
 font-family: 'Space Grotesk', sans-serif;
 font-weight: 500;
-font-size: 2.7rem;
+font-size: 2.5rem;
 width: 40vw;
 color: #626262;
+
+@media (max-width: 1770px){
+    font-size: 1.8rem;
+   }
+
 @media (max-width: 450px){
     width: 96vw;
     font-size: 1.6rem;
@@ -313,6 +373,12 @@ font-family: 'Space Grotesk', sans-serif;
 export const ArtHeader = styled.h1`
 font-weight: 700;
 font-size: 2.5rem;
+
+@media(max-width: 1750px) {
+    font-size: 1.8rem;
+    
+}
+
 @media(max-width: 450px) {
     font-size: 2rem;
     line-height: 1;
@@ -323,6 +389,12 @@ font-size: 2.5rem;
 export const ArtYear = styled.h3`
 font-weight: 500;
 font-size: 2rem;
+
+@media(max-width: 1750px) {
+    font-size: 1.5rem;
+    height: auto;
+}
+
 @media(max-width: 450px) {
     font-size: 1.7rem;
     height: auto;
@@ -334,6 +406,11 @@ font-weight: 400;
 font-size: 1.4rem;
 line-height: 1;
 width: auto;
+
+@media(max-width: 1750px) {
+    font-size: 1rem;
+} 
+
 @media(max-width: 450px) {
     height: auto;
 }

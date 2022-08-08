@@ -89,7 +89,7 @@ export default function Ux() {
             <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem'>Three Pillars is a recruiting agency that was looking for a refresh on their brand identity, and website. 
-                My responsibility involved working with the Varfaj Partners team to provide them with initial designs for their developer to build</TextSection>
+                My responsibility involved working with the Varfaj Partners team to provide them with initial designs for their developer to build.</TextSection>
             <TextLinetwo />
             </GigaGridtext>
 

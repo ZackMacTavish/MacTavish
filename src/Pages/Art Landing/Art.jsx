@@ -122,12 +122,12 @@ position: relative;
 font-family: 'Space Grotesk', sans-serif;
 font-weight: 500;
 padding-right: 2vw;
-font-size: 2.7rem;
+font-size: 2.5rem;
 width:${(props) => props.Widthsize};
 color: white;
 
 @media (max-width: 1400px) {  
-font-size: 2rem;
+font-size: 1.8rem;
 ;}
 
 
@@ -149,12 +149,12 @@ position: relative;
 left: 3vw;
 font-family: 'Space Grotesk', sans-serif;
 font-weight: 500;
-font-size: 2.7rem;
+font-size: 2.5rem;
 width: 40vw;
 color: white;
 
 @media (max-width: 1400px) {  
-font-size: 2rem;
+font-size: 1.8rem;
 ;}
 
 @media (max-width: 1000px) {

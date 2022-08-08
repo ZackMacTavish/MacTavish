@@ -33,10 +33,10 @@ width: 55vw;
 font-family: 'Space Grotesk', sans-serif;
 padding-left: 2vw;
 color: white;
-font-size: 2.8rem;
-@media (max-width: 1400px) {
+font-size: 2.5rem;
+@media (max-width: 1600px) {
     width: 60vw;
-font-size: 2rem;
+font-size: 1.8rem;
 ;}
 
 @media (max-width: 450px) {

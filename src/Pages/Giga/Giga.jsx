@@ -157,7 +157,7 @@ align-self: center;
 color: ${(props) => props.theme.fontColor};
 
 @media (max-width: 1400px) {  
-font-size: 2rem;
+font-size: 1.8rem;
 ;}
 
 @media (max-width: 450px){
