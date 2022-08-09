@@ -40,7 +40,7 @@ align-self: center;
 justify-self: center;
 grid-column-start: ${(props) => props.ColumnStart};
 grid-column-end: ${(props) => props.ColumnEnd};
-@media (max-width: 450px) {
+@media (max-width: 850px) {
     grid-row-start: 2;
     padding-top: 4vh;
     grid-row-end: 3;
@@ -53,7 +53,7 @@ export const ThisisIt = styled.img`
 width: 30vw;
 padding-left: 15vw;
 
-@media (max-width: 450px) { 
+@media (max-width: 1000px) { 
   padding: 0;
     width: 96vw;
   }

@@ -28,7 +28,7 @@ background-color: ${props => props.theme.backgroundTwo};
 height: 100vh;
 width: 100vw;
 
-@media (max-width: 500px) {
+@media (max-width: 850px) {
     grid-template-columns: 100vw;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
@@ -41,7 +41,7 @@ background-color: ${props => props.theme.backgroundTwo};
 height: 100vh;
 width: 100vw;
 
-@media (max-width: 500px) {
+@media (max-width: 850px) {
     grid-template-columns: 100vw;
     grid-template-rows: 5vw 1fr 5vw;
 }
@@ -55,7 +55,7 @@ align-self: center;
 justify-self: center;
 grid-column-start: ${(props) => props.ColumnStart};
 grid-column-end: ${(props) => props.ColumnEnd};
-@media (max-width: 450px) {
+@media (max-width: 850px) {
     grid-row-start: 2;
     grid-row-end: 3;
       grid-column-start: 1;
@@ -80,7 +80,7 @@ color: ${(props) => props.theme.fontColor};
   margin-top: 10px;
   background: ${(props) => props.theme.fontColor};
   }
-  @media (max-width: 450px) {
+  @media (max-width: 850px) {
       grid-column-start: 1;
       padding-left: 2vw;
       grid-row-start: 3;
@@ -100,7 +100,7 @@ text-decoration: none;
 &:hover{
     opacity: 75%;
 }
-@media (max-width: 450px) {
+@media (max-width: 850px) {
       grid-column-start: 1;
       padding-left: 2vw;
   }
@@ -120,7 +120,7 @@ export const TextLineone = styled.div`
  justify-self: center;
   height: 10px;
   background: #5D5D5D;
-  @media (max-width: 450px) {
+  @media (max-width: 850px) {
       grid-column-start: 1;
      grid-column-end: 2;
   }
@@ -136,7 +136,7 @@ export const TextLinetwo = styled.div`
  justify-self: center;
   height: 10px;
   background: #5D5D5D;
-  @media (max-width: 450px) {
+  @media (max-width: 850px) {
       grid-column-start: 1;
       grid-row-start: 3;
      grid-row-end: 4;
@@ -160,7 +160,7 @@ color: ${(props) => props.theme.fontColor};
 font-size: 1.8rem;
 ;}
 
-@media (max-width: 450px){
+@media (max-width: 850px){
     grid-column-start: 1;
     grid-row-end: 3;
     font-size: 1.2rem;
@@ -174,7 +174,13 @@ font-size: 1.8rem;
 export const RisoItemtwo = styled.img`
 width: ${(props) => props.Width};
 box-shadow: 5px 10px 24px rgba(0, 0, 0, 0.3);
-@media(max-width: 450px) {
+
+@media(max-width: 1400px) {
+    width: 96vw;
+    height: auto;
+}
+
+@media(max-width: 850px) {
     width: 96vw;
     height: auto;
 }
@@ -195,9 +201,9 @@ background-color: ${props => props.theme.backgroundTwo};
 export const Cellphones = styled.div`
 display: flex;
 width: 100vw;
-height: 100vh;
+height: auto;
 
-@media (max-width: 450px) {
+@media (max-width: 1000px) {
     flex-direction: column;
     align-items: center;
     height: auto;
@@ -249,8 +255,8 @@ export default function Giga() {
             </RisoFlex>
 
            <Cellphones>
-                <RisoItem src={dark} />
-                <RisoItem src={light} />
+                <RisoItem Width='50vw' src={dark} />
+                <RisoItem Width='50vw' src={light} />
             </Cellphones>
 
             <RisoFlex>

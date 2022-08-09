@@ -67,7 +67,8 @@ width: auto;
    height: auto;
 }
 
-@media (max-width: 450px){
+@media (max-width: 830px){
+    max-width: 100vw;
     grid-column-start: 1;
     width: 100vw;
     height: auto;
@@ -83,7 +84,8 @@ height: auto;
 width: 40vw;
 align-self: flex-end;
 
-@media (max-width: 450px){
+@media (max-width: 830px){
+    max-width: 100vw;
     grid-column-start: 1;
     width: 100vw;
     height: auto;
@@ -110,7 +112,8 @@ width: auto;
    max-width: 400px;
    height: auto;
 }
-@media(max-width: 450px) {
+@media(max-width: 830px) {
+    max-width: 100vw;
     grid-column-start: 1;
     grid-row-start: 3;
 }
@@ -125,7 +128,7 @@ padding: 0;
 margin: 0;
 line-height: 0.6;
 font-family: 'Space Grotesk', sans-serif;
-@media (max-width: 450px) {
+@media (max-width: 830px) {
     grid-column-start: 1;
     grid-row-start: 4;
 }
@@ -151,7 +154,8 @@ width: auto;
    height: auto;
 }
 
-@media (max-width: 450px){
+@media (max-width: 830px){
+    max-width: 100vw;
     grid-column-start: 1;
     width: 100vw;
     height: auto;
@@ -180,7 +184,8 @@ width: auto;
    height: auto;
 }
 
-@media (max-width: 450px){
+@media (max-width: 830px){
+    max-width: 100vw;
     grid-column-start: 1;
     width: 100vw;
     height: auto;
@@ -194,7 +199,7 @@ margin-top: -1vh;
 background-size: contain;
 background-color: ${props => props.theme.backgroundTwo};
 
-@media(max-width: 450px) {
+@media(max-width: 830px) {
     padding-top: 3vh;
 }
 `
@@ -212,7 +217,7 @@ color: #626262;
     font-size: 1.8rem;
    }
 
-@media (max-width: 450px){
+@media (max-width: 1000px){
     width: 96vw;
     font-size: 1.6rem;
     padding-top: 2vh;
@@ -226,7 +231,7 @@ grid-template-rows: ${(props) => props.Grids};
 padding-top: 5vh;
 background-color:${props => props.theme.backgroundTwo};
 
-@media (max-width: 450px){
+@media (max-width: 830px){
     grid-template-columns: 100vw;
     height: auto;
     row-gap: 2ch;
@@ -243,7 +248,7 @@ padding-top: 5vh;
 padding-bottom: 5vh;
 background-color: ${props => props.theme.backgroundTwo};
 
-@media (max-width: 450px){
+@media (max-width: 830px){
     grid-template-columns: 100vw;
     grid-template-rows: auto auto auto auto;
     height: auto;
@@ -262,7 +267,7 @@ padding-top: 5vh;
 padding-bottom: 5vh;
 background-color: ${props => props.theme.backgroundTwo};
 
-@media (max-width: 450px){
+@media (max-width: 830px){
     grid-template-columns: 100vw;
     grid-template-rows: auto auto auto auto auto auto;
     height: auto;
@@ -281,7 +286,7 @@ padding-top: 5vh;
 padding-bottom: 5vh;
 background-color: ${props => props.theme.backgroundTwo};
 
-@media (max-width: 450px){
+@media (max-width: 830px){
     grid-template-columns: 100vw;
     grid-template-rows: auto auto auto auto;
     height: auto;
@@ -299,7 +304,7 @@ padding-top: 5vh;
 padding-bottom: 5vh;
 background-color:${props => props.theme.backgroundTwo};
 
-@media (max-width: 450px){
+@media (max-width: 830px){
     grid-template-columns: 100vw;
     grid-template-rows: auto auto;
     height: auto;
@@ -323,10 +328,10 @@ padding-left: 7.5vw;
 line-height: 0;
 color: ${(props) => props.theme.fontColor};
 font-family: 'Space Grotesk', sans-serif;
-@media(max-width: 450px){
+@media(max-width: 830px){
     grid-column-start: 1;
     grid-row-start: 2;
-    padding-left: 2vw;
+    padding-left: 8vw;
    }
 `
 /* Text sitting on row two*/
@@ -342,10 +347,10 @@ line-height: 0;
 color: ${(props) => props.theme.fontColor};
 font-family: 'Space Grotesk', sans-serif;
 
-@media(max-width: 450px){
+@media(max-width: 830px){
     grid-column-start: 1;
     grid-row-start: 4;
-    padding-left: 2vw;
+    padding-left: 8vw;
     padding-top: .8vh;
 }
 `
@@ -362,10 +367,10 @@ line-height: 0;
 color: ${(props) => props.theme.fontColor};
 font-family: 'Space Grotesk', sans-serif;
 
-@media(max-width: 450px){
+@media(max-width: 830px){
     grid-column-start: 1;
     grid-row-start: 6;
-    padding-left: 2vw;
+    padding-left: 8vw;
     padding-top: .8vh;
 }
 `
@@ -379,8 +384,8 @@ font-size: 2.5rem;
     
 }
 
-@media(max-width: 450px) {
-    font-size: 2rem;
+@media(max-width: 830px) {
+    font-size: 1.4rem;
     line-height: 1;
     height: auto;
 }
@@ -395,8 +400,8 @@ font-size: 2rem;
     height: auto;
 }
 
-@media(max-width: 450px) {
-    font-size: 1.7rem;
+@media(max-width: 830px) {
+    font-size: 1.2rem;
     height: auto;
 }
 `
@@ -411,7 +416,8 @@ width: auto;
     font-size: 1rem;
 } 
 
-@media(max-width: 450px) {
+@media(max-width: 830px) {
+    font-size: 0.9rem;
     height: auto;
 }
 `
@@ -572,7 +578,7 @@ the show.
                             <GridRowTwo src={mash1} />
                             <ArtTexttwo> 
 
-                            <ArtHeader>Design for COMPOSITION III</ArtHeader> 
+                            <ArtHeader>COMPOSITION III</ArtHeader> 
                             <ArtYear>2019</ArtYear> 
                             <ArtDesc>Digital collage (study for a painting).</ArtDesc> 
 
@@ -581,7 +587,7 @@ the show.
                             <GridRowThree src={mash2} />  
                             <ArtTextthree> 
 
-                            <ArtHeader>Design for COMPOSITION IV</ArtHeader> 
+                            <ArtHeader>COMPOSITION IV</ArtHeader> 
                             <ArtYear>2019</ArtYear>
                             <ArtDesc>Digital collage (study for a painting).</ArtDesc> 
 
@@ -597,7 +603,7 @@ the show.
                     <Orbital src={mash3} />
                             <ArtText> 
 
-                            <ArtHeader>Design for COMPOSITION V</ArtHeader>
+                            <ArtHeader>COMPOSITION V</ArtHeader>
                             <ArtYear>2019</ArtYear>
                             <ArtDesc>Digital collage (study for a painting).</ArtDesc>
 
@@ -607,7 +613,7 @@ the show.
                             <GridRowTwo src={mash4} />
                             <ArtTexttwo> 
 
-                            <ArtHeader>Design for COMPOSITION VI</ArtHeader>
+                            <ArtHeader>COMPOSITION VI</ArtHeader>
                             <ArtYear>2019</ArtYear>
                             <ArtDesc>Digital collage (study for a painting).</ArtDesc>
 
@@ -616,7 +622,7 @@ the show.
                             <GridRowThree src={mash5} />
                             <ArtTextthree> 
 
-                            <ArtHeader>Design for COMPOSITION VII</ArtHeader>
+                            <ArtHeader>COMPOSITION VII</ArtHeader>
                             <ArtYear>2020</ArtYear>
                             <ArtDesc>Digital collage (study for a painting).</ArtDesc>
 
@@ -632,7 +638,7 @@ the show.
                     <Orbital src={og} />
                             <ArtText> 
 
-                            <ArtHeader>Design for COMPOSITION I</ArtHeader>
+                            <ArtHeader>COMPOSITION I</ArtHeader>
                             <ArtYear>2018</ArtYear>
                             <ArtDesc>Digital collage (study for a screenprint).</ArtDesc>
 

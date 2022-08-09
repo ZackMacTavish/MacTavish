@@ -41,10 +41,33 @@ background-color: ${props => props.theme.backgroundTwo};
 height: 100vh;
 width: 100vw;
 
-@media (max-width: 500px) {
+@media (max-width: 850px) {
     grid-template-columns: 100vw;
     grid-template-rows: 1fr 1fr 1fr 5vh 5vh 5vh 5vh 1fr;
 }
+`
+export const OutsourceHeader = styled.h2`
+grid-row-start: 3;
+grid-column-start: 3;
+align-self: flex-end;
+font-size: 4.5rem;
+font-family: 'Space Grotesk', sans-serif;
+color: ${(props) => props.theme.fontColor};
+
+&:after {
+    content:"";
+    display: flex;
+    width: clamp(20px, 17vw, 500px);
+  height: 10px;
+  margin-top: 10px;
+  background: ${(props) => props.theme.fontColor};
+  }
+  @media (max-width: 850px) {
+      grid-column-start: 1;
+      padding-left: 2vw;
+      grid-row-start: 3;
+      font-size: 3rem;
+  }
 `
 export default function Outsource() {
 
@@ -54,21 +77,21 @@ export default function Outsource() {
 
     return (
         <StyledDiv>
-            <OutsourceGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 3vh 3vh 3vh 1fr'>
+            <OutsourceGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 3vh 3vh 3vh 3vh 1fr'>
            <GigaRocket ColumnStart="2" RowStart="2" src={imac} />
            
-           <GigaHeader>Outsource</GigaHeader>
+           <OutsourceHeader>Outsource</OutsourceHeader>
           
-           <GigaWeb RowsSet={5} href="https://www.outsourceconsultants.com/home" target="_blank" rel="noreferrer noopener">
+           <GigaWeb RowsSet={4} href="https://www.outsourceconsultants.com/home" target="_blank" rel="noreferrer noopener">
            <GigaTwo>outsourceconsultants.com</GigaTwo>
            </GigaWeb>
-           <GigaWeb RowsSet={6}href="https://www.decoderny.com/" target="_blank" rel="noreferrer noopener">
+           <GigaWeb RowsSet={5}href="https://www.decoderny.com/" target="_blank" rel="noreferrer noopener">
            <GigaTwo>decoderny.com</GigaTwo>
            </GigaWeb>
-           <GigaWeb RowsSet={7}href="https://www.buildingowl.com/" target="_blank" rel="noreferrer noopener">
+           <GigaWeb RowsSet={6}href="https://www.buildingowl.com/" target="_blank" rel="noreferrer noopener">
            <GigaTwo>buildingowl.com</GigaTwo>
            </GigaWeb>
-           <GigaWeb RowsSet={8}href="https://www.osinyc.com/" target="_blank" rel="noreferrer noopener">
+           <GigaWeb RowsSet={7}href="https://www.osinyc.com/" target="_blank" rel="noreferrer noopener">
            <GigaTwo>osinyc.com</GigaTwo>
            </GigaWeb>
             </OutsourceGridone>
@@ -99,8 +122,8 @@ export default function Outsource() {
             </RisoFlex>
 
                  <Cellphones>
-                <RisoItem src={dark} />
-                <RisoItem src={light} />
+                <RisoItem Width='50vw' src={dark} />
+                <RisoItem Width='50vw' src={light} />
                 </Cellphones>
 
             <RisoFlex>

@@ -133,12 +133,12 @@ font-size: 1.8rem;
 
 
 @media (max-width: 1000px) {  
+  width: 90vw;
 padding: 0;
 ;}
 
-@media (max-width: 450px) {
+@media (max-width: 850px) {
 font-size: 1.5rem;
-width: 90vw;
 padding-top: 2vh;
 ;}
 
@@ -157,8 +157,11 @@ color: white;
 font-size: 1.8rem;
 ;}
 
-@media (max-width: 1000px) {
-width: 80vw;
+@media (max-width: 1000px) {  
+width: 90vw;
+;}
+
+@media (max-width: 850px) {
 padding-bottom: 10vh;
 ;}
 `
@@ -167,7 +170,7 @@ export const HouseOne = styled.img`
 width: 50vw;
 padding-left: 2vw;
 
-@media (max-width: 450px) { 
+@media (max-width: 1000px) { 
   padding: 0;
     width: 96vw;
   }

@@ -46,8 +46,16 @@ display: flex;
 justify-content: center;
 background-color: ${props => props.theme.backgroundTwo};
 align-items: center;
-height: 100vh;
+height: auto;
+padding-top: 2vh;
+padding-bottom: 2vh;
 width: 100vw;
+
+@media(max-width: 1400px) {
+    height: auto;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
 
 @media(max-width: 450px) {
     height: auto;

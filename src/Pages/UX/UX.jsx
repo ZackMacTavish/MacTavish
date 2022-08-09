@@ -48,7 +48,7 @@ background-color: ${props => props.theme.backgroundTwo};
 height: 60vh;
 width: 100vw;
 
-@media (max-width: 500px) {
+@media (max-width: 850px) {
     grid-template-columns: 100vw;
     grid-template-rows: 5vw auto 5vw;
     height: auto;
@@ -175,7 +175,7 @@ The leading innovation of the app is on the bleeding edge of voice enabled AI. <
             <BackgroundColor style={{backgroundColor:'#1794BA'}} />
             </PitonScreens>
 
-            <PitonScreens style={{paddingBottom: '2vh'}} ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='2vh 15vh 2vh'>
+            <PitonScreens style={{paddingBottom: '3vh'}} ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='2vh 15vh 2vh'>
             <GigaRocket  RowStart='2' ColumnStart="2" ColumnEnd="4" src={pitonscreens2} />
             <BackgroundColor style={{backgroundColor:'#1794BA'}} />
             </PitonScreens>
@@ -183,8 +183,8 @@ The leading innovation of the app is on the bleeding edge of voice enabled AI. <
             <FullBg src={allpiton} />
 
             <Cellphones>
-                <RisoItem src={dark} />
-                <RisoItem src={light} />
+                <RisoItem Width='50vw' src={dark} />
+                <RisoItem Width='50vw'src={light} />
                 </Cellphones>
 
             <FullBg src={pitonlogos} />

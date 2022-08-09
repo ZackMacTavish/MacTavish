@@ -104,7 +104,7 @@ export default function Photography() {
 <GridRowThree src={coney2} />
 <ArtTextthree> 
 
-<ArtHeader>PARACHUTE (Coney Island)</ArtHeader>
+<ArtHeader>PARACHUTE</ArtHeader>
 <ArtYear>2021</ArtYear>
 <ArtDesc>Film photograph taken on the Holga 120N.</ArtDesc>
 

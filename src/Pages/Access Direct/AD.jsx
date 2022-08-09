@@ -67,11 +67,9 @@ export default function AccessDirect() {
                 <RisoItemtwo src={highpower} Width='60vw' />
             </RisoFlex>
 
-            <SingleGrid ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
-
-            <GigaRocket style={{boxShadow: '5px 10px 24px rgba(0, 0, 0, 0.3'}} RowStart='2' ColumnStart="2" ColumnEnd="4" src={create} />
-            <BackgroundColor style={{backgroundColor:'#1F55B9'}} />
-            </SingleGrid>
+            <RisoFlex>
+                <RisoItemtwo style={{marginBottom:'3vh'}}src={create} Width='60vw' />
+            </RisoFlex>
 
             <FullBg src={admac} />
 
@@ -80,8 +78,8 @@ export default function AccessDirect() {
             </RisoFlex>
 
             <Cellphones>
-                <RisoItem src={dark} />
-                <RisoItem src={light} />
+                <RisoItem Width='50vw' src={dark} />
+                <RisoItem Width='50vw' src={light} />
                 </Cellphones>
 
             <RisoFlex>

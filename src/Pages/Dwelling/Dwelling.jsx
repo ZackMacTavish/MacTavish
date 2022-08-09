@@ -29,11 +29,15 @@ import manisteeblock from '../../img/Manisteeblock.jpg';
 
 
 export const TextSection =styled.h1`
+display: flex;
+justify-content: center;
+align-items: center;
 width: 55vw;
 font-family: 'Space Grotesk', sans-serif;
 padding-left: 2vw;
 color: white;
 font-size: 2.5rem;
+height: 100vh;
 @media (max-width: 1600px) {
     width: 60vw;
 font-size: 1.8rem;
@@ -49,7 +53,7 @@ const PhotoFlexone = styled.div`
 display: flex;
 justify-content: space-between;
 
-@media(max-width: 450px) {
+@media(max-width: 1000px) {
     flex-direction: column;
 }
 `
