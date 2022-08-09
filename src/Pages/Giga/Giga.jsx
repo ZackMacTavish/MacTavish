@@ -174,6 +174,8 @@ font-size: 1.8rem;
 export const RisoItemtwo = styled.img`
 width: ${(props) => props.Width};
 box-shadow: 5px 10px 24px rgba(0, 0, 0, 0.3);
+margin-top: 3vh;
+margin-bottom: 3vh;
 
 @media(max-width: 1400px) {
     width: 96vw;
@@ -242,11 +244,9 @@ export default function Giga() {
                 <RisoItemtwo src={messages} Width='60vw' />
             </RisoFlex>
 
-            <SingleGrid ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
-
-            <GigaRocket style={{boxShadow: '5px 10px 24px rgba(0, 0, 0, 0.3'}} RowStart='2' ColumnStart="2" ColumnEnd="4" src={create} />
-            <BackgroundColor />
-            </SingleGrid>
+            <RisoFlex>
+                <RisoItemtwo src={create} Width='60vw' />
+            </RisoFlex>
 
             <FullBg src={imac} />
 

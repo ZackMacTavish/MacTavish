@@ -211,7 +211,7 @@ font-family: 'Space Grotesk', sans-serif;
 font-weight: 500;
 font-size: 2.5rem;
 width: 40vw;
-color: #626262;
+color: #a0a0a0;
 
 @media (max-width: 1770px){
     font-size: 1.8rem;

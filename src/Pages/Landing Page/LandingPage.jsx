@@ -13,7 +13,7 @@ height: 100vh;
 background-color: ${(props) => props.theme.backgroundColor};
 `
 const Landingimport = styled.img`
-width: clamp(500px, 75vw, 2100px);
+width: clamp(360px, 75vw, 2100px);
 `
 
 export default function LandingPage() {

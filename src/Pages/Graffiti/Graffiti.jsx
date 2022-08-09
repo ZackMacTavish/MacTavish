@@ -32,7 +32,7 @@ max-width: 1000px;
 height: auto;
 @media (max-width: 1000px) {
 width: 90vw;
-padding-top: 20vh;
+padding-top: 3vh;
 ;}
 
 @media (max-width: 450px) {
@@ -47,8 +47,8 @@ justify-content: center;
 background-color: ${props => props.theme.backgroundTwo};
 align-items: center;
 height: auto;
-padding-top: 2vh;
-padding-bottom: 2vh;
+padding-top: 3vh;
+padding-bottom: 3vh;
 width: 100vw;
 
 @media(max-width: 1400px) {

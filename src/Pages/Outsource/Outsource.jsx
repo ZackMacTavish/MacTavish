@@ -109,11 +109,9 @@ export default function Outsource() {
                 <RisoItemtwo src={highpower} Width='60vw' />
             </RisoFlex>
 
-            <SingleGrid ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
-
-            <GigaRocket style={{boxShadow: '5px 10px 24px rgba(0, 0, 0, 0.3'}} RowStart='2' ColumnStart="2" ColumnEnd="4" src={create} />
-            <BackgroundColor style={{backgroundColor:'#26356C'}} />
-            </SingleGrid>
+            <RisoFlex>
+                <RisoItemtwo src={create} Width='60vw' />
+            </RisoFlex>
 
             <FullBg src={admac} />
 
@@ -127,11 +125,11 @@ export default function Outsource() {
                 </Cellphones>
 
             <RisoFlex>
-                <RisoItem src={imactwo} Width='65vw' />
+                <RisoItemtwo src={imactwo} Width='65vw' />
             </RisoFlex>
 
             <RisoFlex>
-                <RisoItem style={{boxShadow: '5px 10px 24px rgba(0, 0, 0, 0.3'}}  src={about} Width='65vw' />
+                <RisoItemtwo style={{boxShadow: '5px 10px 24px rgba(0, 0, 0, 0.3'}}  src={about} Width='65vw' />
             </RisoFlex>
 
             <RisoFlex style={{backgroundColor:'#FEC748'}}>
@@ -147,11 +145,9 @@ export default function Outsource() {
             <FullBg src={ceuiphones} />
             <FullBg src={ceumocks} />
             
-            <SingleGrid ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
-
-            <GigaRocket style={{boxShadow: '5px 10px 24px rgba(0, 0, 0, 0.3'}} RowStart='2' ColumnStart="2" ColumnEnd="4" src={aia} />
-            <BackgroundColor style={{backgroundColor:'#F6BF6D'}} />
-            </SingleGrid>
+            <RisoFlex>
+                <RisoItemtwo src={aia} Width='60vw' />
+            </RisoFlex>
 
             <FullBg src={ceuimac} />
 

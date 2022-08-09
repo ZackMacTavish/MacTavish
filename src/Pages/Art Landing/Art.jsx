@@ -25,11 +25,16 @@ font-weight: 800;
 line-height: 18vh;
 color: white;
 font-family: 'Space Grotesk', sans-serif;
-@media (max-width: 1000px) {
-line-height: 15vh;
+
+@media (max-width: 1200px) {
+line-height: 10vh;
+font-size: 4.5rem;
 ;}
 @media (max-width: 800px) {
-line-height: 8vh;
+  position: relative;
+  bottom: 0;
+  font-size: 3rem;
+line-height: 6vh;
 ;}
 `
 

@@ -4,6 +4,7 @@ import ostrichcollage from '../../img/OstrichPlumes—Collage.png';
 import {Link} from 'react-router-dom';
 import { ArtDiv, ArtHeader, HouseOne, ListStyling, NewSectionTheme, ParagraphThree, ParagraphTwo, WorkCategories } from '../Art Landing/Art';
 import { RisoItem } from '../Graffiti/Graffiti';
+import { RisoItemtwo } from '../Giga/Giga';
 
 
 
@@ -21,8 +22,9 @@ class Design extends React.Component {
       <ArtDiv>
 
 <NewSectionTheme Backgroundheight="100vh">
+    
+    <RisoItem Width='50vw' img src={ostrichcollage} style={{paddingLeft:'0vw'}}/>
     <ArtHeader>Graphic Design,  <br />UI, Front-End.</ArtHeader>
-    <RisoItem Width='50vw' img src={ostrichcollage} style={{paddingLeft:'10vw'}}/>
     </NewSectionTheme>
 
                 
