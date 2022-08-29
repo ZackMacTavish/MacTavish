@@ -52,14 +52,14 @@ padding-left: 2vw;
  <AboutGrid>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3rem' style={{color: 'white'}}>Some of the agencies I have worked with include Publicis Groupe, Arkane Society, and Varfaj Partners. With clients such as Chip Ganassi Racing, Walmart, Leysi, VaynerSports, LoudLuxury, Three Pillars Recruiting, and many others.
-            I have recently won my first design award, and you can find a link to this here: <a style={{textDecoration:'none', color: 'white'}} href="https://www.indigoawards.com/winners/2390"><h6>Indigo Awards.zackmactavish</h6></a></TextSection>
+            I have recently won my first design award, and you can find a link to this <a style={{textDecoration:'underline', color: 'white'}} href="https://www.indigoawards.com/winners/2390">here.</a></TextSection>
           
             </AboutGrid>
 
             <AboutGrid>
             <TextLineone RowsSet="1" />
             
-            <TextSection Fontsize='3.5rem' style={{color: 'white'}}>Here are some of the things I would like to accomplish in 2022: <br/> Meet more art & design friends. Collaborate on some great projects. Write a weekly blog post on Medium. Prepare for my second solo art show. Build out a blog section on my website, and also build a music player section to display my musical collaborations with Alek Vasic.   </TextSection>
+            <TextSection Fontsize='3.5rem' style={{color: 'white'}}>My goal is to meet more art & design friends. I would love to write more blog posts on Medium, and engage with the design community there. I am looking for my next position as a Product Designer. Thanks for checking out my website, and reading this far!  </TextSection>
           
             </AboutGrid>
   
