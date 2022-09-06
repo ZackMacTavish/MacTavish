@@ -51,7 +51,7 @@ padding-left: 2vw;
   
  <AboutGrid>
             <TextLineone RowsSet="1" />
-            <TextSection Fontsize='3rem' style={{color: 'white'}}>Some of the agencies I have worked with include Publicis Groupe, Arkane Society, and Varfaj Partners. With clients such as Chip Ganassi Racing, Walmart, Leysi, VaynerSports, LoudLuxury, Three Pillars Recruiting, and many others.
+            <TextSection Fontsize='3rem' style={{color: 'white'}}>Some of the agencies I have worked with include Publicis Groupe, Arkane Society, and Varfaj Partners. I've worked with clients such as Chip Ganassi Racing, Walmart, Leysi, VaynerSports, LoudLuxury, Three Pillars Recruiting, and many others.
             I have recently won my first design award, and you can find a link to this <a style={{textDecoration:'underline', color: 'white'}} href="https://www.indigoawards.com/winners/2390">here.</a></TextSection>
           
             </AboutGrid>

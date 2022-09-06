@@ -2,6 +2,7 @@ import React, {useLayoutEffect} from 'react'
 import { RisoFlex, RisoItem } from '../Graffiti/Graffiti';
 
 import airbrush from '../../img/airbrush.jpg';
+import plastictoy from '../../img/PlasticToyCrop4.png';
 import yellowlily from '../../img/YellowLily.jpg';
 import lighthouse from '../../img/Lighthouse.jpeg';
 import cacti1 from '../../img/E-png.png';
@@ -37,12 +38,12 @@ export default function Painting() {
         <ArtSectionthreeog>
 
 
-<Orbital src={cacti1} />
+<Orbital src={plastictoy} />
 <ArtText> 
 
-<ArtHeader>ORANGE CACTI</ArtHeader>
-<ArtYear>2015-21</ArtYear>
-<ArtDesc>Spray paint and acrylic paint on wood panel.</ArtDesc>
+<ArtHeader>Plastic Toy</ArtHeader>
+<ArtYear>2022</ArtYear>
+<ArtDesc>Oil paint on paper.</ArtDesc>
 
 </ArtText>
 
@@ -87,6 +88,15 @@ export default function Painting() {
                             <ArtDesc>Acrylic & spraypaint on yupo paper.</ArtDesc>
 
                             </ArtTexttwo>
+
+                            <GridRowThree src={cacti1} />
+<ArtTextthree> 
+
+<ArtHeader>ORANGE CACTI</ArtHeader>
+<ArtYear>2015-21</ArtYear>
+<ArtDesc>Spray paint and acrylic paint on wood panel.</ArtDesc>
+
+</ArtTextthree>
 
                         
 
