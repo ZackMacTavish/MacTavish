@@ -147,6 +147,13 @@ export default function Nav() {
 <Link style={{textDecoration:'none'}} to="/Giga"> 
 <DropdownMenu>Giga</DropdownMenu>
 </Link>
+
+<Link style={{textDecoration:'none'}} to="/ThreePillars"> 
+<DropdownMenu>Three Pillars</DropdownMenu>
+</Link>
+<Link style={{textDecoration:'none'}} to="/Ux"> 
+<DropdownMenu>UX/UI</DropdownMenu>
+</Link>
 <Link style={{textDecoration:'none'}} to="/AccessDirect"> 
 <DropdownMenu>Access Direct</DropdownMenu>
 </Link>
@@ -155,9 +162,6 @@ export default function Nav() {
 </Link>
 <Link style={{textDecoration:'none'}} to="/GraphicDesign"> 
 <DropdownMenu>Graphic Design</DropdownMenu>
-</Link>
-<Link style={{textDecoration:'none'}} to="/Ux"> 
-<DropdownMenu>UX/UI</DropdownMenu>
 </Link>
 </Dropdown>
 </ListItemArt>

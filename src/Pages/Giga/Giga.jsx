@@ -20,6 +20,57 @@ import guides from '../../img/Guides.jpg';
 import create from '../../img/CreateNewPost.png';
 import { SingleGrid } from '../Access Direct/AD';
 
+export const ProjectDetails = styled.div`
+display:grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+height: auto;
+`
+export const ProjectType = styled.div` 
+display: flex;
+flex-direction: column;
+font-size: 2rem;
+padding-left: 10vw;
+margin: 0;
+grid-row-start: 1;
+grid-row-end: 1;
+`
+export const ProjectHeader = styled.h3`
+color: #a6d1ca;
+padding: 0;
+margin: 0;
+`
+
+export const ProjectSubtitle = styled.h6`
+color: #7d7d7d;
+padding: 16px 0 32px 0;
+margin: 0;
+`
+
+export const DigitalProduct = styled.div`
+display: flex;
+flex-direction: column;
+font-size: 2rem;
+padding-left: 10vw;
+grid-row-start: 2;
+`
+
+export const MyRole = styled.div`
+display: flex;
+flex-direction: column; 
+font-size: 2rem;
+padding-right: 10vw;
+grid-row-start: 1;
+grid-column-start: 2;
+`
+export const Timeframe = styled.div`
+display: flex;
+font-size: 2rem;
+flex-direction: column;
+grid-row-start: 2;
+grid-column-start: 2;
+`
+
 export const GigaGridone = styled.div`
 display: grid;
 grid-template-columns: ${(props) => props.ColumnsSet};
@@ -224,6 +275,7 @@ export default function Giga() {
             <GigaGridone ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
            <GigaRocket ColumnStart="2" RowStart="2" src={gigarocket} />
            
+           
            <GigaHeader>Giga</GigaHeader>
           
            <GigaWeb RowsSet={5} href="https://gigaintelligence.com" target="_blank" rel="noreferrer noopener">
@@ -231,13 +283,45 @@ export default function Giga() {
            </GigaWeb>
             </GigaGridone>
 
-            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
-            <TextLineone RowsSet="1" />
-            <TextSection Fontsize='3.5rem' >Giga is a digital services platform for bloggers, writers, and creatives. I am the lead designer for Giga, and I enjoy creating new flows, and thinking about how a user navigates the website.</TextSection>
-            <TextLinetwo />
-            </GigaGridtext>
+            <ProjectDetails>
+            <ProjectType>
+            <ProjectHeader>Project Type</ProjectHeader>
+            <ProjectSubtitle>UX/UI, Branding, Strategy</ProjectSubtitle>
+            </ProjectType>
+
+            <DigitalProduct>
+            <ProjectHeader>Digital Product</ProjectHeader>
+            <ProjectSubtitle>Digital strategy platform used for data management, and private channel creation.</ProjectSubtitle>
+            </DigitalProduct>
+
+            <MyRole>
+            <ProjectHeader>My Role</ProjectHeader>
+            <ProjectSubtitle>
+            Responsible for researching, ideating, and generating new ideas for a cohesive & imagined Giga experience. 
+            Designed and prototyped the Giga system & Web App.
+            </ProjectSubtitle>
+            </MyRole>
+
+            <Timeframe>
+            <ProjectHeader>Timeframe</ProjectHeader>
+            <ProjectSubtitle>
+            1 1/2 years.
+            </ProjectSubtitle>
+            </Timeframe>
+
+            </ProjectDetails>
+
+            
 
             <FullBg src={iphones} />
+            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
+            <TextLineone RowsSet="1" />
+            <TextSection Fontsize='3.5rem' >
+                Giga is a startup focused on sharing experiences between it's users. 
+                Through a robust data management system, users can share information, and learn about their favorite subjects.
+                </TextSection>
+            <TextLinetwo />
+            </GigaGridtext>
             <FullBg src={mocks} />
 
             <RisoFlex>

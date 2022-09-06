@@ -28,6 +28,7 @@ import Photography from "./Pages/Photography/Photography";
 import Printmaking from "./Pages/Printmaking/Printmaking";
 import Ux from "./Pages/UX/UX";
 import sun from './img/Sun-DRKGREEN-01.svg';
+import ThreePillars from "./Pages/ThreePillars/ThreePillars";
 
 
 function App() {
@@ -83,6 +84,8 @@ function App() {
           <Route path="/GraphicDesign" component={GraphicDesign} />
 
           <Route path="/Ux" component={Ux} />
+
+          <Route path="/ThreePillars" component={ThreePillars} />
 
           <Route path="/About" component={About} />
 
