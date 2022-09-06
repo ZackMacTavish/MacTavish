@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MacTavish/static/css/main.404e5b49.chunk.css",
-    "main.js": "/MacTavish/static/js/main.a9bf33a8.chunk.js",
-    "main.js.map": "/MacTavish/static/js/main.a9bf33a8.chunk.js.map",
+    "main.js": "/MacTavish/static/js/main.c2cee157.chunk.js",
+    "main.js.map": "/MacTavish/static/js/main.c2cee157.chunk.js.map",
     "runtime-main.js": "/MacTavish/static/js/runtime-main.f6b9e2c9.js",
     "runtime-main.js.map": "/MacTavish/static/js/runtime-main.f6b9e2c9.js.map",
     "static/js/2.5e7c4317.chunk.js": "/MacTavish/static/js/2.5e7c4317.chunk.js",
@@ -221,6 +221,7 @@
     "static/media/Photos4.68288e64.jpg": "/MacTavish/static/media/Photos4.68288e64.jpg",
     "static/media/Piton—Screens.9360fb71.jpg": "/MacTavish/static/media/Piton—Screens.9360fb71.jpg",
     "static/media/Piton—iphones copy.532fc718.jpg": "/MacTavish/static/media/Piton—iphones copy.532fc718.jpg",
+    "static/media/PlasticToyCrop4.70e1828e.png": "/MacTavish/static/media/PlasticToyCrop4.70e1828e.png",
     "static/media/RIPSENSE.b8772513.jpg": "/MacTavish/static/media/RIPSENSE.b8772513.jpg",
     "static/media/Render1.523c5c8c.png": "/MacTavish/static/media/Render1.523c5c8c.png",
     "static/media/Render2.b109b4bf.png": "/MacTavish/static/media/Render2.b109b4bf.png",
@@ -342,6 +343,6 @@
     "static/js/runtime-main.f6b9e2c9.js",
     "static/js/2.5e7c4317.chunk.js",
     "static/css/main.404e5b49.chunk.css",
-    "static/js/main.a9bf33a8.chunk.js"
+    "static/js/main.c2cee157.chunk.js"
   ]
 }
