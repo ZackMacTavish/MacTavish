@@ -2,6 +2,7 @@ import React, {useLayoutEffect} from 'react'
 import { RisoFlex, RisoItem } from '../Graffiti/Graffiti';
 
 import airbrush from '../../img/airbrush.jpg';
+import sarge from '../../img/Sarge2.jpg';
 import plastictoy from '../../img/PlasticToyCrop4.png';
 import yellowlily from '../../img/YellowLily.jpg';
 import lighthouse from '../../img/Lighthouse.jpeg';
@@ -29,7 +30,7 @@ export default function Painting() {
         <RisoFlex style={{backgroundColor:"black"}}>
             <TextSection>I often look to capture moments throughout my life. Painting allows me to express myself through shapes, and color.
  
-            <br /> <br />I have the understanding of how to paint realism, but I enjoy painting abstract more.
+            <br /> <br />I love exploring realism, or abstraction.
             </TextSection>
         </RisoFlex>
 
@@ -97,6 +98,20 @@ export default function Painting() {
 <ArtDesc>Spray paint and acrylic paint on wood panel.</ArtDesc>
 
 </ArtTextthree>
+
+                        
+
+                            </ArtSectionthreeog>
+
+                            <ArtSectionthreeog>
+                    <Orbital src={sarge} />
+                            <ArtText> 
+
+                            <ArtHeader>Sarge</ArtHeader>
+                            <ArtYear>2016</ArtYear>
+                            <ArtDesc>Oil paint on wood panel.</ArtDesc>
+
+                            </ArtText>
 
                         
 
