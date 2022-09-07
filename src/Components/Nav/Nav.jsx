@@ -152,7 +152,11 @@ export default function Nav() {
 <DropdownMenu>Three Pillars</DropdownMenu>
 </Link>
 <Link style={{textDecoration:'none'}} to="/Ux"> 
-<DropdownMenu>UX/UI</DropdownMenu>
+<DropdownMenu>Leysi</DropdownMenu>
+</Link>
+
+<Link style={{textDecoration:'none'}} to="/Piton"> 
+<DropdownMenu>Piton</DropdownMenu>
 </Link>
 <Link style={{textDecoration:'none'}} to="/AccessDirect"> 
 <DropdownMenu>Access Direct</DropdownMenu>

@@ -28,7 +28,7 @@ import flowmap from '../../img/BOFlowMap—Long-01-01.jpg';
 import guidelines from '../../img/BrandGuidelines—Mockup.jpg';
 import twentyfive from '../../img/Outsource25-07.png';
 import branding from '../../img/Branding_LogoPatterns-01.png';
-import { BackgroundColor, Cellphones, GigaGridone, GigaGridtext, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, StyledDiv, TextLineone, TextLinetwo, TextSection } from '../Giga/Giga';
+import { BackgroundColor, Cellphones, DigitalProduct, GigaGridone, GigaGridtext, GigaHeader, GigaRocket, GigaTwo, GigaWeb, MyRole, ProjectDetails, ProjectHeader, ProjectSubtitle, ProjectType, RisoItemtwo, StyledDiv, TextLineone, TextLinetwo, TextSection, Timeframe } from '../Giga/Giga';
 import styled from 'styled-components';
 import { SingleGrid } from '../Access Direct/AD';
  
@@ -95,6 +95,35 @@ export default function Outsource() {
            <GigaTwo>osinyc.com</GigaTwo>
            </GigaWeb>
             </OutsourceGridone>
+
+            <ProjectDetails>
+            <ProjectType>
+            <ProjectHeader>Project Type</ProjectHeader>
+            <ProjectSubtitle>UX/UI, Branding, Strategy</ProjectSubtitle>
+            </ProjectType>
+
+            <DigitalProduct>
+            <ProjectHeader>Product</ProjectHeader>
+            <ProjectSubtitle>Print materials, websites, and Outsource's internal project tracking software.</ProjectSubtitle>
+            </DigitalProduct>
+
+            <MyRole>
+            <ProjectHeader>My Role</ProjectHeader>
+            <ProjectSubtitle>
+            Responsible for reimagining brand logos, colors, creating print materials for tradeshows, social media, digital brochures and flyers, and designing for all of outsource's websites, and internal software.
+            </ProjectSubtitle>
+            </MyRole>
+
+            <Timeframe>
+            <ProjectHeader>Timeframe</ProjectHeader>
+            <ProjectSubtitle>
+            1 1/2 years.
+            </ProjectSubtitle>
+            </Timeframe>
+
+            </ProjectDetails>
+
+            
 
             <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />

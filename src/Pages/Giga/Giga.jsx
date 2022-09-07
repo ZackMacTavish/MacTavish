@@ -25,6 +25,7 @@ display:grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr 1fr;
 height: auto;
+padding-bottom: 40px;
 `
 export const ProjectType = styled.div` 
 display: flex;

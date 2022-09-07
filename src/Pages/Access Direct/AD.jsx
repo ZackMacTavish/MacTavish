@@ -16,7 +16,7 @@ import photostwo from '../../img/ADphotos2.jpg';
 import photosthree from '../../img/ADphotos3.jpg';
 import guides from '../../img/Guides2.jpg';
 import create from '../../img/Group 274.jpg';
-import { BackgroundColor, Cellphones, GigaGridone, GigaGridtext, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, StyledDiv, TextLineone, TextLinetwo, TextSection } from '../Giga/Giga';
+import { BackgroundColor, Cellphones, DigitalProduct, GigaGridone, GigaGridtext, GigaHeader, GigaRocket, GigaTwo, GigaWeb, MyRole, ProjectDetails, ProjectHeader, ProjectSubtitle, ProjectType, RisoItemtwo, StyledDiv, TextLineone, TextLinetwo, TextSection, Timeframe } from '../Giga/Giga';
 import styled from 'styled-components';
 
 export const SingleGrid = styled.div`
@@ -54,13 +54,41 @@ export default function AccessDirect() {
            </GigaWeb>
             </GigaGridone>
 
+            <ProjectDetails>
+            <ProjectType>
+            <ProjectHeader>Project Type</ProjectHeader>
+            <ProjectSubtitle>UX/UI, Branding, Strategy, Front-end Development</ProjectSubtitle>
+            </ProjectType>
+
+            <DigitalProduct>
+            <ProjectHeader>Product</ProjectHeader>
+            <ProjectSubtitle>Print materials, and a website built with React.js</ProjectSubtitle>
+            </DigitalProduct>
+
+            <MyRole>
+            <ProjectHeader>My Role</ProjectHeader>
+            <ProjectSubtitle>
+            Responsible for tidying up the brand logo, colors, creating print materials for tradeshows, social media, digital brochures and flyers, and designing/building the company website.
+            </ProjectSubtitle>
+            </MyRole>
+
+            <Timeframe>
+            <ProjectHeader>Timeframe</ProjectHeader>
+            <ProjectSubtitle>
+            4 years (Part-time).
+            </ProjectSubtitle>
+            </Timeframe>
+
+            </ProjectDetails>
+
+    
+            <FullBg src={iphones} />
             <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
             <TextLineone RowsSet="1" />
             <TextSection Fontsize='3.5rem'>Access Direct is a company focused on  security solutions. My responsibility includes being the UI Designer, and Webmaster for Access Direct. I enjoyed redesigning their website, and building it using React.js.</TextSection>
             <TextLinetwo />
             </GigaGridtext>
 
-            <FullBg src={iphones} />
             <FullBg src={mocks} />
 
             <RisoFlex>

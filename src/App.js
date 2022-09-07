@@ -29,6 +29,7 @@ import Printmaking from "./Pages/Printmaking/Printmaking";
 import Ux from "./Pages/UX/UX";
 import sun from './img/Sun-DRKGREEN-01.svg';
 import ThreePillars from "./Pages/ThreePillars/ThreePillars";
+import Piton from "./Pages/Piton/Piton";
 
 
 function App() {
@@ -86,6 +87,8 @@ function App() {
           <Route path="/Ux" component={Ux} />
 
           <Route path="/ThreePillars" component={ThreePillars} />
+
+          <Route path="/Piton" component={Piton} />
 
           <Route path="/About" component={About} />
 

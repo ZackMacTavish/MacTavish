@@ -1,5 +1,5 @@
 import React, { useLayoutEffect } from 'react'
-import { BackgroundColor, Cellphones, GigaGridone, GigaGridtext, GigaHeader, GigaRocket, GigaTwo, GigaWeb, RisoItemtwo, StyledDiv, TextLineone, TextLinetwo, TextSection } from '../Giga/Giga';
+import { BackgroundColor, Cellphones, DigitalProduct, GigaGridone, GigaGridtext, GigaHeader, GigaRocket, GigaTwo, GigaWeb, MyRole, ProjectDetails, ProjectHeader, ProjectSubtitle, ProjectType, RisoItemtwo, StyledDiv, TextLineone, TextLinetwo, TextSection, Timeframe } from '../Giga/Giga';
 
 import LeysiLogo from '../../img/Leysi-White-01.jpg';
 import LeysiBlue from '../../img/Leysi-LG-02.jpg';
@@ -8,14 +8,6 @@ import leysimockup2 from '../../img/mobile-phone-1c.png';
 import leysiphones from '../../img/Leysi—iphones.jpg';
 import leysiscreens from '../../img/LeysiApp—Screens copy.jpg';
 import leysiphones2 from '../../img/Untitled-1800-x-1024-px-1500-x-1024-px.png';
-import pitonlogo from '../../img/FullLogo-02.png';
-import pitoniphones from '../../img/Piton—iphones copy.jpg';
-import pitonscreens from '../../img/Group 55618@2x.png';
-import pitonscreens2 from '../../img/Group 55619@2x.png';
-import allpiton from '../../img/Piton—Screens.jpg';
-import light from '../../img/LightPhone2.png';
-import dark from '../../img/iPhone_2—Dark.png';
-import pitonlogos from '../../img/Group 55620@2x.png';
 import { FullBg } from '../COMPOSITION/Composition';
 import { RisoFlex, RisoItem } from '../Graffiti/Graffiti';
 import { OutsourceGridone } from '../Outsource/Outsource';
@@ -59,11 +51,41 @@ export default function Ux() {
 
     return (
         <StyledDiv>
-           
+            <FlexLeysi>
+                <RisoItemtwo style={{borderRadius: '10px'}} src={LeysiLogo} Width='60vw' />
+            </FlexLeysi>
+
+            <ProjectDetails>
+            <ProjectType>
+            <ProjectHeader>Project Type</ProjectHeader>
+            <ProjectSubtitle>UX/UI, Branding, Strategy</ProjectSubtitle>
+            </ProjectType>
+
+            <DigitalProduct>
+            <ProjectHeader>Digital Product</ProjectHeader>
+            <ProjectSubtitle>An IOS mobile app</ProjectSubtitle>
+            </DigitalProduct>
+
+            <MyRole>
+            <ProjectHeader>My Role</ProjectHeader>
+            <ProjectSubtitle>
+            Responsible for creating the brand logo, colors, and utilizing Apple's HIG for the V1 wireframes for Leysi's IOS app launch.
+            </ProjectSubtitle>
+            </MyRole>
+
+            <Timeframe>
+            <ProjectHeader>Timeframe</ProjectHeader>
+            <ProjectSubtitle>
+            3 months.
+            </ProjectSubtitle>
+            </Timeframe>
+
+            </ProjectDetails>
+
+         
+
 
             <FullBg src={leysiphones} />
-
-
 
             <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
                 <TextLineone RowsSet="1" />
@@ -73,14 +95,11 @@ export default function Ux() {
                 <TextLinetwo />
             </GigaGridtext>
 
-           
-            <FlexLeysi>
-                <RisoItemtwo style={{borderRadius: '10px'}} src={LeysiLogo} Width='60vw' />
-            </FlexLeysi>
-
             <RisoFlex style={{height: '85vh',backgroundColor:'#0A84E3'}}>
                 <RisoItem src={LeysiBlue} Width='50vw'  />
             </RisoFlex>
+
+          
 
             <RisoFlex style={{height: '60vh',backgroundColor:'#0A84E3'}}>
                 <RisoItem src={LeysiBluetwo} Width='50vw'  />
@@ -105,49 +124,7 @@ Development — Varfaj Team</TextSection>
             <TextLinetwo />
             </GigaGridtext>
 
-            <RisoFlex style={{height: '100vh'}}>
-                <RisoItem src={pitonlogo} Width='50vw'  />
-            </RisoFlex>
-
-            
-            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
-                <TextLineone RowsSet="1" />
-                    <TextSection Fontsize='3.5rem' >Piton is a startup focused on athleisure clothing with an accompanying workout app. 
-The brand is focused on social change, and environmentalism. 
-The leading innovation of the app is on the bleeding edge of voice enabled AI. </TextSection>
-                <TextLinetwo />
-            </GigaGridtext>
-
-            <FullBg src={pitoniphones} />
-
-            <PitonScreens ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='2vh 15vh 2vh'>
-            <GigaRocket  RowStart='2' ColumnStart="2" ColumnEnd="4" src={pitonscreens} />
-            <BackgroundColor style={{backgroundColor:'#1794BA'}} />
-            </PitonScreens>
-
-            <PitonScreens style={{paddingBottom: '3vh'}} ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='2vh 15vh 2vh'>
-            <GigaRocket  RowStart='2' ColumnStart="2" ColumnEnd="4" src={pitonscreens2} />
-            <BackgroundColor style={{backgroundColor:'#1794BA'}} />
-            </PitonScreens>
-
-            <FullBg src={allpiton} />
-
-            <Cellphones>
-                <RisoItem Width='50vw' src={dark} />
-                <RisoItem Width='50vw'src={light} />
-                </Cellphones>
-
-            <FullBg src={pitonlogos} />
-
-            <GigaGridtext ColumnsSet='4vw 60vw 32vw 4vw' RowsSet='1fr 1fr 1fr 1fr 1fr 1fr 1fr'>
-            <TextLineone RowsSet="1" />
-            <TextSection Fontsize='3.5rem' style={{textAlign:'center'}}>Founders — Jemir Martinez<br />
-            Designers — Zachary MacTavish<br />
-            Development — TBD</TextSection>
-            <TextLinetwo />
-            </GigaGridtext>
-
-
+          
         </StyledDiv>
     )
 }
