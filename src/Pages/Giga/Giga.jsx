@@ -43,7 +43,7 @@ margin: 0;
 `
 
 export const ProjectSubtitle = styled.h6`
-color: #7d7d7d;
+color: ${(props) => props.theme.fontColor};
 padding: 16px 0 32px 0;
 margin: 0;
 `
